@@ -1,174 +1,174 @@
 <table>
   <tr>
-    <td><a href="#contributing">Contributing</a></td>
+    <td><a href="#contributing">Đóng góp</a></td>
     <td valign="top" rowspan="99"><a href="https://discord.gg/tpeBPy46hf"><img alt="Discord Banner" src="https://discord.com/api/guilds/796124137042608188/widget.png?style=banner4"></a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#summary">Summary</a></td>
+    <td>&emsp;<a href="#summary">Tóm tắt</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#why-follow-guidelines">Why Follow Guidelines?</a></td>
+    <td>&emsp;<a href="#why-follow-guidelines">Tại sao phải tuân theo hướng dẫn?</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#what-can-i-contribute">What Can I Contribute?</a></td>
+    <td>&emsp;<a href="#what-can-i-contribute">Tôi có thể đóng góp gì?</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#programming">Programming</a></td>
+    <td>&emsp;&emsp;<a href="#programming">Lập trình</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#translation">Translation</a></td>
+    <td>&emsp;&emsp;<a href="#translation">Dịch thuật</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#everything-else">Everything Else</a></td>
+    <td>&emsp;&emsp;<a href="#everything-else">Mọi thứ khác</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#what-can-i-not-do">What Can I Not Do?</a></td>
+    <td>&emsp;<a href="#what-can-i-not-do">Tôi không được làm gì?</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#guidelines">Guidelines</a></td>
+    <td>&emsp;<a href="#guidelines">Hướng dẫn</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#our-mission">Our Mission</a></td>
+    <td>&emsp;<a href="#our-mission">Sứ mệnh của chúng tôi</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#how-to-contribute">How to Contribute</a></td>
+    <td>&emsp;<a href="#how-to-contribute">Cách đóng góp</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#production-enviroment">Production Enviroment</a></td>
+    <td>&emsp;<a href="#production-enviroment">Môi trường sản xuất</a></td>
   </tr>
   <tr>
     <td>&emsp;&emsp;<a href="#npm-run">Npm Run</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#charts">Charts</a></td>
+    <td>&emsp;&emsp;<a href="#charts">Biểu đồ</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#development-environment">Development Environment</a></td>
+    <td>&emsp;<a href="#development-environment">Môi trường phát triển</a></td>
   </tr>
 </table>
 
-<h1>Contributing</h1>
-<a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Software License: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
+<h1>Đóng góp</h1>
+<a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Giấy phép phần mềm: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
 <p>
-  Thank you for wanting to contribute to the userscript "Blue Marble"! It means a lot to me that someone likes my project enough to want to help it grow. If you haven't already done so, consider joining our Discord. You can ask questions about the userscript there and receive feedback. You can also visit the <a href="https://bluemarble.lol/" target="_blank" rel="noopener noreferrer">official Blue Marble website</a> for more information.
+  Cảm ơn bạn vì muốn đóng góp vào userscript "Blue Marble"! Điều đó có ý nghĩa rất lớn với tôi khi ai đó thích dự án của tôi đủ để muốn giúp nó phát triển. Nếu bạn chưa làm, hãy cân nhắc tham gia Discord của chúng tôi. Bạn có thể đặt câu hỏi về userscript ở đó và nhận phản hồi. Bạn cũng có thể truy cập <a href="https://bluemarble.lol/" target="_blank" rel="noopener noreferrer">trang web chính thức của Blue Marble</a> để biết thêm thông tin.
   <br>
-  <b>Note</b>: If you are using AI, and you want to tell the AI how the codebase files are related to each-other, go to the <code>Class diagram of relationships for Blue Marble</code> diagram in the chart section of this file. Copy the chart, and give it to the AI.
+  <b>Lưu ý</b>: Nếu bạn đang sử dụng AI và muốn hướng dẫn AI cách các tệp trong codebase liên quan với nhau, hãy xem sơ đồ <code>Sơ đồ lớp quan hệ của Blue Marble</code> trong phần biểu đồ của tệp này. Sao chép biểu đồ và đưa nó cho AI.
   <br>
-  <b>Note</b>: If you are contributing to the documentation of this project, make your fork from the <code>documentation</code> branch. If you are contributing to the code/programming of this project, make your fork from the <code>code</code> branch. If you fork main, and make a PR from <code>main</code> -> <code>main</code> your PR might be rejected. This is because <code>main</code> is not up-to-date, and your changes might conflict with up-to-date changes.
+  <b>Lưu ý</b>: Nếu bạn đang đóng góp vào tài liệu của dự án này, hãy tạo nhánh rẽ từ nhánh <code>documentation</code>. Nếu bạn đang đóng góp vào mã nguồn/lập trình của dự án này, hãy tạo nhánh rẽ từ nhánh <code>code</code>. Nếu bạn tạo nhánh rẽ từ main và tạo Pull Request từ <code>main</code> -> <code>main</code>, Pull Request của bạn có thể bị từ chối. Điều này là do <code>main</code> không được cập nhật và các thay đổi của bạn có thể xung đột với các thay đổi đã được cập nhật.
 </p>
 
-<h2>Summary</h2>
+<h2>Tóm tắt</h2>
 <p>
   <ul>
-    <li>I don't want to waste your time, so double check with me before starting a big change like adding a new feature. For example, imagine you spend 50 hours making a bot that automatically places pixels, then your pull request was rejected because a bot that automatically places pixles does not align with the "Mission" of Blue Marble. That would be sad :(</li>
-    <li>Follow the style of the project. E.g., if all overlays are made by calling <code>Overlay()</code>, and you want to make a new overlay, you should probably call <code>Overlay()</code> as well.</li>
-    <li>Low quality code will be rejected.</li>
-    <li>You can find documentation for Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">here</a>.</li>
-    <li>Don't fork the <code>main</code> branch! Fork either <code>code</code> or <code>documentation</code>.</li>
-    <li>If you are adding a new feature, and it is feasable to stick your feature inside a function, then use a function. This will make your code conflict less with other people's code. Make your code <a href="https://en.wikipedia.org/wiki/Modular_programming" target="_blank" rel="noopener noreferrer">modular</a>.</li>
+    <li>Tôi không muốn lãng phí thời gian của bạn, vì vậy hãy kiểm tra lại với tôi trước khi bắt đầu một thay đổi lớn như thêm tính năng mới. Ví dụ, hãy tưởng tượng bạn dành 50 giờ để tạo một con bot tự động đặt pixel, sau đó pull request của bạn bị từ chối vì bot tự động đặt pixel không phù hợp với "Sứ mệnh" của Blue Marble. Điều đó thật đáng buồn :(</li>
+    <li>Tuân theo phong cách của dự án. Ví dụ: nếu tất cả các lớp phủ được tạo bằng cách gọi <code>Overlay()</code> và bạn muốn tạo một lớp phủ mới, bạn cũng nên gọi <code>Overlay()</code>.</li>
+    <li>Mã nguồn chất lượng thấp sẽ bị từ chối.</li>
+    <li>Bạn có thể tìm tài liệu cho Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">tại đây</a>.</li>
+    <li>Đừng tạo nhánh rẽ từ nhánh <code>main</code>! Hãy tạo nhánh rẽ từ <code>code</code> hoặc <code>documentation</code>.</li>
+    <li>Nếu bạn đang thêm một tính năng mới và khả thi để đưa tính năng của bạn vào bên trong một hàm, thì hãy sử dụng một hàm. Điều này sẽ làm cho mã của bạn ít xung đột hơn với mã của người khác. Hãy làm cho mã của bạn có tính <a href="https://en.wikipedia.org/wiki/Modular_programming" target="_blank" rel="noopener noreferrer">mô-đun</a>.</li>
   </ul>
 </p>
 
-<h2>Why Follow Guidelines?</h2>
+<h2>Tại sao phải tuân theo hướng dẫn?</h2>
 <p>
-  Following the guidelines on this page helps everyone. Writing code that follows the guidelines:
+  Tuân theo các hướng dẫn trên trang này giúp ích cho tất cả mọi người. Viết mã tuân theo hướng dẫn:
   <ul>
-    <li>Helps me implement (and continue support for) your feature.</li>
-    <li>You get your feature implemented.</li>
-    <li>Everyone else gets a new supported feature.</li>
+    <li>Giúp tôi triển khai (và tiếp tục hỗ trợ) tính năng của bạn.</li>
+    <li>Bạn có được tính năng của mình được triển khai.</li>
+    <li>Mọi người khác nhận được một tính năng mới được hỗ trợ.</li>
   </ul>
-  It's a win-win-win scenario!
+  Đó là một kịch bản đôi bên cùng có lợi!
 </p>
 
-<h2>What Can I Contribute?</h2>
-<h3>Programming</h3>
+<h2>Tôi có thể đóng góp gì?</h2>
+<h3>Lập trình</h3>
   <p>
-    Most of the work to be done in this userscript is related to programming. It is helpful to have a background in programming, but not required. If you are looking to learn JavaScript and its syntax, check out this <a href="https://roadmap.sh/javascript" target="_blank" rel="noopener noreferrer">roadmap for learning JavaScript</a>. We strongly recommend that you understand functions, methods, classes, and Object-Oriented-Programming if you plan to implement a brand new feature. More technical knowledge like method chaining and lambda expressions are useful but not required. You can find the documentation for Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">here</a>. Make your code modular when possible. In other words, you should "blackbox" your code by putting it in a function when possible. For example, if you are adding a color filter to remove colors from being displayed on the template, the function should pass in the template information and tile information, and output the filtered template/tile information. This way, other people's code can't interfere with the color filter. For example:
+    Phần lớn công việc cần làm trong userscript này liên quan đến lập trình. Có nền tảng về lập trình là hữu ích, nhưng không bắt buộc. Nếu bạn đang tìm cách học JavaScript và cú pháp của nó, hãy xem <a href="https://roadmap.sh/javascript" target="_blank" rel="noopener noreferrer">lộ trình học JavaScript này</a>. Chúng tôi đặc biệt khuyên bạn nên hiểu về hàm, phương thức, lớp và Lập trình hướng đối tượng nếu bạn dự định triển khai một tính năng hoàn toàn mới. Kiến thức kỹ thuật sâu hơn như method chaining và biểu thức lambda rất hữu ích nhưng không bắt buộc. Bạn có thể tìm tài liệu cho Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">tại đây</a>. Hãy làm cho mã của bạn có tính mô-đun khi có thể. Nói cách khác, bạn nên "đóng hộp đen" mã của mình bằng cách đặt nó trong một hàm khi có thể. Ví dụ: nếu bạn đang thêm một bộ lọc màu để loại bỏ các màu không được hiển thị trên bản mẫu, hàm sẽ nhận thông tin bản mẫu và thông tin ô, đồng thời xuất ra thông tin bản mẫu/ô đã được lọc. Bằng cách này, mã của người khác không thể can thiệp vào bộ lọc màu. Ví dụ:
     <br>
     <ol>
-      <li>The template image is generated and the tile information is retrieved.</li>
-      <li>The color filter function is passed in the template image and the tile information. The color filter overrides the template image with the filtered colors, and outputs that as the template image.</li>
-      <li>The pixel counter function is passed in the modified template image and the tile information, and outputs the pixel count.</li>
-      <li>The modified template image and the tile information is used to render the template.</li>
+      <li>Hình ảnh bản mẫu được tạo và thông tin ô được truy xuất.</li>
+      <li>Hàm bộ lọc màu được truyền vào hình ảnh bản mẫu và thông tin ô. Bộ lọc màu ghi đè hình ảnh bản mẫu bằng các màu đã lọc và xuất ra đó làm hình ảnh bản mẫu.</li>
+      <li>Hàm đếm pixel được truyền vào hình ảnh bản mẫu đã sửa đổi và thông tin ô, và xuất ra số lượng pixel.</li>
+      <li>Hình ảnh bản mẫu đã sửa đổi và thông tin ô được sử dụng để hiển thị bản mẫu.</li>
     </ol>
   </p>
-<h3>Translation</h3>
+<h3>Dịch thuật</h3>
 <p>
-  While typically overlooked, translating is a powerful way to contribute to a project. If you can write, there is something you can contribute! From minor grammar mistakes, to translating an entire language, all help is appreciated.
+  Mặc dù thường bị bỏ qua, dịch thuật là một cách mạnh mẽ để đóng góp cho một dự án. Nếu bạn có thể viết, có điều gì đó bạn có thể đóng góp! Từ lỗi ngữ pháp nhỏ đến dịch toàn bộ ngôn ngữ, mọi sự trợ giúp đều được đánh giá cao.
 </p>
-<h3>Everything Else</h3>
+<h3>Mọi thứ khác</h3>
   <p>
-    Although userscripts are oriented around coding, there are many ways to contribute! From improving the README file, to making tutorials, you can contribute in many ways that don't require programming skills. For example, if you have an idea for a feature, but you don't have the skills to implement it, submit a feature request! Someone might see it, think it is cool, and implement it.
+    Mặc dù userscript tập trung vào lập trình, có rất nhiều cách để đóng góp! Từ cải thiện tệp README đến tạo hướng dẫn, bạn có thể đóng góp theo nhiều cách không yêu cầu kỹ năng lập trình. Ví dụ: nếu bạn có ý tưởng cho một tính năng nhưng không có kỹ năng để triển khai nó, hãy gửi yêu cầu tính năng! Ai đó có thể nhìn thấy nó, nghĩ rằng nó hay và triển khai nó.
   </p>
 
-<h2>What Can I Not Do?</h2>
+<h2>Tôi không được làm gì?</h2>
 <p>
-  Please do not use <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a> for asking support questions (e.g. "How do I install this?" or "What does <code>cssMangler</code> do?"). We use the GitHub issue tracker for bug reports and feature requests. If you are having trouble and need help, ask on our <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer">Discord</a>. <b>However, you <i>should</i> make a feature request on our issue tracker before starting work on your contribution.</b> Nothing sucks more than working hard on a high-quality contribution just for it to be rejected because it does not align with the mission of the mod. Ask first!
+  Vui lòng không sử dụng <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a> để hỏi các câu hỏi hỗ trợ (ví dụ: "Làm cách nào để cài đặt cái này?" hoặc "<code>cssMangler</code> làm gì?"). Chúng tôi sử dụng trình theo dõi sự cố GitHub cho các báo cáo lỗi và yêu cầu tính năng. Nếu bạn đang gặp sự cố và cần trợ giúp, hãy hỏi trên <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer">Discord</a> của chúng tôi. <b>Tuy nhiên, bạn <i>nên</i> tạo một yêu cầu tính năng trên trình theo dõi sự cố của chúng tôi trước khi bắt đầu công việc đóng góp của bạn.</b> Không gì tệ hơn việc làm việc chăm chỉ cho một đóng góp chất lượng cao chỉ để bị từ chối vì nó không phù hợp với sứ mệnh của bản mod. Hãy hỏi trước!
 </p>
 <p>
-  Please contribute in good faith. We will reject pull requests with bad code, comments, or pull requests that damage the mod. 
+  Vui lòng đóng góp một cách thiện chí. Chúng tôi sẽ từ chối các pull request có mã nguồn, nhận xét hoặc các pull request gây hại cho bản mod.
 </p>
 
-<h2>Guidelines</h2>
+<h2>Hướng dẫn</h2>
 <ul>
-  <li>Always submit a <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues/new/choose" target="_blank" rel="noopener noreferrer">feature request</a> and receive authorization to work on your contribution <i>before</i> you start working on your contribution. This will save you time if we end up rejecting the contribution. Small contributions (like fixing spelling errors) don't need a feature request.</li>
-  <li>Follow the <a href="https://github.com/SwingTheVine/.github/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">Code of Conduct</a>. This includes both your contributions and the way you interact with this community.</li>
-  <li>Always write a clear message that explains the changes. "Added some things" does <i>not</i> explain what was changed.</li>
-  <li>Different feature, different pull request. If you submit a pull request for templates and localization (i18n) together, and we want to reject the localization, your template code is rejected along with the localization since they are the same pull request. They should be separate pull requests since they are separate features.</li>
-  <li>The file structure must be maintained (unless you were authorized to change it). For example, all code should go in `src/` and all code affecting the overlay should go in the Overlay class file.</li>
-  <li>The naming structure must be maintained (unless you were authorized to change it). For example, the template image variable could be called "templateDataImage." Most things are named to be grouped based on what they share in common first. In the previous example, the variable is first related to a "template," then "data" which is an "image." This is because the variable stores an image that comes from the data of a template. The main reason for naming things this way is to aid you when you try to find the name of something. "I need the image of a template, so the variable probably starts with 'template'".</li>
-  <li>Your code must be commented, explaining what everything does. We may reject the pull request if we can't understand what the code does.</li>
+  <li>Luôn gửi <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues/new/choose" target="_blank" rel="noopener noreferrer">yêu cầu tính năng</a> và nhận sự cho phép để làm việc trên đóng góp của bạn <i>trước</i> khi bạn bắt đầu làm việc. Điều này sẽ tiết kiệm thời gian cho bạn nếu cuối cùng chúng tôi từ chối đóng góp. Các đóng góp nhỏ (như sửa lỗi chính tả) không cần yêu cầu tính năng.</li>
+  <li>Tuân theo <a href="https://github.com/SwingTheVine/.github/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">Quy tắc ứng xử</a>. Điều này bao gồm cả đóng góp của bạn và cách bạn tương tác với cộng đồng này.</li>
+  <li>Luôn viết một thông điệp rõ ràng giải thích các thay đổi. "Thêm một số thứ" <i>không</i> giải thích những gì đã được thay đổi.</li>
+  <li>Tính năng khác nhau, pull request khác nhau. Nếu bạn gửi một pull request cho bản mẫu và bản địa hóa (i18n) cùng nhau và chúng tôi muốn từ chối phần bản địa hóa, thì mã bản mẫu của bạn cũng bị từ chối cùng với phần bản địa hóa vì chúng nằm trong cùng một pull request. Chúng nên là các pull request riêng biệt vì chúng là các tính năng riêng biệt.</li>
+  <li>Cấu trúc thư mục phải được duy trì (trừ khi bạn được phép thay đổi nó). Ví dụ: tất cả mã nguồn nên nằm trong `src/` và tất cả mã ảnh hưởng đến lớp phủ nên nằm trong tệp lớp Overlay.</li>
+  <li>Cấu trúc đặt tên phải được duy trì (trừ khi bạn được phép thay đổi nó). Ví dụ: biến hình ảnh bản mẫu có thể được gọi là "templateDataImage." Hầu hết mọi thứ được đặt tên để được nhóm dựa trên điểm chung mà chúng có trước. Trong ví dụ trước, biến đầu tiên liên quan đến "template," sau đó là "data" là một "image." Điều này là do biến lưu trữ một hình ảnh đến từ dữ liệu của một bản mẫu. Lý do chính để đặt tên mọi thứ theo cách này là để giúp bạn khi bạn cố gắng tìm tên của một thứ gì đó. "Tôi cần hình ảnh của một bản mẫu, vì vậy biến có lẽ bắt đầu bằng 'template'".</li>
+  <li>Mã của bạn phải được chú thích, giải thích mọi thứ làm gì. Chúng tôi có thể từ chối pull request nếu chúng tôi không hiểu mã làm gì.</li>
 </ul>
 
-<h2>Our Mission</h2>
+<h2>Sứ mệnh của chúng tôi</h2>
 <p>
-  Our "mission" makes up the essence of this userscipt. Without it, this project would not exist. 
+  "Sứ mệnh" của chúng tôi tạo nên bản chất của userscript này. Nếu không có nó, dự án này sẽ không tồn tại.
 </p>
 <p>
-  The mission of this userscript is to provide a well-documented, high-quality, open-source template overlay.
+  Sứ mệnh của userscript này là cung cấp một lớp phủ bản mẫu mã nguồn mở, chất lượng cao, được tài liệu hóa đầy đủ.
 </p>
 <p>
   <ul>
-    <li>We recognize that most pixel canvas overlays do not have high-quality open-source code. Either the overlay is high-quality & close-sourced, or the overlay is low-quality & open-sourced. This userscript strives to fix that.</li>
-    <li>We recognize that most pixel canvas overlay userscripts are obfuscated. While it is possible to modify them, it is unnecessarily challenging. This userscript hopes to change the precedence by being unobfuscated.</li>
-    <li>We recognize that most pixel canvas overlay userscripts do not have enough documentation to allow their community to modify (or understand) the inner workings of the overlay. This userscript strives to be as beginner-friendly as possible.</li>
+    <li>Chúng tôi nhận thấy rằng hầu hết các lớp phủ canvas pixel không có mã nguồn mở chất lượng cao. Hoặc lớp phủ có chất lượng cao & mã nguồn đóng, hoặc lớp phủ có chất lượng thấp & mã nguồn mở. Userscript này cố gắng khắc phục điều đó.</li>
+    <li>Chúng tôi nhận thấy rằng hầu hết các userscript lớp phủ canvas pixel đều bị làm rối mã. Mặc dù có thể sửa đổi chúng, nhưng điều đó khó khăn một cách không cần thiết. Userscript này hy vọng sẽ thay đổi tiền lệ bằng cách không bị làm rối mã.</li>
+    <li>Chúng tôi nhận thấy rằng hầu hết các userscript lớp phủ canvas pixel không có đủ tài liệu để cho phép cộng đồng của họ sửa đổi (hoặc hiểu) hoạt động bên trong của lớp phủ. Userscript này cố gắng thân thiện với người mới bắt đầu nhất có thể.</li>
   </ul>
 </p>
 
-<h2>How To Contribute</h2>
+<h2>Cách đóng góp</h2>
 <p>
   <ol>
-    <li>Read all of the <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">contributing guidelines</a>.</li>
-    <li>If you would like to contribute, submit a request <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues/new/choose" target="_blank" rel="noopener noreferrer">here</a>.</li>
-    <li>If you have received authorization to start working on your contribution, set up the development environment on your device.</li>
-    <li>Fork the project.</li>
-    <li>Download your fork to the development environment.</li>
-    <li>If applicable, it might be useful to learn how a (already in the userscript) feature similar to your contribution works. For example, if you want to add a new popup window, it might be benifical to learn how the <code>Overlay</code> popup window works.</li>
-    <li>Make your contribution.</li>
-    <li>Commit to your fork.</li>
-    <li>Submit a pull request between your fork and this project.</li>
+    <li>Đọc tất cả <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">các hướng dẫn đóng góp</a>.</li>
+    <li>Nếu bạn muốn đóng góp, hãy gửi yêu cầu <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues/new/choose" target="_blank" rel="noopener noreferrer">tại đây</a>.</li>
+    <li>Nếu bạn đã nhận được sự cho phép để bắt đầu làm việc trên đóng góp của mình, hãy thiết lập môi trường phát triển trên thiết bị của bạn.</li>
+    <li>Tạo nhánh rẽ của dự án.</li>
+    <li>Tải nhánh rẽ của bạn xuống môi trường phát triển.</li>
+    <li>Nếu có thể, sẽ rất hữu ích khi tìm hiểu cách một tính năng (đã có trong userscript) tương tự như đóng góp của bạn hoạt động. Ví dụ: nếu bạn muốn thêm một cửa sổ bật lên mới, sẽ có lợi khi tìm hiểu cách cửa sổ bật lên <code>Overlay</code> hoạt động.</li>
+    <li>Thực hiện đóng góp của bạn.</li>
+    <li>Cam kết vào nhánh rẽ của bạn.</li>
+    <li>Gửi một pull request giữa nhánh rẽ của bạn và dự án này.</li>
   </ol>
 </p>
 
-<h2>Production Enviroment</h2>
+<h2>Môi trường sản xuất</h2>
 <p>
-  Here lies information that may be of interest to those who wish to modify Blue Marble.
+  Dưới đây là thông tin có thể hữu ích cho những ai muốn sửa đổi Blue Marble.
 
   <h3>Npm Run</h3>
   <p>
-    Running <code>npm run build</code> will compile Blue Marble. The compiled files can be found in the <code>dist/</code> directory. Running <code>npm run patch</code> will increment the patch version, and compile Blue Marble.
+    Chạy <code>npm run build</code> sẽ biên dịch Blue Marble. Các tệp đã biên dịch có thể được tìm thấy trong thư mục <code>dist/</code>. Chạy <code>npm run patch</code> sẽ tăng phiên bản vá và biên dịch Blue Marble.
   </p>
 
-  <h3>Charts</h3>
+  <h3>Biểu đồ</h3>
   <p>
-    Use the arrow and zoom buttons to navigate the charts. Use the ↔️ button to go fullscreen. Use the 🔄 button to reset. All buttons can be found on the chart. Use the "two squares" icon to copy the chart. If you need assistance reading the chart, copy the chart into an AI using the "two squares" button on the chart.
+    Sử dụng các nút mũi tên và thu phóng để điều hướng các biểu đồ. Sử dụng nút ↔️ để chuyển sang chế độ toàn màn hình. Sử dụng nút 🔄 để đặt lại. Tất cả các nút có thể được tìm thấy trên biểu đồ. Sử dụng biểu tượng "hai hình vuông" để sao chép biểu đồ. Nếu bạn cần hỗ trợ đọc biểu đồ, hãy sao chép biểu đồ vào một AI bằng nút "hai hình vuông" trên biểu đồ.
   </p>
 </p>
 
 <!-- https://mermaid.js.org/syntax/classDiagram.html -->
 
-Class diagram of relationships for Blue Marble:
-(last updated 0.74.0)
+Sơ đồ lớp quan hệ của Blue Marble:
+(cập nhật lần cuối 0.74.0)
 ```mermaid
 ---
   config:
@@ -225,21 +225,21 @@ classDiagram
     +handleDisplayError()
   }
 
-  main o-- apiManager : creates
-  main o-- utils : creates
-  main o-- Overlay : creates main, tabTemplate
-  main o-- templateManager : creates
-  apiManager ..> templateManager : calls drawTemplateOnTiles(), sets userID
-  apiManager ..> utils : calls escapeHTML(), numberToEncoded(), serverTPtoDisplayTP()
-  Overlay ..> apiManager : uses coordsTilePixel
-  Overlay ..> templateManager : calls setTemplatesShouldBeDrawn()
-  templateManager *-- Template : manages
-  templateManager ..> utils : calls base64ToUint8(), numberToEncoded()
-  Template ..> utils : calls uint8ToBase64()
+  main o-- apiManager : tạo
+  main o-- utils : tạo
+  main o-- Overlay : tạo main, tabTemplate
+  main o-- templateManager : tạo
+  apiManager ..> templateManager : gọi drawTemplateOnTiles(), đặt userID
+  apiManager ..> utils : gọi escapeHTML(), numberToEncoded(), serverTPtoDisplayTP()
+  Overlay ..> apiManager : sử dụng coordsTilePixel
+  Overlay ..> templateManager : gọi setTemplatesShouldBeDrawn()
+  templateManager *-- Template : quản lý
+  templateManager ..> utils : gọi base64ToUint8(), numberToEncoded()
+  Template ..> utils : gọi uint8ToBase64()
 ```
 
-Class diagram of relationships for Blue Marble's compiler/builder:
-(last updated 0.74.0)
+Sơ đồ lớp quan hệ của trình biên dịch/trình xây dựng của Blue Marble:
+(cập nhật lần cuối 0.74.0)
 ```mermaid
 ---
   config:
@@ -303,49 +303,49 @@ classDiagram
     }
   }
 
-  note for `patch.js` "calls npm_run_build"
-  `build.js` ..> terser : requires
-  `build.js` ..> `utils.js` : calls consoleStyle()
-  `build.js` ..> `update-version.js` : executes
-  `build.js` ..> `src/BlueMarble.meta.js` : reads
-  `build.js` ..> esbuild : calls build()
-  `build.js` ..> `dist/BlueMarble.user.css` : writes
-  esbuild ..> `src/main.js` : reads
-  `build.js` ..> `dist/BlueMarble.user.js` : writes
-  terser ..> `dist/BlueMarble.user.js` : reads & writes
-  `build.js` ..> `cssMangler.js` : calls manglerSelectors()
-  `cssMangler.js` ..> `dist/BlueMarble.user.css.map.json` : reads
-  `cssMangler.js` ..> `dist/BlueMarble.user.js` : reads & writes
-  `cssMangler.js` ..> `dist/BlueMarble.user.css` : reads & writes
-  `build.js` <.. `cssMangler.js` : returns mapCSS
-  `build.js` ..> `dist/BlueMarble.user.css.map.json` : writes mapCSS
-  `patch.js` ..> `docs/README.md` : reads & writes
-  `patch.js` ..> `utils.js` : calls consoleStyle()
-  `update-version.js` ..> `package.json` : reads
-  `update-version.js` ..> `src/BlueMarble.meta.js` : reads & writes
-  `update-version.js` ..> `utils.js` : calls consoleStyle()
+  note for `patch.js` "gọi npm_run_build"
+  `build.js` ..> terser : yêu cầu
+  `build.js` ..> `utils.js` : gọi consoleStyle()
+  `build.js` ..> `update-version.js` : thực thi
+  `build.js` ..> `src/BlueMarble.meta.js` : đọc
+  `build.js` ..> esbuild : gọi build()
+  `build.js` ..> `dist/BlueMarble.user.css` : ghi
+  esbuild ..> `src/main.js` : đọc
+  `build.js` ..> `dist/BlueMarble.user.js` : ghi
+  terser ..> `dist/BlueMarble.user.js` : đọc & ghi
+  `build.js` ..> `cssMangler.js` : gọi manglerSelectors()
+  `cssMangler.js` ..> `dist/BlueMarble.user.css.map.json` : đọc
+  `cssMangler.js` ..> `dist/BlueMarble.user.js` : đọc & ghi
+  `cssMangler.js` ..> `dist/BlueMarble.user.css` : đọc & ghi
+  `build.js` <.. `cssMangler.js` : trả về mapCSS
+  `build.js` ..> `dist/BlueMarble.user.css.map.json` : ghi mapCSS
+  `patch.js` ..> `docs/README.md` : đọc & ghi
+  `patch.js` ..> `utils.js` : gọi consoleStyle()
+  `update-version.js` ..> `package.json` : đọc
+  `update-version.js` ..> `src/BlueMarble.meta.js` : đọc & ghi
+  `update-version.js` ..> `utils.js` : gọi consoleStyle()
 ```
 
-<h2>Development Environment</h2>
+<h2>Môi trường phát triển</h2>
 <p>
-  This is what SwingTheVine uses to program Blue Marble. You don't have to use the exact same thing. This is provided for reference.
+  Đây là những gì SwingTheVine sử dụng để lập trình Blue Marble. Bạn không cần phải sử dụng chính xác những thứ tương tự. Phần này được cung cấp để tham khảo.
 
   <h3>IDE</h3>
   Visual Studio Code<br>
-  <code>Version: 1.102.3</code><br>
+  <code>Phiên bản: 1.102.3</code><br>
 
-  <h3>Browser</h3>
+  <h3>Trình duyệt</h3>
   Google Chrome<br>
-  Version: <code>138.0.7204.184 (Official Build) (64-bit)</code><br>
-  TamperMonkey Version: <code>5.3.3</code>
+  Phiên bản: <code>138.0.7204.184 (Bản chính thức) (64-bit)</code><br>
+  TamperMonkey Phiên bản: <code>5.3.3</code>
 
-  <h3>Operating System</h3>
+  <h3>Hệ điều hành</h3>
   Windows 10 Home<br>
-  Version: <code>22H2</code><br>
-  OS Build:	<code>19045.6093</code><br>
-  Processor: <code>Intel Core i7-9750H CPU @ 2.60GHz</code><br>
+  Phiên bản: <code>22H2</code><br>
+  Bản dựng HĐH: <code>19045.6093</code><br>
+  Bộ xử lý: <code>Intel Core i7-9750H CPU @ 2.60GHz</code><br>
   RAM: <code>16.0 GB</code><br>
-  Storage: <code>932 GB SSD Samsung SSD 970 EVO Plus 1TB, 238 GB SSD HFM256GDJTNG-8310A</code><br>
-  Graphics Card: <code>NVIDIA GeForce GTX 1660 Ti (6 GB)</code><br>
-  System Type: <code>64-bit operating system</code>
+  Bộ nhớ: <code>932 GB SSD Samsung SSD 970 EVO Plus 1TB, 238 GB SSD HFM256GDJTNG-8310A</code><br>
+  Card đồ họa: <code>NVIDIA GeForce GTX 1660 Ti (6 GB)</code><br>
+  Loại hệ thống: <code>Hệ điều hành 64-bit</code>
 </p>
