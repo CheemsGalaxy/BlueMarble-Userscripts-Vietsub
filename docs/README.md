@@ -83,97 +83,95 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
 <h2>Về fork này</h2>
 <p>
-  <p>
-    Đối với những người dùng không muốn mua ứng dụng TamperMonkey từ App Store, vốn là ứng dụng trả phí không giống như các nền tảng trình duyệt khác, ứng dụng Userscripts dường như là một lựa chọn thay thế miễn phí làm trình quản lý userscript.
-  </p>
-  <p>
-    Tuy nhiên, GM API được Userscripts hỗ trợ ít hơn nhiều so với những gì TamperMonkey hỗ trợ, đặc biệt là đối với các API đồng bộ cũ mà Blue Marble sử dụng đã bị Greasemonkey loại bỏ trong Greasemonkey 4.0+ và phải được thay thế bằng các lựa chọn thay thế:
-  </p>
-
-  <ul>
-    <li>GM_addStyle → GM.addStyle</li>
-    <li>GM_getValue → GM.getValue</li>
-    <li>GM_getResourceText → Đã thay thế (GM.getResourceText không tồn tại)</li>
-  </ul>
-
-  <p>
-    Kiểm tra <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve">Nhánh Tùy chỉnh-Cải tiến</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
-  </p>
-
-  <ul>
-    <li>Hiển thị số lượng Charge bên ngoài nút có thể bị Cloudflare Turnstile che khuất. (v0.85.3)</li>
-    <li>Hiển thị thời gian còn lại để đầy Charge. (v0.85.9)</li>
-    <li>Hiển thị gợi ý bảng màu dưới dạng hình chữ thập thay vì dấu chấm để dễ nhìn hơn. (v0.85.2)</li>
-    <li>(Có thể khôi phục về chế độ dấu chấm kể từ v0.85.46)</li>
-    <li>(Do giới hạn kích thước Canvas của Safari trên thiết bị di động (4096x4096), mức thu phóng tối đa chỉ có thể là 4 thay vì 5)</li>
-    <li>Ghi nhớ các ô đã tải để tránh độ trễ / tính toán dư thừa (bất cứ khi nào tiêu đề Last-Modified không thay đổi) (v0.85.4)</li>
-    <li>Đã sửa lỗi chuyển đổi bảng màu không lưu trữ được. (v0.85.1)</li>
-    <li>Đã sửa lỗi số lượng tổng số khối cần đếm là 1 hoặc 2 sau khi làm mới. (v0.85.2)</li>
-    <li>Đã sửa lỗi các nút "Bật tất cả" và "Tắt tất cả" không lưu trữ được. (v0.85.13)</li>
-    <li>Đã sửa lỗi chuyển đổi không gian màu trên Firefox. (v0.85.16)</li>
-    <li>Hiển thị số lượng đã lấp đầy của từng màu. (v0.85.10)</li>
-    <li>Dịch chuyển trực tiếp đến một trong các pixel chưa được lấp đầy khi nhấp vào khối màu chưa hoàn thành trong bộ lọc. (v0.85.10)</li>
-    <li>Cho phép dịch chuyển đến tọa độ ô đã cho qua nút máy bay bên cạnh các hộp nhập liệu. (v0.85.9)</li>
-    <li>Hiển thị cả tọa độ địa lý cùng với tọa độ ô. (v0.85.5)</li>
-    <li>Tối ưu hóa vòng lặp for để phản hồi nhanh hơn. (v0.85.7)</li>
-    <li>Cho phép sử dụng nhiều bản mẫu cùng một lúc. (v0.85.11)</li>
-    <li>Nút để dịch chuyển đến góc trên cùng bên trái của bản mẫu đã chọn. (v0.85.12)</li>
-    <li>Tùy chọn ẩn các màu bị khóa (màu chưa được mở khóa) khỏi danh sách màu. (v0.85.17)</li>
-    <li>Cung cấp phiên bản bookmarklet. (v0.85.22)</li>
-    <li>Cho phép ẩn các màu đã hoàn thành khỏi danh sách màu. (v0.85.23)</li>
-    <li>Các tùy chọn khác nhau để thay đổi thứ tự hiển thị của các màu, bao gồm số lượng đã/chưa tô, sắc độ và độ sáng. (v0.85.23)
-      <ul>
-        <li>Đã thêm tùy chọn sắp xếp theo ID màu. (v0.87.16)</li>
-      </ul>
-    </li>
-    <li>Thanh tiến trình phía sau mỗi màu trong danh sách hiển thị tiến độ tương đối (v0.85.24)</li>
-    <li>Cho phép các định dạng tọa độ khác nhau (`a, b, c, d`, `a b c d` và `Tl X: a, Tl Y: b, Px X: c, Px Y: d`) được dán vào hộp văn bản tọa độ đầu tiên. (v0.85.28)</li>
-    <li>Cho phép tải xuống tác phẩm nghệ thuật (theo đúng kích thước) từ bản đồ qua Nút Chia sẻ bằng hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.85.28)</li>
-    <li>Chế độ Tiết kiệm bộ nhớ: Tạo ImageBitmap chỉ khi các bản mẫu được xử lý và giải phóng ngay sau đó để ngăn sử dụng hết tất cả bộ nhớ khả dụng. (v0.85.33)</li>
-    <li>Cho phép đặt điểm neo cho tọa độ được chỉ định để đặt bản mẫu. (Theo mặc định, tọa độ là góc trên cùng bên trái của bản mẫu) (v0.85.34)</li>
-    <li>Hỗ trợ hiển thị vị trí của các Vật phẩm Sự kiện. (Cần cung cấp nhà cung cấp dữ liệu JSON (ví dụ: <a href="https://wplace.samuelscheit.com/tiles/pumpkin.json">Wplace Archive pumpkin.json</a>) để tính năng này hoạt động) (v0.85.35)</li>
-    <li>Cho phép chỉ hiển thị các pixel của màu hiện được chọn trong Wplace một cách tự động. (v0.85.37)</li>
-    <li>Cố gắng làm mới các ô khi màu đã chọn / bản mẫu thay đổi càng sớm càng tốt. (v0.85.38)</li>
-    <li>Cố gắng làm mới các ô sau khi gửi pixel càng sớm càng tốt. (v0.85.39)</li>
-    <li>Chuyển đổi giữa các chủ đề tích hợp sẵn của Wplace. (v0.85.40)</li>
-    <li>Kiểm tra tính năng bản đồ lỗi (Đỏ: Sai, Vàng: Chưa lấp đầy, Xanh lá: Đúng). (v0.85.46)</li>
-    <li>Tách lớp phủ và lớp lỗi khỏi lớp tác phẩm nghệ thuật. (v0.86.1)</li>
-    <li>Lớp phủ không còn đợi fetch để cập nhật. (v0.86.1)</li>
-    <li>Cho phép đổi tên bản mẫu bằng cách nhấp vào tên bản mẫu. (v0.86.1)</li>
-    <li>
-    Cho phép cuộn bản đồ theo đường chéo mượt mà qua bàn phím bằng các phím mũi tên (<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>). (v0.86.5)
-      <ul>
-        <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/7">PR #7</a>.</li>
-        <li>Lưu ý rằng wplace có các phím tắt mặc định cho việc xoay theo trục qua <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> (và xoay / nghiêng với phím <kbd>Shift</kbd> kết hợp)</li>
-      </ul>
-    </li>
-    <li>Hiển thị thời gian đếm ngược tạm ngưng và lý do nếu có. (v0.86.6)</li>
-    <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/8">#8</a>). (v0.86.10)
-      <ul>
-        <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/13">PR #13</a>. (v0.86.15)</li>
-      </ul>
-    </li>
-    <li>Cho phép tạo bản mẫu đường thẳng / hình tròn của màu hiện được chọn bằng cách chọn hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.86.13)
-      <ul>
-        <li>Đối với hình tròn, tọa độ hộp văn bản đề cập đến tâm và điểm hiện được chọn đề cập đến một điểm trên hình tròn xác định bán kính. (v0.86.16)</li>
-      </ul>
-    </li>
-    <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/11">#11</a>). (v0.86.14)</li>
-    <li>Sửa một số vấn đề về ranh giới từ thượng nguồn Blue Marble và Wplace. (v0.86.16)
-      <ul>
-        <li>Blue Marble: Tạo bản mẫu vượt qua ranh giới Tl X: 2047 - 0 không hiển thị từ Ô X = 0.</li>
-        <li>Blue Marble: (Tl X, Tl Y, Px X, Px Y) không cập nhật khi chọn pixel từ Ô X = 2047 trong khi Trung tâm Bản đồ ở Ô X = 0.</li>
-        <li>Blue Marble & Wplace: Nút Pin sao chép (Tl X, Tl Y, Px X, Px Y) bị lỗi từ yêu cầu thông tin pixel (tức là Tl X và Px X bị âm) khi chọn pixel từ Ô X = 2047 trong khi Trung tâm Bản đồ ở Ô X = 0.</li>
-        <li>Wplace: Thông tin Pixel không hiển thị khi chọn pixel từ Ô X = 0 trong khi Trung tâm Bản đồ ở Ô X = 2047.</li>
-      </ul>
-    </li>
-    <li>Cho phép bản mẫu không tạo lớp phủ trên bản đồ để tiết kiệm thời gian xử lý. Hữu ích khi được sử dụng cùng với tính năng lớp phủ chính thức hoặc các công cụ lớp phủ khác. (v0.87.15)
-      <ul>
-        <li>Lưu ý rằng trong trường hợp này, các màu hiển thị trên lớp phủ được quản lý bởi công cụ lớp phủ bên ngoài, không phải tập lệnh này.</li>
-      </ul>
-    </li>
-  </ul>
+  Đối với những người dùng không muốn mua ứng dụng TamperMonkey từ App Store, vốn là ứng dụng trả phí không giống như các nền tảng trình duyệt khác, ứng dụng Userscripts dường như là một lựa chọn thay thế miễn phí làm trình quản lý userscript.
 </p>
+<p>
+  Tuy nhiên, GM API được Userscripts hỗ trợ ít hơn nhiều so với những gì TamperMonkey hỗ trợ, đặc biệt là đối với các API đồng bộ cũ mà Blue Marble sử dụng đã bị Greasemonkey loại bỏ trong Greasemonkey 4.0+ và phải được thay thế bằng các lựa chọn thay thế:
+</p>
+
+<ul>
+  <li>GM_addStyle → GM.addStyle</li>
+  <li>GM_getValue → GM.getValue</li>
+  <li>GM_getResourceText → Đã thay thế (GM.getResourceText không tồn tại)</li>
+</ul>
+
+<p>
+  Kiểm tra <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve">Nhánh Tùy chỉnh-Cải tiến</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
+</p>
+
+<ul>
+  <li>Hiển thị số lượng Charge bên ngoài nút có thể bị Cloudflare Turnstile che khuất. (v0.85.3)</li>
+  <li>Hiển thị thời gian còn lại để đầy Charge. (v0.85.9)</li>
+  <li>Hiển thị gợi ý bảng màu dưới dạng hình chữ thập thay vì dấu chấm để dễ nhìn hơn. (v0.85.2)</li>
+  <li>(Có thể khôi phục về chế độ dấu chấm kể từ v0.85.46)</li>
+  <li>(Do giới hạn kích thước Canvas của Safari trên thiết bị di động (4096x4096), mức thu phóng tối đa chỉ có thể là 4 thay vì 5)</li>
+  <li>Ghi nhớ các ô đã tải để tránh độ trễ / tính toán dư thừa (bất cứ khi nào tiêu đề Last-Modified không thay đổi) (v0.85.4)</li>
+  <li>Đã sửa lỗi chuyển đổi bảng màu không lưu trữ được. (v0.85.1)</li>
+  <li>Đã sửa lỗi số lượng tổng số khối cần đếm là 1 hoặc 2 sau khi làm mới. (v0.85.2)</li>
+  <li>Đã sửa lỗi các nút "Bật tất cả" và "Tắt tất cả" không lưu trữ được. (v0.85.13)</li>
+  <li>Đã sửa lỗi chuyển đổi không gian màu trên Firefox. (v0.85.16)</li>
+  <li>Hiển thị số lượng đã lấp đầy của từng màu. (v0.85.10)</li>
+  <li>Dịch chuyển trực tiếp đến một trong các pixel chưa được lấp đầy khi nhấp vào khối màu chưa hoàn thành trong bộ lọc. (v0.85.10)</li>
+  <li>Cho phép dịch chuyển đến tọa độ ô đã cho qua nút máy bay bên cạnh các hộp nhập liệu. (v0.85.9)</li>
+  <li>Hiển thị cả tọa độ địa lý cùng với tọa độ ô. (v0.85.5)</li>
+  <li>Tối ưu hóa vòng lặp for để phản hồi nhanh hơn. (v0.85.7)</li>
+  <li>Cho phép sử dụng nhiều bản mẫu cùng một lúc. (v0.85.11)</li>
+  <li>Nút để dịch chuyển đến góc trên cùng bên trái của bản mẫu đã chọn. (v0.85.12)</li>
+  <li>Tùy chọn ẩn các màu bị khóa (màu chưa được mở khóa) khỏi danh sách màu. (v0.85.17)</li>
+  <li>Cung cấp phiên bản bookmarklet. (v0.85.22)</li>
+  <li>Cho phép ẩn các màu đã hoàn thành khỏi danh sách màu. (v0.85.23)</li>
+  <li>Các tùy chọn khác nhau để thay đổi thứ tự hiển thị của các màu, bao gồm số lượng đã/chưa tô, sắc độ và độ sáng. (v0.85.23)
+    <ul>
+      <li>Đã thêm tùy chọn sắp xếp theo ID màu. (v0.87.16)</li>
+    </ul>
+  </li>
+  <li>Thanh tiến trình phía sau mỗi màu trong danh sách hiển thị tiến độ tương đối (v0.85.24)</li>
+  <li>Cho phép các định dạng tọa độ khác nhau (`a, b, c, d`, `a b c d` và `Tl X: a, Tl Y: b, Px X: c, Px Y: d`) được dán vào hộp văn bản tọa độ đầu tiên. (v0.85.28)</li>
+  <li>Cho phép tải xuống tác phẩm nghệ thuật (theo đúng kích thước) từ bản đồ qua Nút Chia sẻ bằng hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.85.28)</li>
+  <li>Chế độ Tiết kiệm bộ nhớ: Tạo ImageBitmap chỉ khi các bản mẫu được xử lý và giải phóng ngay sau đó để ngăn sử dụng hết tất cả bộ nhớ khả dụng. (v0.85.33)</li>
+  <li>Cho phép đặt điểm neo cho tọa độ được chỉ định để đặt bản mẫu. (Theo mặc định, tọa độ là góc trên cùng bên trái của bản mẫu) (v0.85.34)</li>
+  <li>Hỗ trợ hiển thị vị trí của các Vật phẩm Sự kiện. (Cần cung cấp nhà cung cấp dữ liệu JSON (ví dụ: <a href="https://wplace.samuelscheit.com/tiles/pumpkin.json">Wplace Archive pumpkin.json</a>) để tính năng này hoạt động) (v0.85.35)</li>
+  <li>Cho phép chỉ hiển thị các pixel của màu hiện được chọn trong Wplace một cách tự động. (v0.85.37)</li>
+  <li>Cố gắng làm mới các ô khi màu đã chọn / bản mẫu thay đổi càng sớm càng tốt. (v0.85.38)</li>
+  <li>Cố gắng làm mới các ô sau khi gửi pixel càng sớm càng tốt. (v0.85.39)</li>
+  <li>Chuyển đổi giữa các chủ đề tích hợp sẵn của Wplace. (v0.85.40)</li>
+  <li>Kiểm tra tính năng bản đồ lỗi (Đỏ: Sai, Vàng: Chưa lấp đầy, Xanh lá: Đúng). (v0.85.46)</li>
+  <li>Tách lớp phủ và lớp lỗi khỏi lớp tác phẩm nghệ thuật. (v0.86.1)</li>
+  <li>Lớp phủ không còn đợi fetch để cập nhật. (v0.86.1)</li>
+  <li>Cho phép đổi tên bản mẫu bằng cách nhấp vào tên bản mẫu. (v0.86.1)</li>
+  <li>
+  Cho phép cuộn bản đồ theo đường chéo mượt mà qua bàn phím bằng các phím mũi tên (<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>). (v0.86.5)
+    <ul>
+      <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/7">PR #7</a>.</li>
+      <li>Lưu ý rằng wplace có các phím tắt mặc định cho việc xoay theo trục qua <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> (và xoay / nghiêng với phím <kbd>Shift</kbd> kết hợp)</li>
+    </ul>
+  </li>
+  <li>Hiển thị thời gian đếm ngược tạm ngưng và lý do nếu có. (v0.86.6)</li>
+  <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/8">#8</a>). (v0.86.10)
+    <ul>
+      <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/13">PR #13</a>. (v0.86.15)</li>
+    </ul>
+  </li>
+  <li>Cho phép tạo bản mẫu đường thẳng / hình tròn của màu hiện được chọn bằng cách chọn hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.86.13)
+    <ul>
+      <li>Đối với hình tròn, tọa độ hộp văn bản đề cập đến tâm và điểm hiện được chọn đề cập đến một điểm trên hình tròn xác định bán kính. (v0.86.16)</li>
+    </ul>
+  </li>
+  <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/11">#11</a>). (v0.86.14)</li>
+  <li>Sửa một số vấn đề về ranh giới từ thượng nguồn Blue Marble và Wplace. (v0.86.16)
+    <ul>
+      <li>Blue Marble: Tạo bản mẫu vượt qua ranh giới Tl X: 2047 - 0 không hiển thị từ Ô X = 0.</li>
+      <li>Blue Marble: (Tl X, Tl Y, Px X, Px Y) không cập nhật khi chọn pixel từ Ô X = 2047 trong khi Trung tâm Bản đồ ở Ô X = 0.</li>
+      <li>Blue Marble & Wplace: Nút Pin sao chép (Tl X, Tl Y, Px X, Px Y) bị lỗi từ yêu cầu thông tin pixel (tức là Tl X và Px X bị âm) khi chọn pixel từ Ô X = 2047 trong khi Trung tâm Bản đồ ở Ô X = 0.</li>
+      <li>Wplace: Thông tin Pixel không hiển thị khi chọn pixel từ Ô X = 0 trong khi Trung tâm Bản đồ ở Ô X = 2047.</li>
+    </ul>
+  </li>
+  <li>Cho phép bản mẫu không tạo lớp phủ trên bản đồ để tiết kiệm thời gian xử lý. Hữu ích khi được sử dụng cùng với tính năng lớp phủ chính thức hoặc các công cụ lớp phủ khác. (v0.87.15)
+    <ul>
+      <li>Lưu ý rằng trong trường hợp này, các màu hiển thị trên lớp phủ được quản lý bởi công cụ lớp phủ bên ngoài, không phải tập lệnh này.</li>
+    </ul>
+  </li>
+</ul>
 
 <h2>Hướng dẫn nhanh</h2>
 <p>
@@ -229,7 +227,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   Chào mừng bạn đến với Blue Marble! Blue Marble là một userscript cho trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>. Mục đích của Blue Marble là cho phép bạn lấy một hình ảnh và xếp lớp nó lên canvas! Bằng cách đó, bạn có thể dễ dàng phác thảo hình ảnh tác phẩm nghệ thuật của mình mà không cần phải nhìn qua lại giữa nhiều tab/màn hình. Ngoài ra, Blue Marble hỗ trợ một số tính năng bổ sung tiện lợi như:
   <ul>
     <li>Hiển thị số pixel bạn cần để lên cấp</li>
-    <li>Hiển thị hệ tọa độ đơn giản (tọa độ ô & tọa độ pixel)</li>
+    <li>Hiển thị hệ tọa độ đơn giản (tọa độ ô và tọa độ pixel)</li>
     <li>Cho phép bạn di chuyển bảng màu lên đầu màn hình khi đặt pixel</li>
     <li>Cho phép bạn sử dụng ống nhỏ giọt màu trên hình ảnh bản mẫu, miễn là màu sắc chính xác</li>
     <li>...và hơn thế nữa!</li>
@@ -257,11 +255,11 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
         <li>Nhấp chuột phải vào tiện ích mở rộng.
         <br>
         <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall2.png"></li>
-        <li>Nhấp chuột trái vào "Manage Extension."</li>
-        <li>Bật "Developer Mode."
+        <li>Nhấp chuột trái vào "Manage Extension".</li>
+        <li>Bật "Developer Mode".
         <br>
         <img alt="Bật 'Developer Mode' và 'Allow user scripts'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall3.png"></li>
-        <li>Bật "Allow user scripts."</li>
+        <li>Bật "Allow user scripts".</li>
         <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
         <br>
         TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
@@ -279,8 +277,8 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
         <li>Nhấp chuột phải vào tiện ích mở rộng.
         <br>
         <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall2.png"></li>
-        <li>Nhấp chuột trái vào "Manage Extension."</li>
-        <li>Bật "Developer Mode."
+        <li>Nhấp chuột trái vào "Manage Extension".</li>
+        <li>Bật "Developer Mode".
         <br>
         <img alt="Bật 'Developer Mode'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall3.png"></li>
         <li>Tải xuống tệp <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer">BlueMarble.user.js</a> trong "Assets" của bản phát hành mới nhất.</li>
@@ -315,7 +313,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     </details>
     <details>
       <summary>
-        <b>Cài đặt trên Safari bằng Userscripts thay vì TamperMonkey</sup>
+        <b>Cài đặt trên Safari bằng Userscripts thay vì TamperMonkey</b> <sup>(Nhấp để mở rộng)</sup>
       </summary>
       <ol>
         <li>Cài đặt ứng dụng <a href="https://apps.apple.com/us/app/userscripts/id1463298887" target="_blank" rel="noopener noreferrer">Userscripts</a> từ App Store.
@@ -326,7 +324,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
         <br>
         Userscripts sẽ tự động phát hiện userscript.</li>
         <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
-        <li>Các vấn đề liên quan đến Cài đặt và Sử dụng Userscripts nên tham khảo: <a href="https://github.com/quoid/userscripts/" target="_blank" rel="noopener noreferrer"><strong>Kho lưu trữ của Userscripts</strong></a> Thay vào đó.
+        <li>Các vấn đề liên quan đến Cài đặt và Sử dụng Userscripts nên tham khảo: <a href="https://github.com/quoid/userscripts/" target="_blank" rel="noopener noreferrer"><strong>Kho lưu trữ của Userscripts</strong></a> thay vào đó.</li>
       </ol>
     </details>
   </p>
@@ -373,7 +371,6 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       </p>
     </p>
   </p>
-</p>
 
 <h2>Cách thức hoạt động của phiên bản</h2>
 <p>
@@ -394,20 +391,20 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 <h2>Câu hỏi thường gặp</h2>
 <p>
   <h3>Blue Marble có phải là phần mềm độc hại không?</h3>
-  <p><b>A:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.
+  <p><b>Trả lời:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.</p>
 
   <h3>Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
-  <p><b>A:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.
+  <p><b>Trả lời:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.</p>
 
   <h3>Làm thế nào để ẩn lớp phủ?</h3>
-  <p><b>A:</b> Tắt userscript và làm mới trang.</p>
+  <p><b>Trả lời:</b> Tắt userscript và làm mới trang.</p>
 
   <h3>Làm thế nào để phân biệt các màu?</h3>
-  <p><b>A:</b> Tìm màu trong danh sách bộ lọc màu. Nhấp vào hộp kiểm để bật hoặc tắt màu. Nếu bạn muốn chỉ làm việc trên một màu tại một thời điểm (được khuyến nghị), thì hãy nhấp vào "Disable All" trong bộ lọc màu. Cuối cùng, bật hộp kiểm bên cạnh màu bạn muốn đặt. Bằng cách này, chỉ một màu trên bản mẫu của bạn sẽ xuất hiện tại một thời điểm.</p>
+  <p><b>Trả lời:</b> Tìm màu trong danh sách bộ lọc màu. Nhấp vào hộp kiểm để bật hoặc tắt màu. Nếu bạn muốn chỉ làm việc trên một màu tại một thời điểm (được khuyến nghị), thì hãy nhấp vào "Disable All" trong bộ lọc màu. Cuối cùng, bật hộp kiểm bên cạnh màu bạn muốn đặt. Bằng cách này, chỉ một màu trên bản mẫu của bạn sẽ xuất hiện tại một thời điểm.</p>
 
   <h3>Làm thế nào để lấy màu của một pixel?</h3>
-  <p><b>A:</b> Sử dụng ống nhỏ giọt trong menu bảng màu của wplace. Nếu màu bản mẫu của bạn khớp với bảng màu wplace, bạn có thể chọn dấu chấm pixel của bản mẫu để lấy màu của bản mẫu cho pixel đó.</p>
+  <p><b>Trả lời:</b> Sử dụng ống nhỏ giọt trong menu bảng màu của wplace. Nếu màu bản mẫu của bạn khớp với bảng màu wplace, bạn có thể chọn dấu chấm pixel của bản mẫu để lấy màu của bản mẫu cho pixel đó.</p>
 
   <h3>Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
-  <p><b>A:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
+  <p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
 </p>
