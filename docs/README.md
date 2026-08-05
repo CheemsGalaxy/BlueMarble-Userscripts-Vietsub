@@ -1,25 +1,3 @@
-
-# Blue Marble
-<a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://status.wplace.lol/badge/_/status?labelColor=5f5f5f&color=&style=flat&label=Trạng+th%C3%A1i+Wplace"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Phiên bản mới nhất" src="https://img.shields.io/badge/Phiên_bản_mới_nhất-0.88.0-lightblue?style=flat"></a>
-<a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img alt="Bản phát hành mới nhất" src="https://img.shields.io/github/v/release/t-wy/Wplace-BlueMarble-Userscripts?sort=semver&style=flat&label=Bản+ph%C3%A1t+h%C3%A0nh+m%E1%BB%9Bi&color=blue"></a>
-<a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Giấy phép phần mềm: MPL-2.0" src="https://img.shields.io/badge/Gi%E1%BA%A5y+ph%C3%A9p-MPL--2.0-slateblue?style=flat"></a>
-<a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer"><img alt="Liên hệ" src="https://img.shields.io/badge/Li%C3%AAn_h%E1%BB%87-gray?style=flat&logo=Discord&logoColor=white&logoSize=auto&labelColor=cornflowerblue"></a>
-<a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer"><img alt="Trang web Blue Marble" src="https://img.shields.io/badge/Trang_web_Blue_Marble-Camille_Daguin-blue?style=flat&logo=globe&logoColor=white"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Thời gian viết mã" src="https://img.shields.io/badge/Th%E1%BB%9Di_gian-vi%E1%BA%BFt_m%C3%A3-124hrs_4mins-blue?style=flat&logo=wakatime&logoColor=black&logoSize=auto&labelColor=tr%E1%BB%8Fng"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bản vá" src="https://img.shields.io/badge/T%E1%BB%95ng_s%E1%BB%91_b%E1%BA%A3n_v%C3%A1-503-black?style=flat"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số dòng mã" src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=code"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số dòng bình luận" src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=comments"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tỷ lệ nén" src="https://img.shields.io/badge/T%E1%BB%B7+l%E1%BB%87_n%C3%A9n-69.95%25-blue"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Kích thước kho mã" src="https://img.shields.io/github/repo-size/t-wy/Wplace-BlueMarble-Userscripts"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Lượt truy cập" src="https://img.shields.io/badge/L%C6%B0%E1%BB%A3t_truy_c%E1%BA%ADp-439_667-gainsboro?style=flat"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Lượt tải" src="https://img.shields.io/github/downloads/t-wy/Wplace-BlueMarble-Userscripts/total.svg"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Kết quả xây dựng" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/build.yml/badge.svg"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái trang tài liệu" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/pages/pages-build-deployment/badge.svg?branch=wiki"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Kết quả quét mã" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/github-code-scanning/codeql/badge.svg"></a>
-<a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img alt="Tuân thủ thực hành tốt nhất OpenSSF" src="https://www.bestpractices.dev/projects/11067/badge"></a>
-
-
 ## Thông tin về bản phân nhánh này
 Đối với người dùng không muốn mua ứng dụng TamperMonkey trên App Store (vì đây là ứng dụng trả phí, khác với các nền tảng trình duyệt khác), ứng dụng Userscripts là giải pháp thay thế miễn phí để quản lý Userscript.
 
