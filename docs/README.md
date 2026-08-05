@@ -1,4 +1,3 @@
----
 
 # Blue Marble
 <a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://status.wplace.lol/badge/_/status?labelColor=5f5f5f&color=&style=flat&label=Trạng+th%C3%A1i+Wplace"></a>
@@ -20,7 +19,6 @@
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="Kết quả quét mã" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/github-code-scanning/codeql/badge.svg"></a>
 <a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img alt="Tuân thủ thực hành tốt nhất OpenSSF" src="https://www.bestpractices.dev/projects/11067/badge"></a>
 
----
 
 ## Thông tin về bản phân nhánh này
 Đối với người dùng không muốn mua ứng dụng TamperMonkey trên App Store (vì đây là ứng dụng trả phí, khác với các nền tảng trình duyệt khác), ứng dụng Userscripts là giải pháp thay thế miễn phí để quản lý Userscript.
