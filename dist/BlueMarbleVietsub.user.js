@@ -8,7 +8,7 @@
 // @license      MPL-2.0
 // @supportURL   https://discord.gg/tpeBPy46hf
 // @homepageURL  https://bluemarble.lol/
-// @icon         https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/ad44f1327f3890938ec565b5521890ab8b9909b6/dist/assets/Favicon.png
+// @icon         https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/assets/Favicon.png
 // @updateURL    https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js
 // @downloadURL  https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js
 // @match        https://wplace.live/*
