@@ -1,28 +1,19 @@
-Bản fork này được tạo ra với mục đích chính là dịch toàn bộ tài liệu hướng dẫn và giao diện (nếu có) sang tiếng Việt, giúp cộng đồng người dùng Việt dễ dàng tiếp cận và sử dụng hơn.
+Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve) của Fork này:
 
-
-
-## Hình ảnh xem trước của nhánh [**Custom-Improve**](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve) thuộc bản Fork này
-
-| Template | Overlay |
+| Bản mẫu | Lớp phủ |
 |-|-|
-| ![Template](assets/Template.png) | ![Overlay](assets/Overlay.png) |
+| ![Bản mẫu](assets/Template.png) | ![Lớp phủ](assets/Overlay.png) |
 
-| Thông tin Pixel | Xuất bản đồ (từ hộp thoại Chia sẻ) |
+| Thông tin Pixel | Xuất Bản đồ (Từ Hộp thoại Chia sẻ) |
 |-|-|
-|Wplace 1.1.1 ~ Hiện tại:<br>![Pixel Info](assets/PixelInfo111.png)<br>Wplace 1.1.0:<br>![Pixel Info](assets/PixelInfo110.png)<br>Wplace 1.0.0:<br>![Pixel Info](assets/PixelInfo100.png) | ![Map Export](assets/ExportMap.png)
+|Wplace 1.1.1 ~ Hiện tại:<br>![Thông tin Pixel](assets/PixelInfo111.png)<br>Wplace 1.1.0:<br>![Thông tin Pixel](assets/PixelInfo110.png)<br>Wplace 1.0.0:<br>![Thông tin Pixel](assets/PixelInfo100.png) | ![Xuất Bản đồ](assets/ExportMap.png)
 
-Đọc thêm về bản Fork này **[tại đây](#regarding-this-fork)**.
+Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
-<strong>Cài đặt chỉ với một cú nhấp:</strong> Nhấn vào liên kết dưới đây để cài đặt Blue Marble trực tiếp:
+<strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Gốc với Hỗ trợ Userscripts</strong></a> / <a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/custom-improve/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Mod Tùy chỉnh</strong></a>
 
-<a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản gốc (Hỗ trợ Userscript)</strong></a>
-/
-<a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/custom-improve/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Custom Mod</strong></a>
-
-Ngoài ra còn có **[phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min.js)** (bao gồm cả [phiên bản Custom Mod](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/custom-improve/dist/BlueMarble.bookmarklet.min.js)).
-
-Để sử dụng, hãy sao chép toàn bộ nội dung và dán vào trường **URL** khi tạo một **Dấu trang (Bookmark)**.
+**[Phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min.js)** (và [Phiên bản Mod Tùy chỉnh](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/custom-improve/dist/BlueMarble.bookmarklet.min.js)) cũng có sẵn.
+Để sử dụng, hãy sao chép nội dung và dán vào trường URL khi tạo dấu trang.
 
 <table>
   <tr>
@@ -30,7 +21,7 @@ Ngoài ra còn có **[phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min
     <td valign="top" rowspan="99"><a href="https://discord.gg/tpeBPy46hf"><img alt="Discord Banner" src="https://discord.com/api/guilds/796124137042608188/widget.png?style=banner4"></a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#regarding-this-fork">Về bản Fork này</a></td>
+    <td>&emsp;<a href="#regarding-this-fork">Về fork này</a></td>
   </tr>
   <tr>
     <td>&emsp;<a href="#quick-guide">Hướng dẫn nhanh</a></td>
@@ -42,323 +33,381 @@ Ngoài ra còn có **[phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min
     <td>&emsp;&emsp;<a href="#installation-instructions">Hướng dẫn cài đặt</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#script-settings">Cài đặt Script</a></td>
+    <td>&emsp;&emsp;<a href="#script-settings">Cài đặt tập lệnh</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#template-settings">Cài đặt Template</a></td>
+    <td>&emsp;&emsp;<a href="#template-settings">Cài đặt bản mẫu</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#how-versioning-works">Quy ước đánh số phiên bản</a></td>
+    <td>&emsp;<a href="#how-versioning-works">Cách thức hoạt động của phiên bản</a></td>
   </tr>
   <tr>
     <td>&emsp;<a href="#licenses">Giấy phép</a></td>
   </tr>
   <tr>
-    <td>&emsp;<a href="#faq">Câu hỏi thường gặp (FAQ)</a></td>
+    <td>&emsp;<a href="#faq">Câu hỏi thường gặp</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#is-blue-marble-malware">Blue Marble có phải phần mềm độc hại không?</a></td>
+    <td>&emsp;&emsp;<a href="#is-blue-marble-malware">Blue Marble có phải là phần mềm độc hại không?</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#how-can-blue-marble-place-pixels-for-me">Blue Marble có thể tự động đặt Pixel như thế nào?</a></td>
+    <td>&emsp;&emsp;<a href="#how-can-blue-marble-place-pixels-for-me">Blue Marble có thể đặt pixel cho tôi bằng cách nào?</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#how-do-i-hide-the-overlay">Làm thế nào để ẩn Overlay?</a></td>
+    <td>&emsp;&emsp;<a href="#how-do-i-hide-the-overlay">Làm thế nào để ẩn lớp phủ?</a></td>
   </tr>
   <tr>
-    <td>&emsp;&emsp;<a href="#why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trong trò chơi lại hiển thị phía trên Overlay?</a></td>
+    <td>&emsp;&emsp;<a href="#why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</a></td>
   </tr>
 </table>
 
 <h1>Blue Marble</h1>
+<a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://status.wplace.lol/badge/_/status?labelColor=5f5f5f&color=&style=flat&label=Wplace%20Status"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Phiên bản mới nhất" src="https://img.shields.io/badge/Latest_Version-0.88.0-lightblue?style=flat"></a>
+<a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img alt="Bản phát hành mới nhất" src="https://img.shields.io/github/v/release/t-wy/Wplace-BlueMarble-Userscripts?sort=semver&style=flat&label=Latest%20Release&color=blue"></a>
+<a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Giấy phép phần mềm: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
+<a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer"><img alt="Liên hệ với tôi" src="https://img.shields.io/badge/Contact_Me-gray?style=flat&logo=Discord&logoColor=white&logoSize=auto&labelColor=cornflowerblue"></a>
+<a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer"><img alt="Trang web Blue Marble" src="https://img.shields.io/badge/Blue_Marble_Website-Camille_Daguin-blue?style=flat&logo=globe&logoColor=white"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="WakaTime" src="https://img.shields.io/badge/Coding_Time-124hrs_4mins-blue?style=flat&logo=wakatime&logoColor=black&logoSize=auto&labelColor=white"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bản vá" src="https://img.shields.io/badge/Total_Patches-503-black?style=flat"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số dòng mã" src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=code"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bình luận" src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=comments"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Nén" src="https://img.shields.io/badge/Compression-69.95%25-blue"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Kích thước kho lưu trữ" src="https://img.shields.io/github/repo-size/t-wy/Wplace-BlueMarble-Userscripts"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Lượt truy cập" src="https://img.shields.io/badge/Visitors-439_667-gainsboro?style=flat"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Lượt tải xuống" src="https://img.shields.io/github/downloads/t-wy/Wplace-BlueMarble-Userscripts/total.svg"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Xây dựng" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/build.yml/badge.svg"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Trang" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/pages/pages-build-deployment/badge.svg?branch=wiki"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="CodeQL" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/github-code-scanning/codeql/badge.svg"></a>
+<a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img alt="Thực hành tốt nhất OpenSSF" src="https://www.bestpractices.dev/projects/11067/badge"></a>
 
-## Thông tin về bản phân nhánh này
-Đối với người dùng không muốn mua ứng dụng TamperMonkey trên App Store (vì đây là ứng dụng trả phí, khác với các nền tảng trình duyệt khác), ứng dụng Userscripts là giải pháp thay thế miễn phí để quản lý Userscript.
+<h2>Về fork này</h2>
+<p>
+  <p>
+    Đối với những người dùng không muốn mua ứng dụng TamperMonkey từ App Store, vốn là ứng dụng trả phí không giống như các nền tảng trình duyệt khác, ứng dụng Userscripts dường như là một lựa chọn thay thế miễn phí làm trình quản lý userscript.
+  </p>
+  <p>
+    Tuy nhiên, GM API được Userscripts hỗ trợ ít hơn nhiều so với những gì TamperMonkey hỗ trợ, đặc biệt là đối với các API đồng bộ cũ mà Blue Marble sử dụng đã bị Greasemonkey loại bỏ trong Greasemonkey 4.0+ và phải được thay thế bằng các lựa chọn thay thế:
+  </p>
 
-Tuy nhiên, bộ API GM mà Userscripts hỗ trợ ít hơn nhiều so với TamperMonkey, đặc biệt là các API đồng bộ cũ mà Blue Marble đang sử dụng — những API này đã bị Greasemonkey loại bỏ từ phiên bản 4.0+, cần thay thế bằng các phương thức tương ứng:
-- `GM_addStyle` → `GM.addStyle`
-- `GM_getValue` → `GM.getValue`
-- `GM_getResourceText` → Đã được thay thế hoàn toàn (Userscripts không hỗ trợ hàm này)
+  <ul>
+    <li>GM_addStyle → GM.addStyle</li>
+    <li>GM_getValue → GM.getValue</li>
+    <li>GM_getResourceText → Đã thay thế (GM.getResourceText không tồn tại)</li>
+  </ul>
 
-Xem nhánh **[Custom-Improve](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve)** để biết các tính năng và cải tiến mới chưa được hợp nhất vào kho mã gốc:
-- Hiển thị số lượt tô màu còn lại bên ngoài nút bấm, tránh bị che bởi Cloudflare Turnstile *(phiên bản 0.85.3)*
-- Hiển thị thời gian còn lại để đầy đủ lượt tô màu *(phiên bản 0.85.9)*
-- Hiển thị gợi ý màu sắc dưới dạng dấu thập phân thay vì chấm tròn, dễ quan sát hơn *(phiên bản 0.85.2)*
-  - Có thể quay lại chế độ chấm tròn từ phiên bản 0.85.46
-  - Trên Safari di động, giới hạn kích thước Canvas chỉ cho phép phóng to tối đa 4 lần thay vì 5
-- Ghi nhớ các ô bản đồ đã tải để giảm độ trễ và tính toán dư thừa khi nội dung không thay đổi *(phiên bản 0.85.4)*
-- Khắc phục lỗi không lưu trạng thái bật/tắt màu sắc *(phiên bản 0.85.1)*
-- Khắc phục lỗi hiển thị sai tổng số ô cần tô màu sau khi tải lại trang *(phiên bản 0.85.2)*
-- Khắc phục lỗi nút "Bật tất cả" / "Tắt tất cả" không lưu trạng thái *(phiên bản 0.85.13)*
-- Khắc phục lỗi chuyển đổi không gian màu trên Firefox *(phiên bản 0.85.16)*
-- Hiển thị số ô đã tô màu tương ứng với mỗi màu *(phiên bản 0.85.10)*
-- Nhấp vào màu chưa hoàn thành trong danh sách sẽ tự động di chuyển đến ô chưa tô màu của màu đó *(phiên bản 0.85.10)*
-- Hỗ trợ di chuyển trực tiếp đến tọa độ ô bản đồ thông qua nút điều hướng bên cạnh ô nhập liệu *(phiên bản 0.85.9)*
-- Hiển thị cả tọa độ địa lý bên cạnh tọa độ ô bản đồ *(phiên bản 0.85.5)*
-- Tối ưu hóa vòng lặp để phản ứng nhanh hơn *(phiên bản 0.85.7)*
-- Cho phép sử dụng nhiều Mẫu cùng lúc *(phiên bản 0.85.11)*
-- Thêm nút di chuyển đến góc trên bên trái của Mẫu đang chọn *(phiên bản 0.85.12)*
-- Tùy chọn ẩn các màu chưa mở khóa khỏi danh sách màu *(phiên bản 0.85.17)*
-- Cung cấp phiên bản Bookmarklet *(phiên bản 0.85.22)*
-- Cho phép ẩn các màu đã hoàn thành khỏi danh sách *(phiên bản 0.85.23)*
-- Thêm các cách sắp xếp màu sắc khác nhau: theo số ô đã tô/chưa tô, theo sắc độ, theo độ sáng
-  - Bổ sung tùy chọn sắp xếp theo mã màu *(phiên bản 0.87.16)*
-- Thêm thanh tiến trình bên cạnh mỗi màu trong danh sách *(phiên bản 0.85.24)*
-- Hỗ trợ dán các định dạng tọa độ khác nhau vào ô nhập liệu đầu tiên: `a, b, c, d` / `a b c d` / `Tl X: a, Tl Y: b, Px X: c, Px Y: d` *(phiên bản 0.85.28)*
-- Cho phép tải tác phẩm về với kích thước chính xác từ bản đồ thông qua nút Chia sẻ, bằng cách chọn hai góc đối diện *(phiên bản 0.85.28)*
-- Chế độ tiết kiệm bộ nhớ: chỉ tạo đối tượng hình ảnh khi xử lý Mẫu và giải phóng ngay sau khi hoàn thành *(phiên bản 0.85.33)*
-- Cho phép đặt điểm neo cho tọa độ Mẫu (mặc định là góc trên bên trái) *(phiên bản 0.85.34)*
-- Hỗ trợ hiển thị vị trí vật phẩm sự kiện (cần cung cấp nguồn dữ liệu JSON, ví dụ: [tệp pumpkin.json của Wplace Archive](https://wplace.samuelscheit.com/tiles/pumpkin.json)) *(phiên bản 0.85.35)*
-- Tự động chỉ hiển thị các ô của màu đang được chọn trên Wplace *(phiên bản 0.85.37)*
-- Cập nhật nội dung bản đồ ngay khi thay đổi màu hoặc Mẫu *(phiên bản 0.85.38)*
-- Cập nhật nội dung bản đồ ngay sau khi gửi ô màu *(phiên bản 0.85.39)*
-- Hỗ trợ chuyển đổi giữa các giao diện màu có sẵn của Wplace *(phiên bản 0.85.40)*
-- Thử nghiệm tính năng bản đồ lỗi: Đỏ - sai màu, Vàng - chưa tô, Xanh lá - đúng màu *(phiên bản 0.85.46)*
-- Tách riêng lớp phủ và lớp hiển thị lỗi khỏi lớp tác phẩm *(phiên bản 0.86.1)*
-- Lớp phủ cập nhật ngay lập tức, không cần chờ tải lại dữ liệu *(phiên bản 0.86.1)*
-- Cho phép đổi tên Mẫu bằng cách nhấp vào tên Mẫu *(phiên bản 0.86.1)*
-- Hỗ trợ di chuyển bản đồ theo đường chéo bằng các phím `W` `A` `S` `D`
-  - Được thực hiện bởi [@due2e](https://github.com/due2e) theo yêu cầu [PR #7](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/7)
-  - Lưu ý: Wplace có phím tắt mặc định để di chuyển theo chiều ngang/dọc bằng các phím mũi tên, kết hợp phím `Shift` để xoay/nghiêng bản đồ
-- Hiển thị thời gian và lý do bị hạn chế tài khoản nếu có *(phiên bản 0.86.6)*
-- Thêm các nút điều chỉnh mức phóng to để đảm bảo mỗi ô màu trên ảnh chụp có kích thước bằng nhau, hoặc phóng to ở mức tối thiểu trước khi tác phẩm bị mất
-  - Được mở rộng bởi [@Commenter25](https://github.com/Commenter25) theo yêu cầu [PR #13](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/13) *(phiên bản 0.86.15)*
-- Cho phép tạo Mẫu đường thẳng/hình tròn từ màu đang chọn bằng cách chọn hai điểm đối diện trên bản đồ
-  - Đối với hình tròn: tọa độ nhập vào là tâm, điểm chọn trên bản đồ là một điểm trên đường tròn *(phiên bản 0.86.16)*
-- Thêm tùy chọn chỉ tính lỗi cho các màu đang được bật trong bản đồ lỗi *(phiên bản 0.86.14)*
-- Khắc phục các lỗi giới hạn từ mã gốc và từ Wplace:
-  - Blue Marble: Mẫu vượt qua giới hạn Tl X: 2047 → 0 không hiển thị đúng khi bắt đầu từ Tl X = 0
-  - Blue Marble: Tọa độ không cập nhật khi chọn ô tại Tl X = 2047 với tâm bản đồ ở Tl X = 0
-  - Blue Marble & Wplace: Nút gắn thẻ lấy tọa độ âm khi chọn ô tại Tl X = 2047 với tâm bản đồ ở Tl X = 0
-  - Wplace: Không hiển thị thông tin ô khi chọn tại Tl X = 0 với tâm bản đồ ở Tl X = 2047
-- Cho phép tắt tạo lớp phủ trên bản đồ để giảm tải xử lý, phù hợp khi sử dụng cùng các công cụ hiển thị khác *(phiên bản 0.87.15)*
-  - Lưu ý: Khi bật tùy chọn này, màu sắc hiển thị trên lớp phủ sẽ do công cụ bên ngoài quản lý
+  <p>
+    Kiểm tra <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve">Nhánh Tùy chỉnh-Cải tiến</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
+  </p>
 
----
+  <ul>
+    <li>Hiển thị số lượng Charge bên ngoài nút có thể bị Cloudflare Turnstile che khuất. (v0.85.3)</li>
+    <li>Hiển thị thời gian còn lại để đầy Charge. (v0.85.9)</li>
+    <li>Hiển thị gợi ý bảng màu dưới dạng hình chữ thập thay vì dấu chấm để dễ nhìn hơn. (v0.85.2)</li>
+    <li>(Có thể khôi phục về chế độ dấu chấm kể từ v0.85.46)</li>
+    <li>(Do giới hạn kích thước Canvas của Safari trên thiết bị di động (4096x4096), mức thu phóng tối đa chỉ có thể là 4 thay vì 5)</li>
+    <li>Ghi nhớ các ô đã tải để tránh độ trễ / tính toán dư thừa (bất cứ khi nào tiêu đề Last-Modified không thay đổi) (v0.85.4)</li>
+    <li>Đã sửa lỗi chuyển đổi bảng màu không lưu trữ được. (v0.85.1)</li>
+    <li>Đã sửa lỗi số lượng tổng số khối cần đếm là 1 hoặc 2 sau khi làm mới. (v0.85.2)</li>
+    <li>Đã sửa lỗi các nút "Bật tất cả" và "Tắt tất cả" không lưu trữ được. (v0.85.13)</li>
+    <li>Đã sửa lỗi chuyển đổi không gian màu trên Firefox. (v0.85.16)</li>
+    <li>Hiển thị số lượng đã lấp đầy của từng màu. (v0.85.10)</li>
+    <li>Dịch chuyển trực tiếp đến một trong các pixel chưa được lấp đầy khi nhấp vào khối màu chưa hoàn thành trong bộ lọc. (v0.85.10)</li>
+    <li>Cho phép dịch chuyển đến tọa độ ô đã cho qua nút máy bay bên cạnh các hộp nhập liệu. (v0.85.9)</li>
+    <li>Hiển thị cả tọa độ địa lý cùng với tọa độ ô. (v0.85.5)</li>
+    <li>Tối ưu hóa vòng lặp for để phản hồi nhanh hơn. (v0.85.7)</li>
+    <li>Cho phép sử dụng nhiều bản mẫu cùng một lúc. (v0.85.11)</li>
+    <li>Nút để dịch chuyển đến góc trên cùng bên trái của bản mẫu đã chọn. (v0.85.12)</li>
+    <li>Tùy chọn ẩn các màu bị khóa (màu chưa được mở khóa) khỏi danh sách màu. (v0.85.17)</li>
+    <li>Cung cấp phiên bản bookmarklet. (v0.85.22)</li>
+    <li>Cho phép ẩn các màu đã hoàn thành khỏi danh sách màu. (v0.85.23)</li>
+    <li>Các tùy chọn khác nhau để thay đổi thứ tự hiển thị của các màu, bao gồm số lượng đã/chưa tô, sắc độ và độ sáng. (v0.85.23)
+      <ul>
+        <li>Đã thêm tùy chọn sắp xếp theo ID màu. (v0.87.16)</li>
+      </ul>
+    </li>
+    <li>Thanh tiến trình phía sau mỗi màu trong danh sách hiển thị tiến độ tương đối (v0.85.24)</li>
+    <li>Cho phép các định dạng tọa độ khác nhau (`a, b, c, d`, `a b c d` và `Tl X: a, Tl Y: b, Px X: c, Px Y: d`) được dán vào hộp văn bản tọa độ đầu tiên. (v0.85.28)</li>
+    <li>Cho phép tải xuống tác phẩm nghệ thuật (theo đúng kích thước) từ bản đồ qua Nút Chia sẻ bằng hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.85.28)</li>
+    <li>Chế độ Tiết kiệm bộ nhớ: Tạo ImageBitmap chỉ khi các bản mẫu được xử lý và giải phóng ngay sau đó để ngăn sử dụng hết tất cả bộ nhớ khả dụng. (v0.85.33)</li>
+    <li>Cho phép đặt điểm neo cho tọa độ được chỉ định để đặt bản mẫu. (Theo mặc định, tọa độ là góc trên cùng bên trái của bản mẫu) (v0.85.34)</li>
+    <li>Hỗ trợ hiển thị vị trí của các Vật phẩm Sự kiện. (Cần cung cấp nhà cung cấp dữ liệu JSON (ví dụ: <a href="https://wplace.samuelscheit.com/tiles/pumpkin.json">Wplace Archive pumpkin.json</a>) để tính năng này hoạt động) (v0.85.35)</li>
+    <li>Cho phép chỉ hiển thị các pixel của màu hiện được chọn trong Wplace một cách tự động. (v0.85.37)</li>
+    <li>Cố gắng làm mới các ô khi màu đã chọn / bản mẫu thay đổi càng sớm càng tốt. (v0.85.38)</li>
+    <li>Cố gắng làm mới các ô sau khi gửi pixel càng sớm càng tốt. (v0.85.39)</li>
+    <li>Chuyển đổi giữa các chủ đề tích hợp sẵn của Wplace. (v0.85.40)</li>
+    <li>Kiểm tra tính năng bản đồ lỗi (Đỏ: Sai, Vàng: Chưa lấp đầy, Xanh lá: Đúng). (v0.85.46)</li>
+    <li>Tách lớp phủ và lớp lỗi khỏi lớp tác phẩm nghệ thuật. (v0.86.1)</li>
+    <li>Lớp phủ không còn đợi fetch để cập nhật. (v0.86.1)</li>
+    <li>Cho phép đổi tên bản mẫu bằng cách nhấp vào tên bản mẫu. (v0.86.1)</li>
+    <li>
+    Cho phép cuộn bản đồ theo đường chéo mượt mà qua bàn phím bằng các phím mũi tên (<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>). (v0.86.5)
+      <ul>
+        <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/7">PR #7</a>.</li>
+        <li>Lưu ý rằng wplace có các phím tắt mặc định cho việc xoay theo trục qua <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> (và xoay / nghiêng với phím <kbd>Shift</kbd> kết hợp)</li>
+      </ul>
+    </li>
+    <li>Hiển thị thời gian đếm ngược tạm ngưng và lý do nếu có. (v0.86.6)</li>
+    <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/8">#8</a>). (v0.86.10)
+      <ul>
+        <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/13">PR #13</a>. (v0.86.15)</li>
+      </ul>
+    </li>
+    <li>Cho phép tạo bản mẫu đường thẳng / hình tròn của màu hiện được chọn bằng cách chọn hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.86.13)
+      <ul>
+        <li>Đối với hình tròn, tọa độ hộp văn bản đề cập đến tâm và điểm hiện được chọn đề cập đến một điểm trên hình tròn xác định bán kính. (v0.86.16)</li>
+      </ul>
+    </li>
+    <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/11">#11</a>). (v0.86.14)</li>
+    <li>Sửa một số vấn đề về ranh giới từ thượng nguồn Blue Marble và Wplace. (v0.86.16)
+      <ul>
+        <li>Blue Marble: Tạo bản mẫu vượt qua ranh giới Tl X: 2047 - 0 không hiển thị từ Ô X = 0.</li>
+        <li>Blue Marble: (Tl X, Tl Y, Px X, Px Y) không cập nhật khi chọn pixel từ Ô X = 2047 trong khi Trung tâm Bản đồ ở Ô X = 0.</li>
+        <li>Blue Marble & Wplace: Nút Pin sao chép (Tl X, Tl Y, Px X, Px Y) bị lỗi từ yêu cầu thông tin pixel (tức là Tl X và Px X bị âm) khi chọn pixel từ Ô X = 2047 trong khi Trung tâm Bản đồ ở Ô X = 0.</li>
+        <li>Wplace: Thông tin Pixel không hiển thị khi chọn pixel từ Ô X = 0 trong khi Trung tâm Bản đồ ở Ô X = 2047.</li>
+      </ul>
+    </li>
+    <li>Cho phép bản mẫu không tạo lớp phủ trên bản đồ để tiết kiệm thời gian xử lý. Hữu ích khi được sử dụng cùng với tính năng lớp phủ chính thức hoặc các công cụ lớp phủ khác. (v0.87.15)
+      <ul>
+        <li>Lưu ý rằng trong trường hợp này, các màu hiển thị trên lớp phủ được quản lý bởi công cụ lớp phủ bên ngoài, không phải tập lệnh này.</li>
+      </ul>
+    </li>
+  </ul>
+</p>
 
-## Hướng dẫn nhanh
-Nhấp vào tiêu đề để xem nội dung chi tiết:
-<details>
-  <summary>
-    <b>Tải Blue Marble về máy</b>
-  </summary>
-  <a href="#h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-c%C3%A0i-%C4%91%E1%BA%ADt">Xem hướng dẫn cài đặt</a>
-</details>
-
-<details>
-  <summary>
-    <b>Có câu hỏi về Blue Marble</b>
-  </summary>
-  <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer">Tham gia nhóm hỗ trợ trên Discord</a>
-  <br>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/discussions/categories/q-a">Đặt câu hỏi trên GitHub</a>
-</details>
-
-<details>
-  <summary>
-    <b>Báo cáo lỗi</b>
-  </summary>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/new/choose">Tạo yêu cầu báo cáo lỗi và chọn mục "Báo cáo lỗi"</a>
-</details>
-
-<details>
-  <summary>
-    <b>Đề xuất tính năng mới</b>
-  </summary>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/new/choose">Tạo yêu cầu và chọn mục "Đề xuất tính năng"</a>
-</details>
-
-<details>
-  <summary>
-    <b>Đóng góp vào dự án</b>
-  </summary>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/CONTRIBUTING.md">Xem quy định đóng góp</a>
-</details>
-
-<details>
-  <summary>
-    <b>Báo cáo lỗ hổng bảo mật</b>
-  </summary>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/security">Gửi báo cáo bảo mật</a>
-</details>
-
-<details>
-  <summary>
-    <b>Truy cập trang web chính thức</b>
-  </summary>
-  <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer">Mở trang web Blue Marble</a>
-</details>
-
----
-
-## Tổng quan
-Chào mừng bạn đến với Blue Marble! Đây là một Userscript dành cho trang web [wplace.live](https://wplace.live/), giúp bạn chồng hình ảnh tác phẩm lên bản đồ một cách dễ dàng — không cần chuyển qua lại giữa các tab hoặc màn hình. Ngoài ra, Blue Marble còn có nhiều tính năng hữu ích khác:
-- Hiển thị số ô màu cần tô để lên cấp tiếp theo
-- Cung cấp hệ thống tọa độ đầy đủ: tọa độ ô bản đồ và tọa độ ô màu
-- Di chuyển bảng màu lên đầu màn hình để thao tác thuận tiện hơn
-- Hỗ trợ dùng công cụ lấy màu trực tiếp từ Mẫu nếu màu sắc khớp với bảng màu của Wplace
-- ...và nhiều tính năng khác!
-
-Nếu bạn thích dự án này, hãy cho chúng tôi một ⭐ trên GitHub nhé! Để cập nhật thông tin mới nhất, truy cập [trang web chính thức](https://bluemarble.camilledaguin.fr/). Nếu muốn tham gia phát triển, xem chi tiết trong tệp [CONTRIBUTING.md](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/CONTRIBUTING.md).
-
-![Hình ảnh minh họa giao diện Blue Marble](./assets/Showcase1.png)
-
-### Hướng dẫn cài đặt
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Trình duyệt hỗ trợ" src="https://img.shields.io/badge/H%E1%BB%97_tr%E1%BB%A3-Chrome%20%7C%20Firefox%2A%20%7C%20Safari%20%7C%20Edge%20%7C%20Brave-orange?style=flat"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Trình duyệt không hỗ trợ" src="https://img.shields.io/badge/Kh%C3%B4ng_h%E1%BB%97_tr%E1%BB%A3-Firefox%2A%20%7C%20Kiwi%20%7C%20Vivaldi-red?style=flat"></a>
-
-Blue Marble đã được kiểm tra và hoạt động ổn định trên các thiết bị di động. Dự án được phát triển chủ yếu trên Chrome, nhưng có thể hoạt động trên các trình duyệt khác không được liệt kê ở trên. Một số phiên bản hoặc bản phân nhánh của Firefox có thể tương thích hoặc không.
-
-Nhấp vào các mục bên dưới để xem hướng dẫn chi tiết cho trình duyệt của bạn:
-<details>
-  <summary>
-    <b>Cài đặt trên Chrome</b>
-  </summary>
-  <a href="https://www.youtube.com/watch?v=gg5oiJcftEc" target="_blank" rel="noopener noreferrer"><img alt="Video hướng dẫn cài đặt" src="https://img.shields.io/badge/Xem_video_h%C6%B0%E1%BB%9Bng_d%E1%BA%ABn-gray?style=flat&logo=YouTube&logoColor=white&logoSize=auto&labelColor=darkred"></a>
-  <ol>
-    <li>Cài đặt tiện ích [TamperMonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) cho Chrome.
+<h2>Hướng dẫn nhanh</h2>
+<p>
+  Nhấn các mũi tên để hiển thị tùy chọn bạn muốn.
+  <details>
+    <summary>
+      <b>Tôi muốn tải Blue Marble.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="#installation-instructions">Nhấp vào đây</a> để xem hướng dẫn cài đặt.
+  </details>
+  <details>
+    <summary>
+      <b>Tôi muốn đặt câu hỏi về Blue Marble.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer">Nhấp vào đây</a> để nhận lời mời tham gia máy chủ Discord của máy chủ hỗ trợ Blue Marble.
     <br>
-    <img alt="Nhấn nút 'Thêm tiện ích'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall1.png"></li>
-    <li>Nhấp chuột phải vào biểu tượng TamperMonkey trên thanh tiện ích.
+    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/discussions/categories/q-a">Nhấp vào đây</a> để đến trang trợ giúp và câu hỏi GitHub của Blue Marble.
+  </details>
+  <details>
+    <summary>
+      <b>Tôi muốn báo lỗi.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/new/choose">Nhấp vào đây</a> để báo lỗi, sau đó chọn tùy chọn "Bug Report".
+  </details>
+  <details>
+    <summary>
+      <b>Tôi muốn đề xuất tính năng.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/new/choose">Nhấp vào đây</a> để đề xuất tính năng, sau đó chọn tùy chọn "Feature Request".
+  </details>
+  <details>
+    <summary>
+      <b>Tôi muốn đóng góp.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/CONTRIBUTING.md">Nhấp vào đây</a> để đọc các hướng dẫn đóng góp.
+  </details>
+  <details>
+    <summary>
+      <b>Tôi muốn báo cáo lỗ hổng.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/security">Nhấp vào đây</a> để gửi báo cáo lỗ hổng.
+  </details>
+  <details>
+    <summary>
+      <b>Tôi muốn truy cập trang web.</b> <sup>(Nhấp để mở rộng)</sup>
+    </summary>
+    <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer">Nhấp vào đây</a> để truy cập trang web chính thức của Blue Marble.
+  </details>
+</p>
+
+<h2>Tổng quan</h2>
+<p>
+  Chào mừng bạn đến với Blue Marble! Blue Marble là một userscript cho trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>. Mục đích của Blue Marble là cho phép bạn lấy một hình ảnh và xếp lớp nó lên canvas! Bằng cách đó, bạn có thể dễ dàng phác thảo hình ảnh tác phẩm nghệ thuật của mình mà không cần phải nhìn qua lại giữa nhiều tab/màn hình. Ngoài ra, Blue Marble hỗ trợ một số tính năng bổ sung tiện lợi như:
+  <ul>
+    <li>Hiển thị số pixel bạn cần để lên cấp</li>
+    <li>Hiển thị hệ tọa độ đơn giản (tọa độ ô & tọa độ pixel)</li>
+    <li>Cho phép bạn di chuyển bảng màu lên đầu màn hình khi đặt pixel</li>
+    <li>Cho phép bạn sử dụng ống nhỏ giọt màu trên hình ảnh bản mẫu, miễn là màu sắc chính xác</li>
+    <li>...và hơn thế nữa!</li>
+  </ul>
+  Nếu bạn thích userscript này, hãy ⭐ kho lưu trữ! Để biết thêm thông tin và cập nhật, hãy truy cập <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer">trang web Blue Marble</a>. Nếu bạn muốn đóng góp cho Blue Marble, hãy xem tệp <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> trong <code>docs/</code>.
+
+  <img alt="Hình ảnh giới thiệu bản mẫu Blue Marble" src="./assets/Showcase1.png">
+
+  <h3>Hướng dẫn cài đặt</h3>
+  <a href="" target="_blank" rel="noopener noreferrer"><img alt="Trình duyệt được hỗ trợ" src="https://img.shields.io/badge/Supported%20Browsers-Chrome%20%7C%20Firefox%2A%20%7C%20Safari%20%7C%20Edge%20%7C%20Brave-orange?style=flat"></a>
+  <a href="" target="_blank" rel="noopener noreferrer"><img alt="Trình duyệt không được hỗ trợ" src="https://img.shields.io/badge/Unsupported%20Browsers-Firefox%2A%20%7C%20Kiwi%20%7C%20Vivaldi-red?style=flat"></a>
+  <p>
+    Blue Marble đã được xác minh hoạt động trên thiết bị di động. Blue Marble được thiết kế trên Chrome, nhưng Blue Marble có thể hoạt động trên các trình duyệt "không được hỗ trợ" không được liệt kê ở trên. Một số phiên bản/nhánh của Firefox hoạt động. Một số phiên bản/nhánh của Firefox không hoạt động.
     <br>
-    <img alt="Chọn 'Quản lý tiện ích'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall2.png"></li>
-    <li>Chọn mục "Quản lý tiện ích".</li>
-    <li>Bật chế độ "Chế độ dành cho nhà phát triển".
-    <br>
-    <img alt="Bật 'Chế độ dành cho nhà phát triển' và 'Cho phép Userscript'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall3.png"></li>
-    <li>Bật tùy chọn "Cho phép Userscript".</li>
-    <li><strong>Cài đặt nhanh:</strong> Nhấp vào liên kết này để cài đặt trực tiếp Blue Marble: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js"><strong>Cài đặt Blue Marble</strong></a>
-    <br>
-    TamperMonkey sẽ tự động nhận diện và hiển thị cửa sổ xác nhận cài đặt.</li>
-    <li>Tải lại trang [wplace.live](https://wplace.live/).</li>
-  </ol>
-</details>
+    Hướng dẫn cài đặt cho Blue Marble ở bên dưới. Nhấp vào mũi tên để mở rộng hướng dẫn bạn muốn xem. Văn bản màu xanh là liên kết.
+    <details>
+      <summary>
+        <b>Cài đặt trên Chrome</b> <sup>(Nhấp để mở rộng)</sup>
+      </summary>
+      <a href="https://www.youtube.com/watch?v=gg5oiJcftEc" target="_blank" rel="noopener noreferrer"><img alt="Hướng dẫn cài đặt" src="https://img.shields.io/badge/Install_Tutorial-gray?style=flat&logo=YouTube&logoColor=white&logoSize=auto&labelColor=darkred"></a>
+      <ol>
+        <li>Cài đặt tiện ích mở rộng <a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Chrome.
+        <br>
+        <img alt="Nhấp vào nút 'Add extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall1.png"></li>
+        <li>Nhấp chuột phải vào tiện ích mở rộng.
+        <br>
+        <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall2.png"></li>
+        <li>Nhấp chuột trái vào "Manage Extension."</li>
+        <li>Bật "Developer Mode."
+        <br>
+        <img alt="Bật 'Developer Mode' và 'Allow user scripts'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall3.png"></li>
+        <li>Bật "Allow user scripts."</li>
+        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
+        <br>
+        TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
+        <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
+      </ol>
+    </details>
+    <details>
+      <summary>
+        <b>Cài đặt trên Microsoft Edge</b> <sup>(Nhấp để mở rộng)</sup>
+      </summary>
+      <ol>
+        <li>Cài đặt tiện ích bổ sung <a href="https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Microsoft Edge.
+        <br>
+        <img alt="Nhấp vào nút 'Get'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall1.png"></li>
+        <li>Nhấp chuột phải vào tiện ích mở rộng.
+        <br>
+        <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall2.png"></li>
+        <li>Nhấp chuột trái vào "Manage Extension."</li>
+        <li>Bật "Developer Mode."
+        <br>
+        <img alt="Bật 'Developer Mode'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall3.png"></li>
+        <li>Tải xuống tệp <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer">BlueMarble.user.js</a> trong "Assets" của bản phát hành mới nhất.</li>
+        <li>Mở Bảng điều khiển TamperMonkey.
+        <br>
+        <img alt="Truy cập 'Dashboard' của TamperMonkey" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall4.png"></li>
+        <li>Kéo tệp <code>BlueMarble.user.js</code> vào bên trong bảng điều khiển của TamperMonkey.
+        <br>
+        <img alt="Kéo userscript vào bảng điều khiển" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall5.png"></li>
+        <li>Nhấp vào nút "Install" để cài đặt Blue Marble.
+        <br>
+        <img alt="Nhấp vào nút 'Install'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall6.png"></li>
+        <li>Bật Blue Marble trong bảng điều khiển TamperMonkey.
+        <br>
+        <img alt="Bật Blue Marble" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall7.png"></li>
+        <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
+      </ol>
+    </details>
+    <details>
+      <summary>
+        <b>Cài đặt trên Firefox</b> <sup>(Nhấp để mở rộng)</sup>
+      </summary>
+      <ol>
+        <li>Cài đặt tiện ích bổ sung <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Firefox.
+        <br>
+        <img alt="Nhấp vào nút 'Add to Firefox'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerFireFoxInstall1.png"></li>
+        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
+        <br>
+        TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
+        <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
+      </ol>
+    </details>
+    <details>
+      <summary>
+        <b>Cài đặt trên Safari bằng Userscripts thay vì TamperMonkey</sup>
+      </summary>
+      <ol>
+        <li>Cài đặt ứng dụng <a href="https://apps.apple.com/us/app/userscripts/id1463298887" target="_blank" rel="noopener noreferrer">Userscripts</a> từ App Store.
+        <br>
+        Đảm bảo rằng các quyền thích hợp đã được cấp cho ứng dụng và Safari được cấu hình để bật tiện ích mở rộng.</li>
+        <br>
+        <li>Tải xuống tập lệnh Blue Marble và lưu vào Vị trí Lưu theo quy định của ứng dụng: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Tải xuống Blue Marble</strong></a>
+        <br>
+        Userscripts sẽ tự động phát hiện userscript.</li>
+        <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
+        <li>Các vấn đề liên quan đến Cài đặt và Sử dụng Userscripts nên tham khảo: <a href="https://github.com/quoid/userscripts/" target="_blank" rel="noopener noreferrer"><strong>Kho lưu trữ của Userscripts</strong></a> Thay vào đó.
+      </ol>
+    </details>
+  </p>
 
-<details>
-  <summary>
-    <b>Cài đặt trên Microsoft Edge</b>
-  </summary>
-  <ol>
-    <li>Cài đặt tiện ích [TamperMonkey](https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd) cho Edge.
-    <br>
-    <img alt="Nhấn nút 'Tải về'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall1.png"></li>
-    <li>Nhấp chuột phải vào biểu tượng TamperMonkey trên thanh tiện ích.
-    <br>
-    <img alt="Chọn 'Quản lý tiện ích'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall2.png"></li>
-    <li>Chọn mục "Quản lý tiện ích".</li>
-    <li>Bật chế độ "Chế độ dành cho nhà phát triển".
-    <br>
-    <img alt="Bật 'Chế độ dành cho nhà phát triển'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall3.png"></li>
-    <li>Tải tệp [BlueMarble.user.js](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases) trong phần "Tệp đính kèm" của bản phát hành mới nhất.</li>
-    <li>Mở trang quản lý của TamperMonkey.
-    <br>
-    <img alt="Mở trang quản lý TamperMonkey" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall4.png"></li>
-    <li>Kéo thả tệp `BlueMarble.user.js` vào trang quản lý.
-    <br>
-    <img alt="Kéo thả tệp vào trang quản lý" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall5.png"></li>
-    <li>Nhấn nút "Cài đặt" để xác nhận.
-    <br>
-    <img alt="Nhấn nút 'Cài đặt'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall6.png"></li>
-    <li>Bật Blue Marble trong danh sách Userscript của TamperMonkey.
-    <br>
-    <img alt="Bật Blue Marble" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall7.png"></li>
-    <li>Tải lại trang [wplace.live](https://wplace.live/).</li>
-  </ol>
-</details>
+  <h3>Hướng dẫn về Bản mẫu</h3>
+  <p>
+    Blue Marble sẽ hiển thị bản mẫu của bạn với cùng kích thước. Nếu hình ảnh của bạn cao 500 pixel và rộng 300 pixel, bản mẫu sẽ cao 500 pixel và rộng 300 pixel. Đây là hướng dẫn để hiển thị hình ảnh bản mẫu trên canvas:
+    <ol>
+      <li>Tìm pixel của góc trên cùng bên trái. Điền vào <code>Tl X</code>, <code>Tl Y</code>, <code>Px X</code> và <code>Px Y</code> với tọa độ. Bạn có thể sử dụng biểu tượng "Pin" để tự động điền tọa độ sau khi nhấp vào pixel.
+      <br>
+      <img alt="Tìm tọa độ bản mẫu" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/TemplateCoordinates1.png"></li>
+      <li>Tải lên hình ảnh PNG hoặc WEBP.</li>
+      <li>Nhấp vào nút "Create".</li>
+      <li>Nếu bản mẫu của bạn vẫn không hiển thị, hãy thử nhấp vào nút "Enable".</li>
+    </ol>
+  </p>
 
-<details>
-  <summary>
-    <b>Cài đặt trên Firefox</b>
-  </summary>
-  <ol>
-    <li>Cài đặt tiện ích [TamperMonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/) cho Firefox.
-    <br>
-    <img alt="Nhấn nút 'Thêm vào Firefox'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerFireFoxInstall1.png"></li>
-    <li><strong>Cài đặt nhanh:</strong> Nhấp vào liên kết này để cài đặt trực tiếp Blue Marble: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js"><strong>Cài đặt Blue Marble</strong></a>
-    <br>
-    TamperMonkey sẽ tự động nhận diện và hiển thị cửa sổ xác nhận cài đặt.</li>
-    <li>Tải lại trang [wplace.live](https://wplace.live/).</li>
-  </ol>
-</details>
+  <h3>Cài đặt tập lệnh</h3>
+  <p>
+    Có nhiều cài đặt có sẵn cho userscript Blue Marble! Thông qua các cài đặt này, bạn có thể kiểm soát cách tập lệnh hoạt động.
+  </p>
 
-<details>
-  <summary>
-    <b>Cài đặt trên Safari bằng Userscripts thay vì TamperMonkey</b>
-  </summary>
-  <ol>
-    <li>Tải ứng dụng [Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887) từ App Store.
-    <br>
-    Đảm bảo đã cấp quyền đầy đủ cho ứng dụng và bật tiện ích trong cài đặt Safari.</li>
-    <br>
-    <li>Tải tệp Blue Marble và lưu vào thư mục được chỉ định trong ứng dụng: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js"><strong>Tải Blue Marble</strong></a>
-    <br>
-    Userscripts sẽ tự động nhận diện tệp Userscript.</li>
-    <li>Tải lại trang [wplace.live](https://wplace.live/).</li>
-    <li>Nếu gặp vấn đề trong quá trình cài đặt hoặc sử dụng, vui lòng xem tài liệu tại [kho mã của Userscripts](https://github.com/quoid/userscripts/).</li>
-  </ol>
-</details>
+  <h3>Cài đặt bản mẫu</h3>
+  <p>
+    <h4>Pixel trong suốt</h4>
+    <p>
+      Bản mẫu cho Blue Marble hoạt động hơi khác so với bình thường. Vì có màu "Trong suốt" và các pixel trong suốt trong bản mẫu thường bị bỏ qua, bản mẫu của bạn nên có một màu tùy chỉnh để biểu thị các pixel có màu "Trong suốt".
+      <ul>
+        <li>Nếu bạn muốn một pixel cụ thể có bất kỳ màu nào, nó sẽ trong suốt trong bản mẫu của bạn.</li>
+        <li>Nếu bạn muốn một pixel cụ thể là màu "Trong suốt" trên bảng màu Wplace, nó phải có mã màu hex <code>#deface</code>.</li>
+      </ul>
+    </p>
+    <h4>Tọa độ</h4>
+    <p>
+      <h5>Tọa độ ô</h5>
+      <p>
+        Hệ tọa độ cho wplace.live rất độc đáo. Thay vì tất cả pixel có một số tọa độ toàn cầu (x, y), số tọa độ tương đối với ô. Điều này có nghĩa là bạn cần biết số ô và số tọa độ để làm bất cứ điều gì. Trong Blue Marble, tọa độ ô và tọa độ pixel được hiển thị khi bạn nhấp vào một pixel. Đây là những tọa độ bạn nên sử dụng để căn chỉnh một bản mẫu.
+        <br>
+        <img alt="Nơi tìm tọa độ ô" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/TemplateCoordinatesDisplay.png">
+      </p>
+      <h5>Tọa độ bản mẫu</h5>
+      <p>
+        Bản mẫu được căn chỉnh từ góc trên cùng bên trái của bản mẫu. Bạn có thể tự động điền vị trí này bằng biểu tượng "pin" (còn gọi là "waypoint") bên cạnh các hộp nhập tọa độ.
+      </p>
+    </p>
+  </p>
+</p>
 
-### Hướng dẫn sử dụng Mẫu
-Blue Marble sẽ hiển thị Mẫu với kích thước chính xác như hình ảnh gốc. Ví dụ: hình ảnh cao 500 pixel, rộng 300 pixel sẽ tạo ra Mẫu có kích thước tương tự. Các bước để hiển thị Mẫu trên bản đồ:
-<ol>
-  <li>Chọn ô màu ở góc trên bên trái của khu vực cần vẽ, ghi lại các giá trị `Tl X`, `Tl Y`, `Px X`, `Px Y`. Bạn có thể nhấp vào biểu tượng gắn thẻ bên cạnh ô nhập liệu để tự động điền tọa độ sau khi chọn ô.
-  <br>
-  <img alt="Lấy tọa độ cho Mẫu" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/TemplateCoordinates1.png"></li>
-  <li>Tải lên tệp hình ảnh định dạng PNG hoặc WEBP.</li>
-  <li>Nhấn nút "Tạo Mẫu".</li>
-  <li>Nếu Mẫu không hiển thị, hãy thử nhấn nút "Bật Mẫu".</li>
-</ol>
+<h2>Cách thức hoạt động của phiên bản</h2>
+<p>
+  Hệ thống phiên bản cho userscript này tuân theo <a href="https://semver.org/" target="_blank" rel="noopener noreferrer">các quy tắc Phiên bản Ngữ nghĩa</a>. Do đó, nó được định dạng theo định dạng <code>X.Y.Z</code> trong đó:
+  <ul>
+    <li>X là phiên bản chính. Điều này được tăng lên khi một bản cập nhật không tương thích ngược được đẩy lên. Điều này dành cho các tính năng mới phá vỡ các phiên bản trước của userscript. Ngoài ra, nếu wplace.live phá vỡ userscript, điều này sẽ được tăng lên.</li>
+    <li>Y là phiên bản phụ. Điều này được tăng lên bất cứ khi nào tôi đẩy lên GitHub. Điều này dành cho các bản sửa lỗi ổn định và các tính năng mới (không phá vỡ).</li>
+    <li>Z là phiên bản vá. Điều này được tăng lên bất cứ khi nào tôi khởi chạy phiên bản phát triển của userscript để kiểm tra một bản vá. Điều này dành cho các bản sửa lỗi/tính năng không ổn định.</li>
+  </ul>
+</p>
 
-### Cài đặt Script
-Blue Marble có nhiều tùy chọn cài đặt chi tiết, giúp bạn điều chỉnh cách hoạt động của Script theo nhu cầu sử dụng.
+<h2>Giấy phép</h2>
+<p>
+  (Dưới đây, tất cả đề cập đến "userscript" đề cập đến userscript "Blue Marble" được tạo bởi SwingTheVine) <br>
+  Hầu hết userscript này được cấp phép theo <code>Mozilla Public License Version 2.0</code> (MPL-2.0). Tất cả phần mềm, mã nguồn và thư viện trong kho lưu trữ này được cấp phép theo giấy phép MPL-2.0. Tuy nhiên, hình ảnh "Blue Marble" trong userscript này thuộc sở hữu của NASA và được cấp phép theo giấy phép <code>Creative Commons 0 1.0 Universal</code> (CC0 1.0).
+</p>
 
-### Cài đặt Mẫu
-#### Ô trong suốt
-Cách hoạt động của Mẫu trên Blue Marble có một điểm khác biệt so với thông thường: Wplace có màu "Trong suốt" riêng, nên các ô trong suốt trên hình ảnh gốc sẽ được xử lý như sau:
-- Nếu muốn một ô có thể tô màu bất kỳ: để ô đó trong suốt trên hình ảnh gốc
-- Nếu muốn một ô được tô màu "Trong suốt" của Wplace: tô ô đó bằng màu `#deface` trên hình ảnh gốc
+<h2>Câu hỏi thường gặp</h2>
+<p>
+  <h3>Blue Marble có phải là phần mềm độc hại không?</h3>
+  <p><b>A:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.
 
-#### Hệ thống tọa độ
-##### Tọa độ ô bản đồ
-Hệ thống tọa độ của Wplace không dùng tọa độ toàn cục mà tọa độ của mỗi ô sẽ phụ thuộc vào ô bản đồ chứa nó. Khi bạn nhấp vào một ô màu, Blue Marble sẽ hiển thị đầy đủ tọa độ ô bản đồ và tọa độ ô màu — đây là các giá trị bạn cần dùng để căn chỉnh Mẫu.
-<br>
-<img alt="Vị trí hiển thị tọa độ ô bản đồ" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/TemplateCoordinatesDisplay.png">
+  <h3>Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
+  <p><b>A:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.
 
-##### Tọa độ Mẫu
-Mặc định, Mẫu sẽ được căn chỉnh dựa trên góc trên bên trái. Bạn có thể dùng biểu tượng gắn thẻ để tự động điền tọa độ vị trí cần đặt Mẫu.
+  <h3>Làm thế nào để ẩn lớp phủ?</h3>
+  <p><b>A:</b> Tắt userscript và làm mới trang.</p>
 
----
+  <h3>Làm thế nào để phân biệt các màu?</h3>
+  <p><b>A:</b> Tìm màu trong danh sách bộ lọc màu. Nhấp vào hộp kiểm để bật hoặc tắt màu. Nếu bạn muốn chỉ làm việc trên một màu tại một thời điểm (được khuyến nghị), thì hãy nhấp vào "Disable All" trong bộ lọc màu. Cuối cùng, bật hộp kiểm bên cạnh màu bạn muốn đặt. Bằng cách này, chỉ một màu trên bản mẫu của bạn sẽ xuất hiện tại một thời điểm.</p>
 
-## Quy tắc đánh số phiên bản
-Blue Marble tuân thủ nghiêm ngặt quy tắc **[Đánh số phiên bản theo ngữ nghĩa](https://semver.org/)** với định dạng `X.Y.Z`:
-- **X (phiên bản chính):** Tăng khi có thay đổi không tương thích ngược, hoặc khi Wplace cập nhật làm thay đổi cấu trúc khiến Script không hoạt động
-- **Y (phiên bản phụ):** Tăng mỗi khi cập nhật tính năng mới hoặc sửa lỗi ổn định
-- **Z (phiên bản sửa lỗi):** Tăng khi phát hành bản thử nghiệm hoặc sửa lỗi nhỏ chưa ảnh hưởng đến chức năng chung
+  <h3>Làm thế nào để lấy màu của một pixel?</h3>
+  <p><b>A:</b> Sử dụng ống nhỏ giọt trong menu bảng màu của wplace. Nếu màu bản mẫu của bạn khớp với bảng màu wplace, bạn có thể chọn dấu chấm pixel của bản mẫu để lấy màu của bản mẫu cho pixel đó.</p>
 
----
-
-## Giấy phép
-Toàn bộ mã nguồn của Blue Marble được phát hành theo giấy phép **[MPL-2.0](https://www.mozilla.org/en-US/MPL/2.0/)**. Hình ảnh logo "Blue Marble" do NASA cung cấp và được bảo vệ theo giấy phép **[CC0 1.0 Quốc tế](https://creativecommons.org/publicdomain/zero/1.0/deed.vi)**.
-
----
-
-## Câu hỏi thường gặp
-### Blue Marble có phải là mã độc không?
-**Trả lời:** Hoàn toàn không. Toàn bộ mã nguồn được công khai trong thư mục `src/`. Nếu bạn còn nghi ngờ, hoàn toàn có thể xem xét mã nguồn hoặc tự xây dựng tệp Script từ mã nguồn gốc.
-
-### Blue Marble có thể tự động tô màu giúp tôi không?
-**Trả lời:** Không. Việc tự động tô màu trái với quy định của Wplace, nên tính năng này sẽ không bao giờ được phát triển.
-
-### Làm thế nào để ẩn lớp phủ Mẫu?
-**Trả lời:** Tắt Blue Marble trong quản lý Userscript và tải lại trang Wplace.
-
-### Làm thế nào để phân biệt các màu với nhau?
-**Trả lời:** Tìm màu tương ứng trong danh sách lọc màu, dùng dấu chọn để bật/tắt màu đó. Để thuận tiện, bạn có thể nhấn "Tắt tất cả", sau đó chỉ bật màu cần tô — khi đó trên Mẫu sẽ chỉ hiển thị các ô của màu đang được chọn.
-
-### Làm thế nào để lấy màu của một ô trên Mẫu?
-**Trả lời:** Dùng công cụ lấy màu có sẵn của Wplace. Nếu màu sắc trên Mẫu khớp hoàn toàn với bảng màu của Wplace, bạn có thể nhấp trực tiếp vào ô màu trên Mẫu để lấy màu tương ứng.
-
-### Tại sao thông báo của Wplace lại hiển thị phía trên lớp phủ?
-**Trả lời:** Các thông báo hệ thống được ưu tiên hiển thị cao nhất để bạn không bỏ lỡ thông tin quan trọng.
-
----
+  <h3>Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
+  <p><b>A:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
+</p>
