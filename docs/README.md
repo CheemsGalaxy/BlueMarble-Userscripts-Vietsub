@@ -1,4 +1,4 @@
-Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve) của Fork này:
+Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve) của Fork này:
 
 | Bản mẫu | Lớp phủ |
 |-|-|
@@ -10,9 +10,9 @@ Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github
 
 Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
-<strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Gốc với Hỗ trợ Userscripts</strong></a> / <a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/custom-improve/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Mod Tùy chỉnh</strong></a>
+<strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Gốc với Hỗ trợ Userscripts</strong></a> / <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/custom-improve/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Mod Tùy chỉnh</strong></a>
 
-**[Phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min.js)** (và [Phiên bản Mod Tùy chỉnh](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/custom-improve/dist/BlueMarble.bookmarklet.min.js)) cũng có sẵn.
+**[Phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min.js)** (và [Phiên bản Mod Tùy chỉnh](https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/custom-improve/dist/BlueMarble.bookmarklet.min.js)) cũng có sẵn.
 Để sử dụng, hãy sao chép nội dung và dán vào trường URL khi tạo dấu trang.
 
 <table>
@@ -60,27 +60,27 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     <td>&emsp;&emsp;<a href="#why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</a></td>
   </tr>
 </table>
+
 <h1 id="blue-marble">Blue Marble</h1>
-<p align="center">
-  <a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Wplace_Status-Online-brightgreen?style=flat" alt="Trạng thái Wplace"></a>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Latest_Version-0.88.0-lightblue?style=flat" alt="Phiên bản mới nhất"></a>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/v/release/t-wy/Wplace-BlueMarble-Userscripts?sort=semver&style=flat&label=Latest%20Release&color=blue" alt="Bản phát hành mới nhất"></a>
-  <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat" alt="Giấy phép phần mềm: MPL-2.0"></a>
-  <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Contact_Me-gray?style=flat&logo=Discord&logoColor=white&labelColor=cornflowerblue" alt="Liên hệ với tôi"></a>
-  <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Blue_Marble_Website-Camille_Daguin-blue?style=flat&logo=globe&logoColor=white" alt="Trang web Blue Marble"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Coding_Time-124hrs_4mins-blue?style=flat&logo=wakatime&logoColor=black&labelColor=white" alt="WakaTime"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Total_Patches-503-black?style=flat" alt="Tổng số bản vá"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=code" alt="Tổng số dòng mã"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=comments" alt="Tổng số bình luận"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Compression-69.95%25-blue" alt="Nén"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/repo-size/t-wy/Wplace-BlueMarble-Userscripts" alt="Kích thước kho lưu trữ"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Visitors-439_667-gainsboro?style=flat" alt="Lượt truy cập"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/downloads/t-wy/Wplace-BlueMarble-Userscripts/total.svg" alt="Lượt tải xuống"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/build.yml/badge.svg" alt="Xây dựng"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://github.comt-wy/Wplace-BlueMarble-Userscripts/actions/workflows/pages/pages-build-deployment/badge.svg?branch=wiki" alt="Trang"></a>
-  <a href="" target="_blank" rel="noopener noreferrer"><img src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/github-code-scanning/codeql/badge.svg" alt="CodeQL"></a>
-  <a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img src="https://www.bestpractices.dev/projects/11067/badge" alt="Thực hành tốt nhất OpenSSF"></a>
-</p>
+<a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://status.wplace.lol/badge/_/status?labelColor=5f5f5f&color=&style=flat&label=Wplace%20Status"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Phiên bản mới nhất" src="https://img.shields.io/badge/Latest_Version-0.88.0-lightblue?style=flat"></a>
+<a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases" target="_blank" rel="noopener noreferrer"><img alt="Bản phát hành mới nhất" src="https://img.shields.io/github/v/release/CheemsGalaxy/BlueMarble-Userscripts-Vietsub?sort=semver&style=flat&label=Latest%20Release&color=blue"></a>
+<a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Giấy phép phần mềm: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
+<a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer"><img alt="Liên hệ với tôi" src="https://img.shields.io/badge/Contact_Me-gray?style=flat&logo=Discord&logoColor=white&logoSize=auto&labelColor=cornflowerblue"></a>
+<a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer"><img alt="Trang web Blue Marble" src="https://img.shields.io/badge/Blue_Marble_Website-Camille_Daguin-blue?style=flat&logo=globe&logoColor=white"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="WakaTime" src="https://img.shields.io/badge/Coding_Time-124hrs_4mins-blue?style=flat&logo=wakatime&logoColor=black&logoSize=auto&labelColor=white"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bản vá" src="https://img.shields.io/badge/Total_Patches-503-black?style=flat"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số dòng mã" src="https://tokei.rs/b1/github/CheemsGalaxy/BlueMarble-Userscripts-Vietsub?category=code"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bình luận" src="https://tokei.rs/b1/github/CheemsGalaxy/BlueMarble-Userscripts-Vietsub?category=comments"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Nén" src="https://img.shields.io/badge/Compression-69.95%25-blue"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Kích thước kho lưu trữ" src="https://img.shields.io/github/repo-size/CheemsGalaxy/BlueMarble-Userscripts-Vietsub"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Lượt truy cập" src="https://img.shields.io/badge/Visitors-439_667-gainsboro?style=flat"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Lượt tải xuống" src="https://img.shields.io/github/downloads/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/total.svg"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Xây dựng" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/actions/workflows/build.yml/badge.svg"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="Trang" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/actions/workflows/pages/pages-build-deployment/badge.svg?branch=wiki"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="CodeQL" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/actions/workflows/github-code-scanning/codeql/badge.svg"></a>
+<a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img alt="Thực hành tốt nhất OpenSSF" src="https://www.bestpractices.dev/projects/11067/badge"></a>
+
 <h2 id="regarding-this-fork">Về fork này</h2>
 <p>
   Đối với những người dùng không muốn mua ứng dụng TamperMonkey từ App Store, vốn là ứng dụng trả phí không giống như các nền tảng trình duyệt khác, ứng dụng Userscripts dường như là một lựa chọn thay thế miễn phí làm trình quản lý userscript.
@@ -96,7 +96,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 </ul>
 
 <p>
-  Kiểm tra <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve">Nhánh Tùy chỉnh-Cải tiến</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
+  Kiểm tra <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve">Nhánh Tùy chỉnh-Cải tiến</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
 </p>
 
 <ul>
@@ -142,14 +142,14 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   <li>
   Cho phép cuộn bản đồ theo đường chéo mượt mà qua bàn phím bằng các phím mũi tên (<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>). (v0.86.5)
     <ul>
-      <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/7">PR #7</a>.</li>
+      <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/pull/7">PR #7</a>.</li>
       <li>Lưu ý rằng wplace có các phím tắt mặc định cho việc xoay theo trục qua <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> (và xoay / nghiêng với phím <kbd>Shift</kbd> kết hợp)</li>
     </ul>
   </li>
   <li>Hiển thị thời gian đếm ngược tạm ngưng và lý do nếu có. (v0.86.6)</li>
-  <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/8">#8</a>). (v0.86.10)
+  <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/issues/8">#8</a>). (v0.86.10)
     <ul>
-      <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/13">PR #13</a>. (v0.86.15)</li>
+      <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/pull/13">PR #13</a>. (v0.86.15)</li>
     </ul>
   </li>
   <li>Cho phép tạo bản mẫu đường thẳng / hình tròn của màu hiện được chọn bằng cách chọn hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.86.13)
@@ -157,7 +157,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <li>Đối với hình tròn, tọa độ hộp văn bản đề cập đến tâm và điểm hiện được chọn đề cập đến một điểm trên hình tròn xác định bán kính. (v0.86.16)</li>
     </ul>
   </li>
-  <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/11">#11</a>). (v0.86.14)</li>
+  <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/issues/11">#11</a>). (v0.86.14)</li>
   <li>Sửa một số vấn đề về ranh giới từ thượng nguồn Blue Marble và Wplace. (v0.86.16)
     <ul>
       <li>Blue Marble: Tạo bản mẫu vượt qua ranh giới Tl X: 2047 - 0 không hiển thị từ Ô X = 0.</li>
@@ -188,31 +188,31 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     </summary>
     <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer">Nhấp vào đây</a> để nhận lời mời tham gia máy chủ Discord của máy chủ hỗ trợ Blue Marble.
     <br>
-    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/discussions/categories/q-a">Nhấp vào đây</a> để đến trang trợ giúp và câu hỏi GitHub của Blue Marble.
+    <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/discussions/categories/q-a">Nhấp vào đây</a> để đến trang trợ giúp và câu hỏi GitHub của Blue Marble.
   </details>
   <details>
     <summary>
       <b>Tôi muốn báo lỗi.</b> <sup>(Nhấp để mở rộng)</sup>
     </summary>
-    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/new/choose">Nhấp vào đây</a> để báo lỗi, sau đó chọn tùy chọn "Bug Report".
+    <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/issues/new/choose">Nhấp vào đây</a> để báo lỗi, sau đó chọn tùy chọn "Bug Report".
   </details>
   <details>
     <summary>
       <b>Tôi muốn đề xuất tính năng.</b> <sup>(Nhấp để mở rộng)</sup>
     </summary>
-    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/new/choose">Nhấp vào đây</a> để đề xuất tính năng, sau đó chọn tùy chọn "Feature Request".
+    <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/issues/new/choose">Nhấp vào đây</a> để đề xuất tính năng, sau đó chọn tùy chọn "Feature Request".
   </details>
   <details>
     <summary>
       <b>Tôi muốn đóng góp.</b> <sup>(Nhấp để mở rộng)</sup>
     </summary>
-    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/CONTRIBUTING.md">Nhấp vào đây</a> để đọc các hướng dẫn đóng góp.
+    <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/CONTRIBUTING.md">Nhấp vào đây</a> để đọc các hướng dẫn đóng góp.
   </details>
   <details>
     <summary>
       <b>Tôi muốn báo cáo lỗ hổng.</b> <sup>(Nhấp để mở rộng)</sup>
     </summary>
-    <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/security">Nhấp vào đây</a> để gửi báo cáo lỗ hổng.
+    <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/security">Nhấp vào đây</a> để gửi báo cáo lỗ hổng.
   </details>
   <details>
     <summary>
@@ -232,7 +232,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     <li>Cho phép bạn sử dụng ống nhỏ giọt màu trên hình ảnh bản mẫu, miễn là màu sắc chính xác</li>
     <li>...và hơn thế nữa!</li>
   </ul>
-  Nếu bạn thích userscript này, hãy ⭐ kho lưu trữ! Để biết thêm thông tin và cập nhật, hãy truy cập <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer">trang web Blue Marble</a>. Nếu bạn muốn đóng góp cho Blue Marble, hãy xem tệp <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> trong <code>docs/</code>.
+  Nếu bạn thích userscript này, hãy ⭐ kho lưu trữ! Để biết thêm thông tin và cập nhật, hãy truy cập <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer">trang web Blue Marble</a>. Nếu bạn muốn đóng góp cho Blue Marble, hãy xem tệp <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> trong <code>docs/</code>.
 
   <img alt="Hình ảnh giới thiệu bản mẫu Blue Marble" src="./assets/Showcase1.png">
 
@@ -251,16 +251,16 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <ol>
         <li>Cài đặt tiện ích mở rộng <a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Chrome.
         <br>
-        <img alt="Nhấp vào nút 'Add extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall1.png"></li>
+        <img alt="Nhấp vào nút 'Add extension'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall1.png"></li>
         <li>Nhấp chuột phải vào tiện ích mở rộng.
         <br>
-        <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall2.png"></li>
+        <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall2.png"></li>
         <li>Nhấp chuột trái vào "Manage Extension".</li>
         <li>Bật "Developer Mode".
         <br>
-        <img alt="Bật 'Developer Mode' và 'Allow user scripts'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall3.png"></li>
+        <img alt="Bật 'Developer Mode' và 'Allow user scripts'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall3.png"></li>
         <li>Bật "Allow user scripts".</li>
-        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
+        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
         <br>
         TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
         <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
@@ -273,27 +273,27 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <ol>
         <li>Cài đặt tiện ích bổ sung <a href="https://microsoftedge.microsoft.com/addons/detail/iikmkjmpaadaobahmlepeloendndfphd" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Microsoft Edge.
         <br>
-        <img alt="Nhấp vào nút 'Get'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall1.png"></li>
+        <img alt="Nhấp vào nút 'Get'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerEdgeInstall1.png"></li>
         <li>Nhấp chuột phải vào tiện ích mở rộng.
         <br>
-        <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall2.png"></li>
+        <img alt="Truy cập menu 'Manage Extension'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerEdgeInstall2.png"></li>
         <li>Nhấp chuột trái vào "Manage Extension".</li>
         <li>Bật "Developer Mode".
         <br>
-        <img alt="Bật 'Developer Mode'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall3.png"></li>
-        <li>Tải xuống tệp <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer">BlueMarble.user.js</a> trong "Assets" của bản phát hành mới nhất.</li>
+        <img alt="Bật 'Developer Mode'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerEdgeInstall3.png"></li>
+        <li>Tải xuống tệp <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases" target="_blank" rel="noopener noreferrer">BlueMarble.user.js</a> trong "Assets" của bản phát hành mới nhất.</li>
         <li>Mở Bảng điều khiển TamperMonkey.
         <br>
-        <img alt="Truy cập 'Dashboard' của TamperMonkey" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerEdgeInstall4.png"></li>
+        <img alt="Truy cập 'Dashboard' của TamperMonkey" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerEdgeInstall4.png"></li>
         <li>Kéo tệp <code>BlueMarble.user.js</code> vào bên trong bảng điều khiển của TamperMonkey.
         <br>
-        <img alt="Kéo userscript vào bảng điều khiển" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall5.png"></li>
+        <img alt="Kéo userscript vào bảng điều khiển" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall5.png"></li>
         <li>Nhấp vào nút "Install" để cài đặt Blue Marble.
         <br>
-        <img alt="Nhấp vào nút 'Install'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall6.png"></li>
+        <img alt="Nhấp vào nút 'Install'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall6.png"></li>
         <li>Bật Blue Marble trong bảng điều khiển TamperMonkey.
         <br>
-        <img alt="Bật Blue Marble" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerChromeInstall7.png"></li>
+        <img alt="Bật Blue Marble" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall7.png"></li>
         <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
       </ol>
     </details>
@@ -304,8 +304,8 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <ol>
         <li>Cài đặt tiện ích bổ sung <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Firefox.
         <br>
-        <img alt="Nhấp vào nút 'Add to Firefox'" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/ComputerFireFoxInstall1.png"></li>
-        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
+        <img alt="Nhấp vào nút 'Add to Firefox'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerFireFoxInstall1.png"></li>
+        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
         <br>
         TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
         <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
@@ -320,7 +320,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
         <br>
         Đảm bảo rằng các quyền thích hợp đã được cấp cho ứng dụng và Safari được cấu hình để bật tiện ích mở rộng.</li>
         <br>
-        <li>Tải xuống tập lệnh Blue Marble và lưu vào Vị trí Lưu theo quy định của ứng dụng: <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Tải xuống Blue Marble</strong></a>
+        <li>Tải xuống tập lệnh Blue Marble và lưu vào Vị trí Lưu theo quy định của ứng dụng: <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Tải xuống Blue Marble</strong></a>
         <br>
         Userscripts sẽ tự động phát hiện userscript.</li>
         <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
@@ -350,7 +350,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <p>
         Hệ tọa độ cho wplace.live rất độc đáo. Thay vì tất cả pixel có một số tọa độ toàn cầu (x, y), số tọa độ tương đối với ô. Điều này có nghĩa là bạn cần biết số ô và số tọa độ để làm bất cứ điều gì. Trong Blue Marble, tọa độ ô và tọa độ pixel được hiển thị khi bạn nhấp vào một pixel. Đây là những tọa độ bạn nên sử dụng để căn chỉnh một bản mẫu.
         <br>
-        <img alt="Nơi tìm tọa độ ô" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/TemplateCoordinatesDisplay.png">
+        <img alt="Nơi tìm tọa độ ô" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/TemplateCoordinatesDisplay.png">
       </p>
       <h5>Tọa độ bản mẫu</h5>
       <p>
@@ -377,15 +377,16 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 </p>
 
 <h2 id="faq">Câu hỏi thường gặp</h2>
+<p>
+  <h3 id="is-blue-marble-malware">Blue Marble có phải là phần mềm độc hại không?</h3>
+  <p><b>Trả lời:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.</p>
 
-<h3 id="is-blue-marble-malware">Blue Marble có phải là phần mềm độc hại không?</h3>
-<p><b>Trả lời:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.</p>
+  <h3 id="how-can-blue-marble-place-pixels-for-me">Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
+  <p><b>Trả lời:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.</p>
 
-<h3 id="how-can-blue-marble-place-pixels-for-me">Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
-<p><b>Trả lời:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.</p>
+  <h3 id="how-do-i-hide-the-overlay">Làm thế nào để ẩn lớp phủ?</h3>
+  <p><b>Trả lời:</b> Tắt userscript và làm mới trang.</p>
 
-<h3 id="how-do-i-hide-the-overlay">Làm thế nào để ẩn lớp phủ?</h3>
-<p><b>Trả lời:</b> Tắt userscript và làm mới trang.</p>
-
-<h3 id="why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
-<p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
+  <h3 id="why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
+  <p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
+</p>
