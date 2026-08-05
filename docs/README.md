@@ -60,15 +60,14 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     <td>&emsp;&emsp;<a href="#why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</a></td>
   </tr>
 </table>
-
 <h1 id="blue-marble">Blue Marble</h1>
-<a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://status.wplace.lol/badge/_/status?labelColor=5f5f5f&color=&style=flat&label=Wplace%20Status"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="Phiên bản mới nhất" src="https://img.shields.io/badge/Latest_Version-0.88.0-lightblue?style=flat"></a>
+<a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://img.shields.io/badge/Wplace_Status-Online-brightgreen?style=flat"></a>
+<a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img alt="Phiên bản mới nhất" src="https://img.shields.io/badge/Latest_Version-0.88.0-lightblue?style=flat"></a>
 <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img alt="Bản phát hành mới nhất" src="https://img.shields.io/github/v/release/t-wy/Wplace-BlueMarble-Userscripts?sort=semver&style=flat&label=Latest%20Release&color=blue"></a>
 <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Giấy phép phần mềm: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
-<a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer"><img alt="Liên hệ với tôi" src="https://img.shields.io/badge/Contact_Me-gray?style=flat&logo=Discord&logoColor=white&logoSize=auto&labelColor=cornflowerblue"></a>
+<a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer"><img alt="Liên hệ với tôi" src="https://img.shields.io/badge/Contact_Me-gray?style=flat&logo=Discord&logoColor=white&labelColor=cornflowerblue"></a>
 <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer"><img alt="Trang web Blue Marble" src="https://img.shields.io/badge/Blue_Marble_Website-Camille_Daguin-blue?style=flat&logo=globe&logoColor=white"></a>
-<a href="" target="_blank" rel="noopener noreferrer"><img alt="WakaTime" src="https://img.shields.io/badge/Coding_Time-124hrs_4mins-blue?style=flat&logo=wakatime&logoColor=black&logoSize=auto&labelColor=white"></a>
+<a href="" target="_blank" rel="noopener noreferrer"><img alt="WakaTime" src="https://img.shields.io/badge/Coding_Time-124hrs_4mins-blue?style=flat&logo=wakatime&logoColor=black&labelColor=white"></a>
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bản vá" src="https://img.shields.io/badge/Total_Patches-503-black?style=flat"></a>
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số dòng mã" src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=code"></a>
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="Tổng số bình luận" src="https://tokei.rs/b1/github/t-wy/Wplace-BlueMarble-Userscripts?category=comments"></a>
@@ -80,7 +79,6 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="Trang" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/pages/pages-build-deployment/badge.svg?branch=wiki"></a>
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="CodeQL" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/github-code-scanning/codeql/badge.svg"></a>
 <a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img alt="Thực hành tốt nhất OpenSSF" src="https://www.bestpractices.dev/projects/11067/badge"></a>
-
 <h2 id="regarding-this-fork">Về fork này</h2>
 <p>
   Đối với những người dùng không muốn mua ứng dụng TamperMonkey từ App Store, vốn là ứng dụng trả phí không giống như các nền tảng trình duyệt khác, ứng dụng Userscripts dường như là một lựa chọn thay thế miễn phí làm trình quản lý userscript.
