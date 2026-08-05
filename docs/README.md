@@ -61,7 +61,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   </tr>
 </table>
 
-<h1>Blue Marble</h1>
+<h1 id="blue-marble">Blue Marble</h1>
 <a href="https://status.wplace.lol" target="_blank" rel="noopener noreferrer"><img alt="Trạng thái Wplace" src="https://status.wplace.lol/badge/_/status?labelColor=5f5f5f&color=&style=flat&label=Wplace%20Status"></a>
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="Phiên bản mới nhất" src="https://img.shields.io/badge/Latest_Version-0.88.0-lightblue?style=flat"></a>
 <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/releases" target="_blank" rel="noopener noreferrer"><img alt="Bản phát hành mới nhất" src="https://img.shields.io/github/v/release/t-wy/Wplace-BlueMarble-Userscripts?sort=semver&style=flat&label=Latest%20Release&color=blue"></a>
@@ -81,7 +81,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 <a href="" target="_blank" rel="noopener noreferrer"><img alt="CodeQL" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/actions/workflows/github-code-scanning/codeql/badge.svg"></a>
 <a href="https://www.bestpractices.dev/projects/11067" target="_blank" rel="noopener noreferrer"><img alt="Thực hành tốt nhất OpenSSF" src="https://www.bestpractices.dev/projects/11067/badge"></a>
 
-<h2>Về fork này</h2>
+<h2 id="regarding-this-fork">Về fork này</h2>
 <p>
   Đối với những người dùng không muốn mua ứng dụng TamperMonkey từ App Store, vốn là ứng dụng trả phí không giống như các nền tảng trình duyệt khác, ứng dụng Userscripts dường như là một lựa chọn thay thế miễn phí làm trình quản lý userscript.
 </p>
@@ -173,7 +173,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   </li>
 </ul>
 
-<h2>Hướng dẫn nhanh</h2>
+<h2 id="quick-guide">Hướng dẫn nhanh</h2>
 <p>
   Nhấn các mũi tên để hiển thị tùy chọn bạn muốn.
   <details>
@@ -222,7 +222,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   </details>
 </p>
 
-<h2>Tổng quan</h2>
+<h2 id="overview">Tổng quan</h2>
 <p>
   Chào mừng bạn đến với Blue Marble! Blue Marble là một userscript cho trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>. Mục đích của Blue Marble là cho phép bạn lấy một hình ảnh và xếp lớp nó lên canvas! Bằng cách đó, bạn có thể dễ dàng phác thảo hình ảnh tác phẩm nghệ thuật của mình mà không cần phải nhìn qua lại giữa nhiều tab/màn hình. Ngoài ra, Blue Marble hỗ trợ một số tính năng bổ sung tiện lợi như:
   <ul>
@@ -236,7 +236,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
   <img alt="Hình ảnh giới thiệu bản mẫu Blue Marble" src="./assets/Showcase1.png">
 
-  <h3>Hướng dẫn cài đặt</h3>
+  <h3 id="installation-instructions">Hướng dẫn cài đặt</h3>
   <a href="" target="_blank" rel="noopener noreferrer"><img alt="Trình duyệt được hỗ trợ" src="https://img.shields.io/badge/Supported%20Browsers-Chrome%20%7C%20Firefox%2A%20%7C%20Safari%20%7C%20Edge%20%7C%20Brave-orange?style=flat"></a>
   <a href="" target="_blank" rel="noopener noreferrer"><img alt="Trình duyệt không được hỗ trợ" src="https://img.shields.io/badge/Unsupported%20Browsers-Firefox%2A%20%7C%20Kiwi%20%7C%20Vivaldi-red?style=flat"></a>
   <p>
@@ -329,25 +329,12 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     </details>
   </p>
 
-  <h3>Hướng dẫn về Bản mẫu</h3>
-  <p>
-    Blue Marble sẽ hiển thị bản mẫu của bạn với cùng kích thước. Nếu hình ảnh của bạn cao 500 pixel và rộng 300 pixel, bản mẫu sẽ cao 500 pixel và rộng 300 pixel. Đây là hướng dẫn để hiển thị hình ảnh bản mẫu trên canvas:
-    <ol>
-      <li>Tìm pixel của góc trên cùng bên trái. Điền vào <code>Tl X</code>, <code>Tl Y</code>, <code>Px X</code> và <code>Px Y</code> với tọa độ. Bạn có thể sử dụng biểu tượng "Pin" để tự động điền tọa độ sau khi nhấp vào pixel.
-      <br>
-      <img alt="Tìm tọa độ bản mẫu" src="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/main/docs/assets/TemplateCoordinates1.png"></li>
-      <li>Tải lên hình ảnh PNG hoặc WEBP.</li>
-      <li>Nhấp vào nút "Create".</li>
-      <li>Nếu bản mẫu của bạn vẫn không hiển thị, hãy thử nhấp vào nút "Enable".</li>
-    </ol>
-  </p>
-
-  <h3>Cài đặt tập lệnh</h3>
+  <h3 id="script-settings">Cài đặt tập lệnh</h3>
   <p>
     Có nhiều cài đặt có sẵn cho userscript Blue Marble! Thông qua các cài đặt này, bạn có thể kiểm soát cách tập lệnh hoạt động.
   </p>
 
-  <h3>Cài đặt bản mẫu</h3>
+  <h3 id="template-settings">Cài đặt bản mẫu</h3>
   <p>
     <h4>Pixel trong suốt</h4>
     <p>
@@ -371,8 +358,9 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       </p>
     </p>
   </p>
+</p>
 
-<h2>Cách thức hoạt động của phiên bản</h2>
+<h2 id="how-versioning-works">Cách thức hoạt động của phiên bản</h2>
 <p>
   Hệ thống phiên bản cho userscript này tuân theo <a href="https://semver.org/" target="_blank" rel="noopener noreferrer">các quy tắc Phiên bản Ngữ nghĩa</a>. Do đó, nó được định dạng theo định dạng <code>X.Y.Z</code> trong đó:
   <ul>
@@ -382,29 +370,22 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   </ul>
 </p>
 
-<h2>Giấy phép</h2>
+<h2 id="licenses">Giấy phép</h2>
 <p>
   (Dưới đây, tất cả đề cập đến "userscript" đề cập đến userscript "Blue Marble" được tạo bởi SwingTheVine) <br>
   Hầu hết userscript này được cấp phép theo <code>Mozilla Public License Version 2.0</code> (MPL-2.0). Tất cả phần mềm, mã nguồn và thư viện trong kho lưu trữ này được cấp phép theo giấy phép MPL-2.0. Tuy nhiên, hình ảnh "Blue Marble" trong userscript này thuộc sở hữu của NASA và được cấp phép theo giấy phép <code>Creative Commons 0 1.0 Universal</code> (CC0 1.0).
 </p>
 
-<h2>Câu hỏi thường gặp</h2>
-<p>
-  <h3>Blue Marble có phải là phần mềm độc hại không?</h3>
-  <p><b>Trả lời:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.</p>
+<h2 id="faq">Câu hỏi thường gặp</h2>
 
-  <h3>Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
-  <p><b>Trả lời:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.</p>
+<h3 id="is-blue-marble-malware">Blue Marble có phải là phần mềm độc hại không?</h3>
+<p><b>Trả lời:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.</p>
 
-  <h3>Làm thế nào để ẩn lớp phủ?</h3>
-  <p><b>Trả lời:</b> Tắt userscript và làm mới trang.</p>
+<h3 id="how-can-blue-marble-place-pixels-for-me">Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
+<p><b>Trả lời:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.</p>
 
-  <h3>Làm thế nào để phân biệt các màu?</h3>
-  <p><b>Trả lời:</b> Tìm màu trong danh sách bộ lọc màu. Nhấp vào hộp kiểm để bật hoặc tắt màu. Nếu bạn muốn chỉ làm việc trên một màu tại một thời điểm (được khuyến nghị), thì hãy nhấp vào "Disable All" trong bộ lọc màu. Cuối cùng, bật hộp kiểm bên cạnh màu bạn muốn đặt. Bằng cách này, chỉ một màu trên bản mẫu của bạn sẽ xuất hiện tại một thời điểm.</p>
+<h3 id="how-do-i-hide-the-overlay">Làm thế nào để ẩn lớp phủ?</h3>
+<p><b>Trả lời:</b> Tắt userscript và làm mới trang.</p>
 
-  <h3>Làm thế nào để lấy màu của một pixel?</h3>
-  <p><b>Trả lời:</b> Sử dụng ống nhỏ giọt trong menu bảng màu của wplace. Nếu màu bản mẫu của bạn khớp với bảng màu wplace, bạn có thể chọn dấu chấm pixel của bản mẫu để lấy màu của bản mẫu cho pixel đó.</p>
-
-  <h3>Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
-  <p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
-</p>
+<h3 id="why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
+<p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
