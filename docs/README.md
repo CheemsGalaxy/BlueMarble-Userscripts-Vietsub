@@ -1,3 +1,73 @@
+## Hình ảnh xem trước của nhánh [**Custom-Improve**](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve) thuộc bản Fork này
+
+| Template | Overlay |
+|-|-|
+| ![Template](assets/Template.png) | ![Overlay](assets/Overlay.png) |
+
+| Thông tin Pixel | Xuất bản đồ (từ hộp thoại Chia sẻ) |
+|-|-|
+|Wplace 1.1.1 ~ Hiện tại:<br>![Pixel Info](assets/PixelInfo111.png)<br>Wplace 1.1.0:<br>![Pixel Info](assets/PixelInfo110.png)<br>Wplace 1.0.0:<br>![Pixel Info](assets/PixelInfo100.png) | ![Map Export](assets/ExportMap.png)
+
+Đọc thêm về bản Fork này **[tại đây](#regarding-this-fork)**.
+
+<strong>Cài đặt chỉ với một cú nhấp:</strong> Nhấn vào liên kết dưới đây để cài đặt Blue Marble trực tiếp:
+
+<a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản gốc (Hỗ trợ Userscript)</strong></a>
+/
+<a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/custom-improve/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Custom Mod</strong></a>
+
+Ngoài ra còn có **[phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min.js)** (bao gồm cả [phiên bản Custom Mod](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/blob/custom-improve/dist/BlueMarble.bookmarklet.min.js)).
+
+Để sử dụng, hãy sao chép toàn bộ nội dung và dán vào trường **URL** khi tạo một **Dấu trang (Bookmark)**.
+
+<table>
+  <tr>
+    <td><a href="#blue-marble">Blue Marble</a></td>
+    <td valign="top" rowspan="99"><a href="https://discord.gg/tpeBPy46hf"><img alt="Discord Banner" src="https://discord.com/api/guilds/796124137042608188/widget.png?style=banner4"></a></td>
+  </tr>
+  <tr>
+    <td>&emsp;<a href="#regarding-this-fork">Về bản Fork này</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;<a href="#quick-guide">Hướng dẫn nhanh</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;<a href="#overview">Tổng quan</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#installation-instructions">Hướng dẫn cài đặt</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#script-settings">Cài đặt Script</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#template-settings">Cài đặt Template</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;<a href="#how-versioning-works">Quy ước đánh số phiên bản</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;<a href="#licenses">Giấy phép</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;<a href="#faq">Câu hỏi thường gặp (FAQ)</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#is-blue-marble-malware">Blue Marble có phải phần mềm độc hại không?</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#how-can-blue-marble-place-pixels-for-me">Blue Marble có thể tự động đặt Pixel như thế nào?</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#how-do-i-hide-the-overlay">Làm thế nào để ẩn Overlay?</a></td>
+  </tr>
+  <tr>
+    <td>&emsp;&emsp;<a href="#why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trong trò chơi lại hiển thị phía trên Overlay?</a></td>
+  </tr>
+</table>
+
+<h1>Blue Marble</h1>
+
 ## Thông tin về bản phân nhánh này
 Đối với người dùng không muốn mua ứng dụng TamperMonkey trên App Store (vì đây là ứng dụng trả phí, khác với các nền tảng trình duyệt khác), ứng dụng Userscripts là giải pháp thay thế miễn phí để quản lý Userscript.
 
