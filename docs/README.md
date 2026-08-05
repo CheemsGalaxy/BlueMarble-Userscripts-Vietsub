@@ -1,3 +1,7 @@
+Bản fork này được tạo ra với mục đích chính là dịch toàn bộ tài liệu hướng dẫn và giao diện (nếu có) sang tiếng Việt, giúp cộng đồng người dùng Việt dễ dàng tiếp cận và sử dụng hơn.
+
+
+
 ## Hình ảnh xem trước của nhánh [**Custom-Improve**](https://github.com/t-wy/Wplace-BlueMarble-Userscripts/tree/custom-improve) thuộc bản Fork này
 
 | Template | Overlay |
