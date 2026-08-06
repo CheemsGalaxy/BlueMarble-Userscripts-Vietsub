@@ -225,19 +225,18 @@ classDiagram
     +handleDisplayError()
   }
 
-  main o-- apiManager : tạo
-  main o-- utils : tạo
-  main o-- Overlay : tạo main, tabTemplate
-  main o-- templateManager : tạo
-  apiManager ..> templateManager : gọi drawTemplateOnTiles(), đặt userID
-  apiManager ..> utils : gọi escapeHTML(), numberToEncoded(), serverTPtoDisplayTP()
-  Overlay ..> apiManager : sử dụng coordsTilePixel
-  Overlay ..> templateManager : gọi setTemplatesShouldBeDrawn()
-  templateManager *-- Template : quản lý
-  templateManager ..> utils : gọi base64ToUint8(), numberToEncoded()
-  Template ..> utils : gọi uint8ToBase64()
+  main o-- apiManager : creates
+  main o-- utils : creates
+  main o-- Overlay : creates main, tabTemplate
+  main o-- templateManager : creates
+  apiManager ..> templateManager : calls drawTemplateOnTiles(), sets userID
+  apiManager ..> utils : calls escapeHTML(), numberToEncoded(), serverTPtoDisplayTP()
+  Overlay ..> apiManager : uses coordsTilePixel
+  Overlay ..> templateManager : calls setTemplatesShouldBeDrawn()
+  templateManager *-- Template : manages
+  templateManager ..> utils : calls base64ToUint8(), numberToEncoded()
+  Template ..> utils : calls uint8ToBase64()
 ```
-
 Sơ đồ lớp quan hệ của trình biên dịch/trình xây dựng của Blue Marble:
 (cập nhật lần cuối 0.74.0)
 ```mermaid
@@ -303,27 +302,27 @@ classDiagram
     }
   }
 
-  note for `patch.js` "gọi npm_run_build"
-  `build.js` ..> terser : yêu cầu
-  `build.js` ..> `utils.js` : gọi consoleStyle()
-  `build.js` ..> `update-version.js` : thực thi
-  `build.js` ..> `src/BlueMarble.meta.js` : đọc
-  `build.js` ..> esbuild : gọi build()
-  `build.js` ..> `dist/BlueMarble.user.css` : ghi
-  esbuild ..> `src/main.js` : đọc
-  `build.js` ..> `dist/BlueMarble.user.js` : ghi
-  terser ..> `dist/BlueMarble.user.js` : đọc & ghi
-  `build.js` ..> `cssMangler.js` : gọi manglerSelectors()
-  `cssMangler.js` ..> `dist/BlueMarble.user.css.map.json` : đọc
-  `cssMangler.js` ..> `dist/BlueMarble.user.js` : đọc & ghi
-  `cssMangler.js` ..> `dist/BlueMarble.user.css` : đọc & ghi
-  `build.js` <.. `cssMangler.js` : trả về mapCSS
-  `build.js` ..> `dist/BlueMarble.user.css.map.json` : ghi mapCSS
-  `patch.js` ..> `docs/README.md` : đọc & ghi
-  `patch.js` ..> `utils.js` : gọi consoleStyle()
-  `update-version.js` ..> `package.json` : đọc
-  `update-version.js` ..> `src/BlueMarble.meta.js` : đọc & ghi
-  `update-version.js` ..> `utils.js` : gọi consoleStyle()
+  note for `patch.js` "calls npm_run_build"
+  `build.js` ..> terser : requires
+  `build.js` ..> `utils.js` : calls consoleStyle()
+  `build.js` ..> `update-version.js` : executes
+  `build.js` ..> `src/BlueMarble.meta.js` : reads
+  `build.js` ..> esbuild : calls build()
+  `build.js` ..> `dist/BlueMarble.user.css` : writes
+  esbuild ..> `src/main.js` : reads
+  `build.js` ..> `dist/BlueMarble.user.js` : writes
+  terser ..> `dist/BlueMarble.user.js` : reads & writes
+  `build.js` ..> `cssMangler.js` : calls manglerSelectors()
+  `cssMangler.js` ..> `dist/BlueMarble.user.css.map.json` : reads
+  `cssMangler.js` ..> `dist/BlueMarble.user.js` : reads & writes
+  `cssMangler.js` ..> `dist/BlueMarble.user.css` : reads & writes
+  `build.js` <.. `cssMangler.js` : returns mapCSS
+  `build.js` ..> `dist/BlueMarble.user.css.map.json` : writes mapCSS
+  `patch.js` ..> `docs/README.md` : reads & writes
+  `patch.js` ..> `utils.js` : calls consoleStyle()
+  `update-version.js` ..> `package.json` : reads
+  `update-version.js` ..> `src/BlueMarble.meta.js` : reads & writes
+  `update-version.js` ..> `utils.js` : calls consoleStyle()
 ```
 
 <h2>Môi trường phát triển</h2>
