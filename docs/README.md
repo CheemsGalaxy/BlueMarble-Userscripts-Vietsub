@@ -5,7 +5,7 @@
 - **Bản dịch áp dụng cho nhánh `main`.** Các nhánh khác (ví dụ: `custom-improve`) giữ nguyên nội dung gốc.
 - Nếu phát sinh lỗi trong quá trình sử dụng, vui lòng báo lại cho tôi qua GitHub: [CheemsGalaxy](https://github.com/CheemsGalaxy)
 
-Cảm ơn các bạn đã quan tâm! 🚀
+Cảm ơn các bạn đã quan tâm! 
 
 
 Hình ảnh xem trước của [Custom-Improve Branch](https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve) của Fork này:
@@ -402,3 +402,13 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   <h3 id="why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
   <p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
 </p>
+
+##  Cam kết
+
+- Bản dịch này chỉ nhằm mục đích **hỗ trợ cộng đồng người Việt**, không thay đổi bất kỳ chức năng hay mã nguồn nào của Blue Marble.
+- Mọi tính năng, quyền sở hữu trí tuệ và tác quyền đều thuộc về tác giả gốc [SwingTheVine](https://github.com/SwingTheVine) và [T-wy](https://github.com/t-wy).
+- Tôi cam kết không sử dụng bản dịch này cho bất kỳ mục đích thương mại hay lợi ích cá nhân nào.
+- Bản dịch được thực hiện một cách trung thực, trong khả năng tốt nhất của tôi. Nếu có sai sót, tôi sẵn sàng tiếp thu và chỉnh sửa để hoàn thiện hơn.
+- Mọi đóng góp, phản hồi từ người dùng đều được trân trọng và sẽ được xem xét để cải thiện chất lượng bản dịch.
+
+**Cảm ơn các bạn đã tin tưởng và sử dụng sản phẩm!** ❤️
