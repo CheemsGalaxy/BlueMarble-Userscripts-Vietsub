@@ -1,4 +1,4 @@
-Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve) của Fork này:
+Hình ảnh xem trước của [Custom-Improve Branch](https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve) của Fork này:
 
 | Bản mẫu | Lớp phủ |
 |-|-|
@@ -9,8 +9,6 @@ Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github
 |Wplace 1.1.1 ~ Hiện tại:<br>![Thông tin Pixel](assets/PixelInfo111.png)<br>Wplace 1.1.0:<br>![Thông tin Pixel](assets/PixelInfo110.png)<br>Wplace 1.0.0:<br>![Thông tin Pixel](assets/PixelInfo100.png) | ![Xuất Bản đồ](assets/ExportMap.png)
 
 Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
-
-<strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Gốc với Hỗ trợ Userscripts</strong></a> / <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Mod Tùy chỉnh</strong></a>
 
 **📥 Cài đặt một lần:**
 
@@ -99,8 +97,8 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   <li>GM_getResourceText → Đã thay thế (GM.getResourceText không tồn tại)</li>
 </ul>
 
-<p>
-  Kiểm tra <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve">Nhánh Tùy chỉnh-Cải tiến</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
+<p>Nhánh
+  Kiểm tra <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve">Custom-Improve Branch</a> để biết các tính năng và cải tiến bổ sung được triển khai chưa có trong kho lưu trữ gốc:
 </p>
 
 <ul>
@@ -146,14 +144,14 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
   <li>
   Cho phép cuộn bản đồ theo đường chéo mượt mà qua bàn phím bằng các phím mũi tên (<kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>). (v0.86.5)
     <ul>
-      <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/pull/7">PR #7</a>.</li>
+      <li>Được triển khai bởi <a href="https://github.com/due2e">@due2e</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/7">PR #7</a>.</li>
       <li>Lưu ý rằng wplace có các phím tắt mặc định cho việc xoay theo trục qua <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> (và xoay / nghiêng với phím <kbd>Shift</kbd> kết hợp)</li>
     </ul>
   </li>
   <li>Hiển thị thời gian đếm ngược tạm ngưng và lý do nếu có. (v0.86.6)</li>
-  <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/issues/8">#8</a>). (v0.86.10)
+  <li>Hiển thị các nút tỷ lệ thu phóng bổ sung để cho phép ảnh chụp màn hình có cùng kích thước pixel chính xác cho mỗi pixel được vẽ hoặc mức thu phóng tối thiểu có thể trước khi tác phẩm nghệ thuật biến mất (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/8">#8</a>). (v0.86.10)
     <ul>
-      <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/pull/13">PR #13</a>. (v0.86.15)</li>
+      <li>Được mở rộng bởi <a href="https://github.com/Commenter25">@Commenter25</a> theo <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/pull/13">PR #13</a>. (v0.86.15)</li>
     </ul>
   </li>
   <li>Cho phép tạo bản mẫu đường thẳng / hình tròn của màu hiện được chọn bằng cách chọn hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.86.13)
@@ -161,7 +159,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <li>Đối với hình tròn, tọa độ hộp văn bản đề cập đến tâm và điểm hiện được chọn đề cập đến một điểm trên hình tròn xác định bán kính. (v0.86.16)</li>
     </ul>
   </li>
-  <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/issues/11">#11</a>). (v0.86.14)</li>
+  <li>Thêm tùy chọn để chỉ cho phép các màu hiện đang được bật được bao gồm trong bản đồ lỗi. (Giải quyết <a href="https://github.com/t-wy/Wplace-BlueMarble-Userscripts/issues/11">#11</a>). (v0.86.14)</li>
   <li>Sửa một số vấn đề về ranh giới từ thượng nguồn Blue Marble và Wplace. (v0.86.16)
     <ul>
       <li>Blue Marble: Tạo bản mẫu vượt qua ranh giới Tl X: 2047 - 0 không hiển thị từ Ô X = 0.</li>
@@ -222,7 +220,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     <summary>
       <b>Tôi muốn truy cập trang web.</b> <sup>(Nhấp để mở rộng)</sup>
     </summary>
-    <a href="https://bluemarble.camilledaguin.fr/" target="_blank" rel="noopener noreferrer">Nhấp vào đây</a> để truy cập trang web chính thức của Blue Marble.
+    <a href="https://bluemarble.lol/" target="_blank" rel="noopener noreferrer">Nhấp vào đây</a> để truy cập trang web chính thức của Blue Marble.
   </details>
 </p>
 
@@ -264,13 +262,13 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
         <br>
         <img alt="Bật 'Developer Mode' và 'Allow user scripts'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerChromeInstall3.png"></li>
         <li>Bật "Allow user scripts".</li>
-        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
+        <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
         <br>
         TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
         <li>Làm mới trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>.</li>
       </ol>
     </details>
-    <details>
+   <details>
       <summary>
         <b>Cài đặt trên Microsoft Edge</b> <sup>(Nhấp để mở rộng)</sup>
       </summary>
@@ -285,7 +283,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
         <li>Bật "Developer Mode".
         <br>
         <img alt="Bật 'Developer Mode'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerEdgeInstall3.png"></li>
-        <li>Tải xuống tệp <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases" target="_blank" rel="noopener noreferrer">BlueMarble.user.js</a> trong "Assets" của bản phát hành mới nhất.</li>
+        <li>Tải xuống tệp <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js" target="_blank" rel="noopener noreferrer">BlueMarble.user.js</a> (bản mới nhất).</li>
         <li>Mở Bảng điều khiển TamperMonkey.
         <br>
         <img alt="Truy cập 'Dashboard' của TamperMonkey" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerEdgeInstall4.png"></li>
@@ -308,7 +306,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <ol>
         <li>Cài đặt tiện ích bổ sung <a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/" target="_blank" rel="noopener noreferrer">TamperMonkey</a> cho Firefox.
         <br>
-        <img alt="Nhấp vào nút 'Add to Firefox'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/ComputerFireFoxInstall1.png"></li>
+        <img alt="Nhấp vào nút 'Add to Firefox'" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/Optimize-for-loops/docs/assets/ComputerFirefoxInstall1.png"></li>
         <li><strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/releases/download/pre/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Cài đặt Blue Marble</strong></a>
         <br>
         TamperMonkey sẽ tự động phát hiện userscript và nhắc bạn cài đặt nó.</li>
@@ -366,7 +364,7 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
 <h2 id="how-versioning-works">Cách thức hoạt động của phiên bản</h2>
 <p>
-  Hệ thống phiên bản cho userscript này tuân theo <a href="https://semver.org/" target="_blank" rel="noopener noreferrer">các quy tắc Phiên bản Ngữ nghĩa</a>. Do đó, nó được định dạng theo định dạng <code>X.Y.Z</code> trong đó:
+  Hệ thống phiên bản cho userscript này tuân theo <a href="https://semver.org/" target="_blank" rel="noopener noreferrer"> Semantic Versioning rules</a>. Do đó, nó được định dạng theo định dạng <code>X.Y.Z</code> trong đó:
   <ul>
     <li>X là phiên bản chính. Điều này được tăng lên khi một bản cập nhật không tương thích ngược được đẩy lên. Điều này dành cho các tính năng mới phá vỡ các phiên bản trước của userscript. Ngoài ra, nếu wplace.live phá vỡ userscript, điều này sẽ được tăng lên.</li>
     <li>Y là phiên bản phụ. Điều này được tăng lên bất cứ khi nào tôi đẩy lên GitHub. Điều này dành cho các bản sửa lỗi ổn định và các tính năng mới (không phá vỡ).</li>
