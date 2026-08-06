@@ -16,9 +16,9 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
 | Phiên bản | Tải xuống |
 |-----------|-----------|
-| 📦 Bản Gốc | [Tải về](https://raw.githubusercontent.com/SwingTheVine/Wplace-BlueMarble/main/dist/BlueMarble.user.js) |
-| 🔧 Mod bởi T-wy | [Tải về](https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js) |
-| 🇻🇳 Bản Vietsub từ bản mod bởi T-wy | [Tải về](https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js) |
+| 📦 Bản Gốc(SwingTheVine/) | [Tải về](https://raw.githubusercontent.com/SwingTheVine/Wplace-BlueMarble/main/dist/BlueMarble.user.js) |
+| 🔧 Bản mod(T-wy) | [Tải về](https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js) |
+| 🇻🇳 Bản Vietsub từ bản mod bởi T-wy(CheemsGalaxy) | [Tải về](https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js) |
 | 📑 Bookmarklet | [Tải về](/dist/BlueMarble.bookmarklet.min.js) |
 
 <table>
