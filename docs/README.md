@@ -10,10 +10,16 @@ Hình ảnh xem trước của [Nhánh Tùy chỉnh-Cải tiến](https://github
 
 Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
-<strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/SwingTheVine/Wplace-BlueMarble/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Gốc với Hỗ trợ Userscripts</strong></a> / <a href="https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Mod Tùy chỉnh của T-wy</strong></a>
+<strong>Cài đặt một lần:</strong> Nhấp vào liên kết này để cài đặt Blue Marble trực tiếp: <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarble.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Gốc với Hỗ trợ Userscripts</strong></a> / <a href="https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js" target="_blank" rel="noopener noreferrer"><strong>Phiên bản Mod Tùy chỉnh</strong></a>
 
-**[Phiên bản Bookmarklet](/dist/BlueMarble.bookmarklet.min.js)** (và [Phiên bản Vietsub từ bản Mod Tùy chỉnh của T-wy](https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js)) cũng có sẵn.
-Để sử dụng, hãy sao chép nội dung và dán vào trường URL khi tạo dấu trang.
+**📥 Cài đặt một lần:**
+
+| Phiên bản | Tải xuống |
+|-----------|-----------|
+| 📦 Bản Gốc | [Tải về](https://raw.githubusercontent.com/SwingTheVine/Wplace-BlueMarble/main/dist/BlueMarble.user.js) |
+| 🔧 Mod T-wy | [Tải về](https://raw.githubusercontent.com/t-wy/Wplace-BlueMarble-Userscripts/main/dist/BlueMarble.user.js) |
+| 🇻🇳 Bản Vietsub | [Tải về](https://raw.githubusercontent.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/main/dist/BlueMarbleVietsub.user.js) |
+| 📑 Bookmarklet | [Tải về](/dist/BlueMarble.bookmarklet.min.js) |
 
 <table>
   <tr>
