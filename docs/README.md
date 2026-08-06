@@ -1,3 +1,13 @@
+# 🇻🇳 Blue Marble Mod - Bản dịch tiếng Việt
+
+Đây là phiên bản dịch tiếng Việt của **Blue Marble Mod** (bởi T-wy), được fork nhằm giúp người dùng Việt Nam tiếp cận dễ dàng hơn.
+
+- **Bản dịch áp dụng cho nhánh `main`.** Các nhánh khác (ví dụ: `custom-improve`) giữ nguyên nội dung gốc.
+- Nếu phát sinh lỗi trong quá trình sử dụng, vui lòng báo lại cho tôi qua GitHub: [CheemsGalaxy](https://github.com/CheemsGalaxy)
+
+Cảm ơn các bạn đã quan tâm! 🚀
+
+
 Hình ảnh xem trước của [Custom-Improve Branch](https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/tree/custom-improve) của Fork này:
 
 | Bản mẫu | Lớp phủ |
