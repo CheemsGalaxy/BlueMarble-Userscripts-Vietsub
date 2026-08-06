@@ -1,4 +1,3 @@
-```yaml
 name: Báo cáo lỗi
 description: Phát hiện lỗi? Hãy báo cáo tại đây!
 title: "[LỖI] "
@@ -99,4 +98,3 @@ body:
       placeholder: "Ví dụ: Lỗi này đã xảy ra từ phiên bản 3.245.0"
     validations:
       required: false
-```
