@@ -47,7 +47,7 @@
   </tr>
 </table>
 
-<h1>Đóng góp</h1>
+<h1 id="contributing">Đóng góp</h1>
 <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer"><img alt="Giấy phép phần mềm: MPL-2.0" src="https://img.shields.io/badge/Software_License-MPL--2.0-slateblue?style=flat"></a>
 <p>
   Cảm ơn bạn vì muốn đóng góp vào userscript "Blue Marble"! Điều đó có ý nghĩa rất lớn với tôi khi ai đó thích dự án của tôi đủ để muốn giúp nó phát triển. Nếu bạn chưa làm, hãy cân nhắc tham gia Discord của chúng tôi. Bạn có thể đặt câu hỏi về userscript ở đó và nhận phản hồi. Bạn cũng có thể truy cập <a href="https://bluemarble.lol/" target="_blank" rel="noopener noreferrer">trang web chính thức của Blue Marble</a> để biết thêm thông tin.
@@ -57,7 +57,7 @@
   <b>Lưu ý</b>: Nếu bạn đang đóng góp vào tài liệu của dự án này, hãy tạo nhánh rẽ từ nhánh <code>documentation</code>. Nếu bạn đang đóng góp vào mã nguồn/lập trình của dự án này, hãy tạo nhánh rẽ từ nhánh <code>code</code>. Nếu bạn tạo nhánh rẽ từ main và tạo Pull Request từ <code>main</code> -> <code>main</code>, Pull Request của bạn có thể bị từ chối. Điều này là do <code>main</code> không được cập nhật và các thay đổi của bạn có thể xung đột với các thay đổi đã được cập nhật.
 </p>
 
-<h2>Tóm tắt</h2>
+<h2 id="summary">Tóm tắt</h2>
 <p>
   <ul>
     <li>Tôi không muốn lãng phí thời gian của bạn, vì vậy hãy kiểm tra lại với tôi trước khi bắt đầu một thay đổi lớn như thêm tính năng mới. Ví dụ, hãy tưởng tượng bạn dành 50 giờ để tạo một con bot tự động đặt pixel, sau đó pull request của bạn bị từ chối vì bot tự động đặt pixel không phù hợp với "Sứ mệnh" của Blue Marble. Điều đó thật đáng buồn :(</li>
@@ -69,7 +69,7 @@
   </ul>
 </p>
 
-<h2>Tại sao phải tuân theo hướng dẫn?</h2>
+<h2 id="why-follow-guidelines">Tại sao phải tuân theo hướng dẫn?</h2>
 <p>
   Tuân theo các hướng dẫn trên trang này giúp ích cho tất cả mọi người. Viết mã tuân theo hướng dẫn:
   <ul>
@@ -80,8 +80,8 @@
   Đó là một kịch bản đôi bên cùng có lợi!
 </p>
 
-<h2>Tôi có thể đóng góp gì?</h2>
-<h3>Lập trình</h3>
+<h2 id="what-can-i-contribute">Tôi có thể đóng góp gì?</h2>
+<h3 id="programming">Lập trình</h3>
   <p>
     Phần lớn công việc cần làm trong userscript này liên quan đến lập trình. Có nền tảng về lập trình là hữu ích, nhưng không bắt buộc. Nếu bạn đang tìm cách học JavaScript và cú pháp của nó, hãy xem <a href="https://roadmap.sh/javascript" target="_blank" rel="noopener noreferrer">lộ trình học JavaScript này</a>. Chúng tôi đặc biệt khuyên bạn nên hiểu về hàm, phương thức, lớp và Lập trình hướng đối tượng nếu bạn dự định triển khai một tính năng hoàn toàn mới. Kiến thức kỹ thuật sâu hơn như method chaining và biểu thức lambda rất hữu ích nhưng không bắt buộc. Bạn có thể tìm tài liệu cho Blue Marble <a href="https://swingthevine.github.io/Wplace-BlueMarble/index.html" target="_blank" rel="noopener noreferrer">tại đây</a>. Hãy làm cho mã của bạn có tính mô-đun khi có thể. Nói cách khác, bạn nên "đóng hộp đen" mã của mình bằng cách đặt nó trong một hàm khi có thể. Ví dụ: nếu bạn đang thêm một bộ lọc màu để loại bỏ các màu không được hiển thị trên bản mẫu, hàm sẽ nhận thông tin bản mẫu và thông tin ô, đồng thời xuất ra thông tin bản mẫu/ô đã được lọc. Bằng cách này, mã của người khác không thể can thiệp vào bộ lọc màu. Ví dụ:
     <br>
@@ -92,16 +92,16 @@
       <li>Hình ảnh bản mẫu đã sửa đổi và thông tin ô được sử dụng để hiển thị bản mẫu.</li>
     </ol>
   </p>
-<h3>Dịch thuật</h3>
+<h3 id="translation">Dịch thuật</h3>
 <p>
   Mặc dù thường bị bỏ qua, dịch thuật là một cách mạnh mẽ để đóng góp cho một dự án. Nếu bạn có thể viết, có điều gì đó bạn có thể đóng góp! Từ lỗi ngữ pháp nhỏ đến dịch toàn bộ ngôn ngữ, mọi sự trợ giúp đều được đánh giá cao.
 </p>
-<h3>Mọi thứ khác</h3>
+<h3 id="everything-else">Mọi thứ khác</h3>
   <p>
     Mặc dù userscript tập trung vào lập trình, có rất nhiều cách để đóng góp! Từ cải thiện tệp README đến tạo hướng dẫn, bạn có thể đóng góp theo nhiều cách không yêu cầu kỹ năng lập trình. Ví dụ: nếu bạn có ý tưởng cho một tính năng nhưng không có kỹ năng để triển khai nó, hãy gửi yêu cầu tính năng! Ai đó có thể nhìn thấy nó, nghĩ rằng nó hay và triển khai nó.
   </p>
 
-<h2>Tôi không được làm gì?</h2>
+<h2 id="what-can-i-not-do">Tôi không được làm gì?</h2>
 <p>
   Vui lòng không sử dụng <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a> để hỏi các câu hỏi hỗ trợ (ví dụ: "Làm cách nào để cài đặt cái này?" hoặc "<code>cssMangler</code> làm gì?"). Chúng tôi sử dụng trình theo dõi sự cố GitHub cho các báo cáo lỗi và yêu cầu tính năng. Nếu bạn đang gặp sự cố và cần trợ giúp, hãy hỏi trên <a href="https://discord.gg/tpeBPy46hf" target="_blank" rel="noopener noreferrer">Discord</a> của chúng tôi. <b>Tuy nhiên, bạn <i>nên</i> tạo một yêu cầu tính năng trên trình theo dõi sự cố của chúng tôi trước khi bắt đầu công việc đóng góp của bạn.</b> Không gì tệ hơn việc làm việc chăm chỉ cho một đóng góp chất lượng cao chỉ để bị từ chối vì nó không phù hợp với sứ mệnh của bản mod. Hãy hỏi trước!
 </p>
@@ -109,7 +109,7 @@
   Vui lòng đóng góp một cách thiện chí. Chúng tôi sẽ từ chối các pull request có mã nguồn, nhận xét hoặc các pull request gây hại cho bản mod.
 </p>
 
-<h2>Hướng dẫn</h2>
+<h2 id="guidelines">Hướng dẫn</h2>
 <ul>
   <li>Luôn gửi <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/issues/new/choose" target="_blank" rel="noopener noreferrer">yêu cầu tính năng</a> và nhận sự cho phép để làm việc trên đóng góp của bạn <i>trước</i> khi bạn bắt đầu làm việc. Điều này sẽ tiết kiệm thời gian cho bạn nếu cuối cùng chúng tôi từ chối đóng góp. Các đóng góp nhỏ (như sửa lỗi chính tả) không cần yêu cầu tính năng.</li>
   <li>Tuân theo <a href="https://github.com/SwingTheVine/.github/blob/main/CODE_OF_CONDUCT.md" target="_blank" rel="noopener noreferrer">Quy tắc ứng xử</a>. Điều này bao gồm cả đóng góp của bạn và cách bạn tương tác với cộng đồng này.</li>
@@ -120,7 +120,7 @@
   <li>Mã của bạn phải được chú thích, giải thích mọi thứ làm gì. Chúng tôi có thể từ chối pull request nếu chúng tôi không hiểu mã làm gì.</li>
 </ul>
 
-<h2>Sứ mệnh của chúng tôi</h2>
+<h2 id="our-mission">Sứ mệnh của chúng tôi</h2>
 <p>
   "Sứ mệnh" của chúng tôi tạo nên bản chất của userscript này. Nếu không có nó, dự án này sẽ không tồn tại.
 </p>
@@ -135,7 +135,7 @@
   </ul>
 </p>
 
-<h2>Cách đóng góp</h2>
+<h2 id="how-to-contribute">Cách đóng góp</h2>
 <p>
   <ol>
     <li>Đọc tất cả <a href="https://github.com/SwingTheVine/Wplace-BlueMarble/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">các hướng dẫn đóng góp</a>.</li>
@@ -150,16 +150,16 @@
   </ol>
 </p>
 
-<h2>Môi trường sản xuất</h2>
+<h2 id="production-enviroment">Môi trường sản xuất</h2>
 <p>
   Dưới đây là thông tin có thể hữu ích cho những ai muốn sửa đổi Blue Marble.
 
-  <h3>Npm Run</h3>
+  <h3 id="npm-run">Npm Run</h3>
   <p>
     Chạy <code>npm run build</code> sẽ biên dịch Blue Marble. Các tệp đã biên dịch có thể được tìm thấy trong thư mục <code>dist/</code>. Chạy <code>npm run patch</code> sẽ tăng phiên bản vá và biên dịch Blue Marble.
   </p>
 
-  <h3>Biểu đồ</h3>
+  <h3 id="charts">Biểu đồ</h3>
   <p>
     Sử dụng các nút mũi tên và thu phóng để điều hướng các biểu đồ. Sử dụng nút ↔️ để chuyển sang chế độ toàn màn hình. Sử dụng nút 🔄 để đặt lại. Tất cả các nút có thể được tìm thấy trên biểu đồ. Sử dụng biểu tượng "hai hình vuông" để sao chép biểu đồ. Nếu bạn cần hỗ trợ đọc biểu đồ, hãy sao chép biểu đồ vào một AI bằng nút "hai hình vuông" trên biểu đồ.
   </p>
@@ -325,7 +325,7 @@ classDiagram
   `update-version.js` ..> `utils.js` : calls consoleStyle()
 ```
 
-<h2>Môi trường phát triển</h2>
+<h2 id="development-environment">Môi trường phát triển</h2>
 <p>
   Đây là những gì SwingTheVine sử dụng để lập trình Blue Marble. Bạn không cần phải sử dụng chính xác những thứ tương tự. Phần này được cung cấp để tham khảo.
 
