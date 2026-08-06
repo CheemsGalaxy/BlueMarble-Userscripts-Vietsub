@@ -1,6 +1,7 @@
-name: Bug Report
-description: Found a bug? Report it here!
-title: "[BUG] "
+```yaml
+name: Báo cáo lỗi
+description: Phát hiện lỗi? Hãy báo cáo tại đây!
+title: "[LỖI] "
 labels: ["bug"]
 assignees: 
   - SwingTheVine
@@ -8,94 +9,94 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to fill out this template!
-        **The more information you can provide, the easier it will be to identify and squash the bug.**
-        If you want to read a guide on filing bug reports effectively, you can [find it here](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html).
+        Cảm ơn bạn đã dành thời gian điền vào mẫu này!
+        **Bạn càng cung cấp nhiều thông tin, việc xác định và sửa lỗi sẽ càng dễ dàng hơn.**
+        Nếu bạn muốn đọc hướng dẫn về cách báo cáo lỗi hiệu quả, bạn có thể [xem tại đây](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html).
   - type: checkboxes
     id: checked-bugs
     attributes:
-      label: Have you checked to see if this issue has already been reported?
+      label: Bạn đã kiểm tra xem vấn đề này đã được báo cáo chưa?
       options:
-        - label: This bug has not been previously reported.
+        - label: Lỗi này chưa được báo cáo trước đây.
     validations:
       required: true
   - type: textarea
     id: describe-bug
     attributes:
-      label: Describe The Bug
-      description: "Describe what the bug causes to happen."
-      placeholder: "E.g. When creating a template, the tile becomes black."
+      label: Mô tả lỗi
+      description: "Mô tả những gì lỗi gây ra."
+      placeholder: "Ví dụ: Khi tạo bản mẫu, ô trở thành màu đen."
     validations:
       required: true
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Expected Behavior
-      description: "Describe what you expected to happen or why you think the current behavior is wrong."
+      label: Hành vi mong đợi
+      description: "Mô tả những gì bạn mong đợi sẽ xảy ra hoặc tại sao bạn nghĩ hành vi hiện tại là sai."
       placeholder: |
-        E.g. When I create a template, I expect the template to be overlayed on the game instead of making the game black.
-        E.g. The game is not supposed to become black.
+        Ví dụ: Khi tôi tạo bản mẫu, tôi mong đợi bản mẫu được lớp phủ lên trò chơi thay vì làm trò chơi bị đen.
+        Ví dụ: Trò chơi không nên trở nên đen.
     validations:
       required: false
   - type: textarea
     id: things-tried
     attributes:
-      label: Things You Tried
-      description: "Describe all of the things you tried."
-      placeholder: "E.g. I tried different templates of different sizes. I tried updating Blue Marble."
+      label: Những điều bạn đã thử
+      description: "Mô tả tất cả những điều bạn đã thử."
+      placeholder: "Ví dụ: Tôi đã thử các bản mẫu có kích thước khác nhau. Tôi đã thử cập nhật Blue Marble."
     validations:
       required: false
   - type: textarea
     id: reproduce-bug
     attributes:
-      label: Reproduce The Bug
-      description: "What steps do you take to reproduce the bug?"
+      label: Các bước tái hiện lỗi
+      description: "Bạn thực hiện các bước nào để tái hiện lỗi?"
       placeholder: |
-        E.g.
-        1. Load the game
-        2. Get the coordinates (12, 194, 193, 3)
-        3. Make a template at the coordinates
-        4. The game will become black.
+        Ví dụ:
+        1. Tải trò chơi
+        2. Lấy tọa độ (12, 194, 193, 3)
+        3. Tạo bản mẫu tại tọa độ đó
+        4. Trò chơi sẽ trở nên đen.
     validations:
       required: false
   - type: textarea
     id: error-message
     attributes:
-      label: Error Message
-      description: "If applicable, add any error messages you get."
-      placeholder: "E.g. Error: Coordinates are malformed! Did you try clicking on the canvas first?"
+      label: Thông báo lỗi
+      description: "Nếu có, hãy thêm bất kỳ thông báo lỗi nào bạn nhận được."
+      placeholder: "Ví dụ: Lỗi: Tọa độ bị sai định dạng! Bạn đã thử nhấp vào canvas trước chưa?"
     validations:
       required: false
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots
-      description: "If applicable, add screenshots to help explain your problem."
-      placeholder: "E.g. An Imgur link"
+      label: Ảnh chụp màn hình
+      description: "Nếu có, hãy thêm ảnh chụp màn hình để giúp giải thích vấn đề của bạn."
+      placeholder: "Ví dụ: Một liên kết Imgur"
     validations:
       required: false
   - type: textarea
     id: system-information
     attributes:
-      label: System Information
-      description: "Please fill out these details about your OS, Blue Marble version, and what website browser you use. Please fill this out!"
+      label: Thông tin hệ thống
+      description: "Vui lòng điền các chi tiết về HĐH, phiên bản Blue Marble và trình duyệt web bạn sử dụng. Vui lòng điền đầy đủ!"
       placeholder: |
-        OS: (E.g. Windows)
-        Blue Marble Version: 3.346.0
-        Browser: Chrome
-        You found an easter egg :3
+        HĐH: (Ví dụ: Windows)
+        Phiên bản Blue Marble: 3.346.0
+        Trình duyệt: Chrome
+        Bạn đã tìm thấy một quả trứng Phục sinh :3
       value: |
-        OS: 
-        Blue Marble Version: 
-        Browser: 
+        HĐH: 
+        Phiên bản Blue Marble: 
+        Trình duyệt: 
     validations:
       required: true
   - type: textarea
     id: additional
     attributes:
-      label: Additional Information
-      description: "Add any other context about the problem here."
-      placeholder: "E.g. This bug has been happening since 3.245.0"
+      label: Thông tin bổ sung
+      description: "Thêm bất kỳ ngữ cảnh nào khác về vấn đề ở đây."
+      placeholder: "Ví dụ: Lỗi này đã xảy ra từ phiên bản 3.245.0"
     validations:
       required: false
-      
+```
