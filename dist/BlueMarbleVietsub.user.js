@@ -19,8 +19,8 @@
 // @noframes
 // ==/UserScript==
 
-// Wplace  --> https://wplace.live
-// License --> https://www.mozilla.org/en-US/MPL/2.0/
+
+
 
 (() => {
     var t, e, n = t => {
@@ -484,7 +484,8 @@
             r = Math.abs(n[0] - n[1]) + 1,
             a = 2 * r > 2048e3;
         return [
-            [a ? Math.max(n[0], n[1]) : Math.min(n[0], n[1]), o],[a ? 2048e3 - r + 2 : r, s]
+            [a ? Math.max(n[0], n[1]) : Math.min(n[0], n[1]), o],
+            [a ? 2048e3 - r + 2 : r, s]
         ]
     }
 
@@ -970,7 +971,8 @@
             if (void 0 !== n) R.data = z(t, e, !1), n.click();
             else {
                 const n = `https://wplace.live/?lat=${t}&lng=${e}&zoom=16`;
-                window.location.href = n}
+                window.location.href = n
+            }
         }
     }
     async function U(t, e, n = !1) {
@@ -1323,8 +1325,10 @@
                 }
             }
         }
-    }), GM.addStyle("#bm-1j{position:fixed;background-color:#153063cc;color:#fff;padding:10px;border-radius:8px;z-index:9000;transition:all .3s ease,transform 0s;max-width:300px;width:auto;touch-action:pan-x pan-y;will-change:transform;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}#bm-E,#bm-1j hr,#bm-v,#bm-b{transition:opacity .2s ease,height .2s ease}div#bm-1j{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Monaco,DejaVu Sans,sans-serif;letter-spacing:.05em}#bm-1h{margin-bottom:.5em;background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"5\" height=\"5\"><circle cx=\"3\" cy=\"3\" r=\"1.5\" fill=\"CornflowerBlue\" /></svg>') repeat;cursor:grab;width:100%;height:1em}#bm-1h.dragging{cursor:grabbing}#bm-1j:has(#bm-1h.dragging){pointer-events:none;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}#bm-1h.dragging{pointer-events:auto}#bm-R{margin-bottom:.5em}#bm-R[style*=\"text-align: center\"]{display:flex;flex-direction:column;align-items:center;justify-content:center}#bm-1j[style*=\"padding: 5px\"]{width:auto!important;max-width:300px;min-width:200px}#bm-1j img{display:inline-block;height:2.5em;margin-right:1ch;vertical-align:middle;transition:opacity .2s ease}#bm-R[style*=\"text-align: center\"] img{display:block;margin:0 auto}#bm-1h{transition:margin-bottom .2s ease}#bm-1j h1{display:inline-block;font-size:x-large;font-weight:700;vertical-align:middle}#bm-v input[type=checkbox]{vertical-align:middle;flex:0 0 auto}#bm-v label>input[type=checkbox]{margin-right:.5ch}#bm-v label{margin-right:.5ch}.bm-1r{border:white 1px solid;height:1.5em;width:1.5em;margin-top:2px;text-align:center;line-height:1em;padding:0!important}#bm--{vertical-align:middle}#bm-- svg{width:50%;margin:0 auto;fill:#111}div:has(>#bm-L){display:flex;gap:.5ch}#bm-button-favorite svg,#bm-button-template svg{height:1em;margin:2px auto 0;text-align:center;line-height:1em;vertical-align:bottom}#bm-S input[type=number]{appearance:auto;-moz-appearance:textfield;width:5.5ch;margin-left:1ch;background-color:#0003;padding:0 .5ch;font-size:small}#bm-S input[type=number]::-webkit-outer-spin-button,#bm-S input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}#bm-6{white-space:nowrap;text-align:center}#bm-8{display:flex;flex-direction:row;flex-wrap:wrap;align-content:center;justify-content:center;align-items:center;gap:1ch}div:has(>#bm-r)>button{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#bm-r,input[type=file][id*=template]{display:none!important;visibility:hidden!important;position:absolute!important;left:-9999px!important;top:-9999px!important;width:0!important;height:0!important;opacity:0!important;z-index:-9999!important;pointer-events:none!important}#bm-Z{font-size:small;background-color:#0003;padding:0 .5ch;height:3.75em;width:100%}#bm-b{display:flex;justify-content:space-between}#bm-1j small{font-size:x-small;color:#d3d3d3}#bm-E,#bm-v,#bm-S,#bm-8,#bm-Z{margin-top:.5em}#bm-15,#bm-16{display:flex;align-items:baseline;gap:.5ch;white-space:nowrap;min-height:1.4em}#bm-15 .bm-F,#bm-16 .bm-B{color:orange;font-weight:700;font-variant-numeric:tabular-nums;font-feature-settings:\"tnum\"}#bm-15 .bm-17,#bm-o .bm-O{color:#d3d3d3;font-size:.8em}#bm-16,#bm-o{color:salmon}#bm-1j button{background-color:#144eb9;border-radius:1em;padding:0 .75ch;font-size:small}#bm-1j span:has(>input[type=file]+button){font-size:small}#bm-1j select{border-width:1px;border-radius:1em;padding:0 .75ch;font-size:small}#bm-1j select option{background-color:#153063cc}#bm-1j button:hover,#bm-1j button:focus-visible{background-color:#1061e5}#bm-1j button:active #bm-1j button:disabled{background-color:#2e97ff}#bm-1j button:disabled{text-decoration:line-through}#bm-1j details>summary{font-size:small}#bm-w label{font-size:small}#bm-s span{word-break:break-word}span.bm-18:hover,a.bm-18:focus{text-decoration:underline}\n");
+    }), GM.addStyle("#bm-1j{position:fixed;background-color:#153063cc;color:#fff;padding:10px;border-radius:8px;z-index:9000;transition:all .3s ease,transform 0s;max-width:300px;width:auto;touch-action:pan-x pan-y;will-change:transform;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}#bm-E,#bm-1j hr,#bm-v,#bm-b{transition:opacity .2s ease,height .2s ease}div#bm-1j{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Monaco,DejaVu Sans,sans-serif;letter-spacing:.05em}#bm-1h{margin-bottom:.5em;background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"5\" height=\"5\"><circle cx=\"3\" cy=\"3\" r=\"1.5\" fill=\"CornflowerBlue\" /></svg>') repeat;cursor:grab;width:100%;height:1em}#bm-1h.dragging{cursor:grabbing}#bm-1j:has(#bm-1h.dragging){pointer-events:none;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}#bm-1h.dragging{pointer-events:auto}#bm-R{margin-bottom:.5em}#bm-R[style*=\"text-align: center\"]{display:flex;flex-direction:column;align-items:center;justify-content:center}#bm-1j[style*=\"padding: 5px\"]{width:auto!important;max-width:300px;min-width:200px}#bm-1j img{display:inline-block;height:2.5em;margin-right:1ch;vertical-align:middle;transition:opacity .2s ease}#bm-R[style*=\"text-align: center\"] img{display:block;margin:0 auto}#bm-1h{transition:margin-bottom .2s ease}#bm-1j h1{display:inline-block;font-size:x-large;font-weight:700;vertical-align:middle}#bm-v input[type=checkbox]{vertical-align:middle;flex:0 0 auto}#bm-v label>input[type=checkbox]{margin-right:.5ch}#bm-v label{margin-right:.5ch}.bm-1r{border:white 1px solid;height:1.5em;width:1.5em;margin-top:2px;text-align:center;line-height:1em;padding:0!important}#bm--{vertical-align:middle}#bm-- svg{width:50%;margin:0 auto;fill:#111}div:has(>#bm-L){display:flex;gap:.5ch}#bm-button-favorite svg,#bm-button-template svg{height:1em;margin:2px auto 0;text-align:center;line-height:1em;vertical-align:bottom}#bm-S input[type=number]{appearance:auto;-moz-appearance:textfield;width:5.5ch;margin-left:1ch;background-color:#0003;padding:0 .5ch;font-size:small}#bm-S input[type=number]::-webkit-outer-spin-button,#bm-S input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}#bm-6{white-space:nowrap;text-align:center}#bm-8{display:flex;flex-direction:row;flex-wrap:wrap;align-content:center;justify-content:center;align-items:center;gap:1ch}div:has(>#bm-r)>button{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#bm-r,input[type=file][id*=template]{display:none!important;visibility:hidden!important;position:absolute!important;left:-9999px!important;top:-9999px!important;width:0!important;height:0!important;opacity:0!important;z-index:-9999!important;pointer-events:none!important}#bm-Z{font-size:small;background-color:#0003;padding:0 .5ch;height:3.75em;width:100%}#bm-b{display:flex;justify-content:space-between}#bm-1j small{font-size:x-small;color:#d3d3d3}#bm-E,#bm-v,#bm-S,#bm-8,#bm-Z{margin-top:.5em}#bm-15,#bm-16{display:flex;align-items:baseline;gap:.5ch;white-space:nowrap;min-height:1.4em}#bm-15 .bm-F,#bm-16 .bm-B{color:orange;font-weight:700;font-variant-numeric:tabular-nums;font-feature-settings:\"tnum\"}#bm-15 .bm-17,#bm-o .bm-O{color:#d3d3d3;font-size:.8em}#bm-16,#bm-o{color:salmon}#bm-1j button{background-color:#144eb9;border-radius:1em;padding:0 .75ch;font-size:small}#bm-1j span:has(>input[type=file]+button){font-size:small}#bm-1j select{border-width:1px;border-radius:1em;padding:0 .75ch;font-size:small}#bm-1j select option{background-color:#153063cc}#bm-1j button:hover,#bm-1j button:focus-visible{background-color:#1061e5}#bm-1j button:active #bm-1j button:disabled{background-color:#2e97ff}#bm-1j button:disabled{text-decoration:line-through}#bm-1j details>summary{font-size:small}#bm-w label{font-size:small}#bm-s span{word-break:break-word}span.bm-18:hover,a.bm-18:focus{text-decoration:underline}#bm-C label{display:flex!important;align-items:center!important;gap:6px!important;padding:2px 4px!important;margin:0!important;font-size:13px!important;cursor:pointer!important}#bm-C label input[type=checkbox]{width:14px!important;height:14px!important;flex-shrink:0!important;margin:0!important;cursor:pointer!important}#bm-C label .bm-checkbox-text{flex:1!important;white-space:nowrap!important}");
+
     var it = new class {
+
             constructor(e, n) {
                 i(this, t), this.name = e, this.version = n, this.st = null, this.ct = "bm-Z", this.o = null, this.u = null, this.h = []
             }
@@ -1371,13 +1375,18 @@
             }
             kt(n = {}, i = () => {}) {
                 const s = o(this, t, e).call(this, "label", {
-                    textContent: n.textContent ?? ""
+                    textContent: ""
                 });
-                delete n.textContent;
+                s.classList.add("bm-checkbox-label");
                 const r = o(this, t, e).call(this, "input", {
                     type: "checkbox"
                 }, n);
-                return s.insertBefore(r, s.firstChild), this.ut(), i(this, s, r), this
+                const a = document.createElement("span");
+                a.className = "bm-checkbox-text";
+                a.textContent = n.textContent ?? "";
+                delete n.textContent;
+                s.appendChild(r), s.appendChild(a);
+                return this.ut(), i(this, s, r), this
             }
             Tt(n = {}, i = () => {}) {
                 return i(this, o(this, t, e).call(this, "label", {}, n)), this
@@ -1457,7 +1466,8 @@
                 };
                 let m = null;
                 const u = (u, h) => {
-                        i = !0, m = t.getBoundingClientRect(), n = u - m.left, o = h - m.top;const b = window.getComputedStyle(t).transform;
+                        i = !0, m = t.getBoundingClientRect(), n = u - m.left, o = h - m.top;
+                        const b = window.getComputedStyle(t).transform;
                         if (b && "none" !== b) {
                             const t = new DOMMatrix(b);
                             r = t.m41, a = t.m42
@@ -1497,7 +1507,7 @@
         }(et, nt),
         ot = new class {
             constructor(t, e, n) {
-                i(this, G), this.name = t, this.version = e, this.o = n, this.Rt = "1.0.0", this.et = null, this.Ft = "!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~", this.tileSize = 1e3, this.Ut = v(5e3, 5e3) ? 5 : 4, this.Ht = this.Ut - 1 >> 1, this.zt = null, this.qt = null, this.Gt = "bm-1n", this.Yt = "div#map canvas.maplibregl-canvas", this.Xt = null, this.G = [], this.Jt = null, this.Kt = new Map, this.extraColorsBitmap = 0, this.Wt = 0, this.Zt = 0, this._t = {}, this.hideLockedColors = !1, this.q = 0
+                i(this, G), this.name = t, this.version = e, this.o = n, this.Rt = "1.0.0", this.et = null, this.Ft = "!#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~", this.tileSize = 1e3, this.Ut = v(5e3, 5e3) ? 5 : 4, this.Ht = this.Ut - 1 >> 1, this.zt = null, this.qt = null, this.Gt = "bm-1n", this.Yt = "div#map canvas.maplibregl-canvas", this.Xt = null, this.G = [], this.Jt = null, this.Kt = new Map, this.extraColorsBitmap = 0, this.Wt = 0, this.Zt = 0, this._t = {}, this.hideLockedColors = !1, this.hidePremiumColors = !1, this.hideFreeColors = !1, this.q = 0
             }
             Vt() {
                 if (document.body.contains(this.zt)) return this.zt;
@@ -1889,6 +1899,18 @@
             async qe(t) {
                 this._t.hideLockedColors = t, await this.He()
             }
+            Fe() {
+                return this._t?.hidePremiumColors ?? !1
+            }
+            async Ue(t) {
+                this._t.hidePremiumColors = t, await this.He()
+            }
+            $e() {
+                return this._t?.hideFreeColors ?? !1
+            }
+            async ae(t) {
+                this._t.hideFreeColors = t, await this.He()
+            }
             Ge() {
                 const t = this._t?.sortBy ?? "total-desc";
                 return this.Ye(t) ? t : "total-desc"
@@ -1943,7 +1965,8 @@
             }
             tn() {
                 return this._t?.eventClaimedShown ?? !0
-            }async en(t) {
+            }
+            async en(t) {
                 this._t.eventClaimedShown = t, await this.He()
             }
             nn() {
@@ -2429,7 +2452,8 @@
         const e = await GM.getValue("bmUserSettings", "{}");
         let n, i;
         try {
-            n = JSON.parse(e)} catch {
+            n = JSON.parse(e)
+        } catch {
             n = {}
         }
         if (0 == Object.keys(n).length) {
@@ -2437,6 +2461,8 @@
             ot.ze({
                 uuid: t,
                 hideLockedColors: !1,
+                hidePremiumColors: !1,
+                hideFreeColors: !1,
                 progressBarEnabled: !0,
                 hideCompletedColors: !1,
                 sortBy: "total-desc",
@@ -2667,8 +2693,29 @@
                 checked: ot.Ee()
             }, (t, e, n) => {
                 n.addEventListener("change", () => {
-                    ot.qe(n.checked), buildColorFilterList(), ot.X(), n.checked ? t.Pt("Đã ẩn tất cả các màu bị khóa.") : t.Pt("Đã khôi phục tất cả các màu.")
+                    ot.qe(n.checked), buildColorFilterList(), ot.X(),
+                        n.checked ? t.Pt("Đã ẩn tất cả các màu bị khóa.") : t.Pt("Đã khôi phục tất cả các màu.")
                 })
+            }).ut().kt({
+                id: "bm-premium",
+                textContent: "Ẩn các màu Premium",
+                checked: ot.Fe()
+            }, (t, e, n) => {
+                e.style.paddingLeft = "1em",
+                    n.addEventListener("change", () => {
+                        ot.Ue(n.checked), buildColorFilterList(), ot.X(),
+                            n.checked ? t.Pt("Đã ẩn tất cả các màu Premium.") : t.Pt("Đã khôi phục tất cả các màu Premium.")
+                    })
+            }).ut().kt({
+                id: "bm-free",
+                textContent: "Ẩn các màu miễn phí",
+                checked: ot.$e()
+            }, (t, e, n) => {
+                e.style.paddingLeft = "1em",
+                    n.addEventListener("change", () => {
+                        ot.ae(n.checked), buildColorFilterList(), ot.X(),
+                            n.checked ? t.Pt("Đã ẩn tất cả các màu miễn phí.") : t.Pt("Đã khôi phục tất cả các màu miễn phí.")
+                    })
             }).ut().kt({
                 id: "bm-2",
                 textContent: "Ẩn các màu đã hoàn thành",
@@ -2915,7 +2962,8 @@
                     rt: "ᒬ",
                     lm: "꜏",
                     mm: "⊡",
-                    rm: "꜊",lb: "Ŀ",
+                    rm: "꜊",
+                    lb: "Ŀ",
                     mb: "∸",
                     rb: "⟓"
                 }).forEach(([t, n]) => {
@@ -3004,70 +3052,125 @@
                     e = document.querySelector("#bm-q > summary"),
                     n = ot.se(),
                     i = ot.Le(),
-                    o = ot.Ee();
+                    o = ot.Ee(),
+                    p = ot.Fe(),
+                    q = ot.$e();
                 t.innerHTML = "";
                 const {
                     Fe: s,
                     Ue: r
-                } = ot.Ie(), a = Object.fromEntries((ot?.G ?? []).map(t => [t.B, t.enabled])), l = ot.G.filter(t => t.enabled).reduce((t, e) => t + Object.keys(e?.k ?? {}).length, 0), c = [...ot.Kt.values()].reduce((t, e) => t + (e.ke ? 0 : Object.keys(e.Xt).filter(t => a[t]).length), 0);
+                } = ot.Ie(),
+                    a = Object.fromEntries((ot?.G ?? []).map(t => [t.B, t.enabled])),
+                    l = ot.G.filter(t => t.enabled).reduce((t, e) => t + Object.keys(e?.k ?? {}).length, 0),
+                    c = [...ot.Kt.values()].reduce((t, e) => t + (e.ke ? 0 : Object.keys(e.Xt).filter(t => a[t]).length), 0);
                 if (e.textContent = `Màu sắc (Đã tải ${c} / ${l} ô)`, !t || !Object.keys(s).length) return void(t && (t.innerHTML = "<small>Không có màu mẫu nào để hiển thị.</small>"));
                 const m = ot.Ge().split("-"),
                     u = w[m[0]],
                     h = "asc" === m[1] ? (t, e) => u(t) - u(e) : (t, e) => u(e) - u(t),
                     b = Object.entries(s).map(([t, e]) => [t, r[t]?.xe ?? 0, e]).sort(h);
-                let p = !1;
+                let hasVisibleColor = !1;
                 for (const [e, s, a] of b) {
                     if (o && "other" === e) continue;
-                    if (i && s === a) continue;
-                    let l = document.createElement("div");
-                    l.style.display = "flex", l.style.alignItems = "center", l.style.gap = "6px";
-                    let c = document.createElement("div");
-                    c.style.width = "14px", c.style.height = "14px", c.style.border = "1px solid rgba(255,255,255,0.5)";
-                    let u = "",
-                        h = "";
-                    const b = d.get(e);
-                    if ("other" === e) c.style.background = "#888", u = "Khác", h = "other";
-                    else if ("#deface" === e) c.style.background = "#deface", u = "Trong suốt", h = "transparent";
-                    else {
-                        const [t, n, i] = e.split(",").map(Number);
-                        c.style.background = `rgb(${t},${n},${i})`;
-                        try {
-                            if (b && "number" == typeof b.id) {
-                                if (o && !ot.Ae(b.id)) continue;
-                                const e = b?.name || `rgb(${t},${n},${i})`;
-                                b.premium && (c.style.borderColor = "gold", c.style.boxShadow = "0 0 2px yellow"), u = `#${b.id} ${e}`, h = `${t},${n},${i}`
-                            }
-                        } catch (t) {}
+                    if (p) {
+                        const t = d.get(e);
+                        if (t && t.premium) continue;
+                        if (e === "#deface") continue;
                     }
-                    let f = document.createElement("span");
-                    if (f.style.fontSize = "12px", "remaining" === m[0] || i && "painted" !== m[0]) {
-                        const t = (a - s).toLocaleString();
-                        f.textContent = `${u} • Còn lại ${t}`
+                    if (q) {
+                        const t = d.get(e);
+                        if (t && !t.premium) continue;
+                        if (e === "#deface") continue;
+                        if (e === "other") continue;
+                    }
+                    if (i && s === a) continue;
+                    let colorDiv = document.createElement("div");
+                    colorDiv.style.display = "flex";
+                    colorDiv.style.alignItems = "center";
+                    colorDiv.style.gap = "6px";
+                    let colorBox = document.createElement("div");
+                    colorBox.style.width = "14px";
+                    colorBox.style.height = "14px";
+                    colorBox.style.border = "1px solid rgba(255,255,255,0.5)";
+                    let displayName = "",
+                        colorKey = "";
+                    const colorInfo = d.get(e);
+                    if ("other" === e) {
+                        colorBox.style.background = "#888";
+                        displayName = "Khác";
+                        colorKey = "other";
+                    } else if ("#deface" === e) {
+                        colorBox.style.background = "#deface";
+                        displayName = "Trong suốt";
+                        colorKey = "transparent";
                     } else {
-                        const t = a.toLocaleString(),
-                            e = s.toLocaleString();
-                        f.textContent = `${u} • ${e} / ${t}`
+                        const [r, g, b] = e.split(",").map(Number);
+                        colorBox.style.background = `rgb(${r},${g},${b})`;
+                        try {
+                            if (colorInfo && "number" == typeof colorInfo.id) {
+                                if (o && !ot.Ae(colorInfo.id)) continue;
+                                const name = colorInfo?.name || `rgb(${r},${g},${b})`;
+                                if (colorInfo.premium) {
+                                    colorBox.style.borderColor = "gold";
+                                    colorBox.style.boxShadow = "0 0 2px yellow";
+                                }
+                                displayName = `#${colorInfo.id} ${name}`;
+                                colorKey = `${r},${g},${b}`;
+                            }
+                        } catch (err) {}
+                    }
+                    let labelSpan = document.createElement("span");
+                    labelSpan.style.fontSize = "12px";
+                    if ("remaining" === m[0] || i && "painted" !== m[0]) {
+                        const remaining = (a - s).toLocaleString();
+                        labelSpan.textContent = `${displayName} • Còn lại ${remaining}`;
+                    } else {
+                        const total = a.toLocaleString();
+                        const painted = s.toLocaleString();
+                        labelSpan.textContent = `${displayName} • ${painted} / ${total}`;
                     }
                     if (ot.Je()) {
-                        const t = s / (0 === a ? 1 : a) * 100;
-                        l.style.background = `linear-gradient(to right, rgb(0, 128, 0, 0.8) 0%, rgb(0, 128, 0, 0.8) ${t}%, transparent ${t}%, transparent 100%)`
+                        const progress = s / (0 === a ? 1 : a) * 100;
+                        colorDiv.style.background = `linear-gradient(to right, rgb(0, 128, 0, 0.8) 0%, rgb(0, 128, 0, 0.8) ${progress}%, transparent ${progress}%, transparent 100%)`;
                     }
-                    const g = r[h];
-                    let w = 0;
-                    c.addEventListener("click", () => {
-                        if ((g?.Ce?.length ?? 0) > 0) {
-                            const t = g.Ce,
-                                e = w % t.length;
-                            U(t[e][0], t[e][1]), ++w
+                    const pixelData = r[colorKey];
+                    let clickCount = 0;
+                    colorBox.addEventListener("click", () => {
+                        if ((pixelData?.Ce?.length ?? 0) > 0) {
+                            const targets = pixelData.Ce;
+                            const index = clickCount % targets.length;
+                            U(targets[index][0], targets[index][1]);
+                            clickCount++;
                         }
-                    }), (g?.Ce?.length ?? 0) > 0 && (c.style.cursor = "pointer");
-                    const y = document.createElement("input");
-                    y.type = "checkbox", ot.De() ? (y.checked = b?.id === M(), y.disabled = !0) : y.checked = n[e] ?? !0, y.addEventListener("change", () => {
+                    });
+                    if ((pixelData?.Ce?.length ?? 0) > 0) {
+                        colorBox.style.cursor = "pointer";
+                    }
+                    const checkbox = document.createElement("input");
+                    checkbox.type = "checkbox";
+                    if (ot.De()) {
+                        checkbox.checked = colorInfo?.id === M();
+                        checkbox.disabled = true;
+                    } else {
+                        checkbox.checked = n[e] ?? true;
+                    }
+                    checkbox.addEventListener("change", () => {
                         (ot.G ?? []).forEach(t => {
-                            t?.L && void 0 !== t.L[e] && (t.L[e].enabled = y.checked)
-                        }), it.Pt(`Đã ${y.checked?"bật":"tắt"} ${e}`), syncToggleList(), ot.X(), ot.we() && ot.ye() && I()
-                    }), l.appendChild(y), l.appendChild(c), l.appendChild(f), t.appendChild(l), p = !0
-                }!p && t && (t.innerHTML = o ? i ? "<small>Tất cả các màu sở hữu đã được hoàn thành.</small>" : "<small>Tất cả các màu còn lại đều bị khóa.</small>" : "<small>Tất cả các màu đã được hoàn thành.</small>")
+                            t?.L && void 0 !== t.L[e] && (t.L[e].enabled = checkbox.checked);
+                        });
+                        it.Pt(`Đã ${checkbox.checked ? "bật" : "tắt"} ${e}`);
+                        syncToggleList();
+                        ot.X();
+                        ot.we() && ot.ye() && I();
+                    });
+                    colorDiv.appendChild(checkbox);
+                    colorDiv.appendChild(colorBox);
+                    colorDiv.appendChild(labelSpan);
+                    t.appendChild(colorDiv);
+                    hasVisibleColor = true;
+                }
+                if (!hasVisibleColor && t) {
+                    t.innerHTML = o ? i ? "<small>Tất cả các màu sở hữu đã được hoàn thành.</small>" : "<small>Tất cả các màu còn lại đều bị khóa.</small>" : "<small>Tất cả các màu đã được hoàn thành.</small>";
+                }
             }, window.buildTemplateFilterList = function t() {
                 const e = document.getElementById("bm-s"),
                     n = document.querySelector("#bm-e > summary");
