@@ -137,6 +137,9 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
       <li>Đã thêm tùy chọn sắp xếp theo ID màu. (v0.87.16)</li>
     </ul>
   </li>
+  <li>⚠️ <strong>Lưu ý:</strong> Bản <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/dist/BlueMarbleVietsub.user.nightly.js" target="_blank" rel="noopener noreferrer"><strong>Nightly</strong></a> đang trong quá trình phát triển, có thể không ổn định. Sử dụng cho mục đích thử nghiệm.</li>
+</ul>
+  </li>
   <li>Thanh tiến trình phía sau mỗi màu trong danh sách hiển thị tiến độ tương đối (v0.85.24)</li>
   <li>Cho phép các định dạng tọa độ khác nhau (`a, b, c, d`, `a b c d` và `Tl X: a, Tl Y: b, Px X: c, Px Y: d`) được dán vào hộp văn bản tọa độ đầu tiên. (v0.85.28)</li>
   <li>Cho phép tải xuống tác phẩm nghệ thuật (theo đúng kích thước) từ bản đồ qua Nút Chia sẻ bằng hai tọa độ của các góc đối diện (Một từ các hộp văn bản, một từ pixel bạn chọn trên bản đồ trước khi nhấp vào nút "Chia sẻ") (v0.85.28)</li>
