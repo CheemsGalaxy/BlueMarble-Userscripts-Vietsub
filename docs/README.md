@@ -315,4 +315,99 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
     <ul>
       <li>Tùy chọn ẩn các màu bị khóa (màu chưa được mở khóa) khỏi danh sách màu. (v0.85.17)</li>
       <li>Cung cấp phiên bản bookmarklet. (v0.85.22)</li>
-      <li>Cho phép ẩn các
+      <li>Cho phép ẩn các màu đã hoàn thành khỏi danh sách màu. (v0.85.23)</li>
+      <li>Cố gắng làm mới các ô khi màu đã chọn / bản mẫu thay đổi càng sớm càng tốt. (v0.85.38)</li>
+      <li>Cố gắng làm mới các ô sau khi gửi pixel càng sớm càng tốt. (v0.85.39)</li>
+      <li>Lưu ý: Do giới hạn kích thước Canvas của Safari trên thiết bị di động (4096x4096), mức thu phóng tối đa chỉ có thể là 4 thay vì 5.</li>
+      <li>⚠️ <strong>Lưu ý:</strong> Bản <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/dist/BlueMarbleVietsub.user.nightly.js" target="_blank" rel="noopener noreferrer"><strong>Nightly</strong></a> đang trong quá trình phát triển, có thể không ổn định. Sử dụng cho mục đích thử nghiệm.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="overview">Tổng quan</h2>
+<p>
+  Chào mừng bạn đến với Blue Marble! Blue Marble là một userscript cho trang web <a href="https://wplace.live/" target="_blank" rel="noopener noreferrer">wplace.live</a>. Mục đích của Blue Marble là cho phép bạn lấy một hình ảnh và xếp lớp nó lên canvas! Bằng cách đó, bạn có thể dễ dàng phác thảo hình ảnh tác phẩm nghệ thuật của mình mà không cần phải nhìn qua lại giữa nhiều tab/màn hình. Ngoài ra, Blue Marble hỗ trợ một số tính năng bổ sung tiện lợi như:
+  <ul>
+    <li>Hiển thị số pixel bạn cần để lên cấp</li>
+    <li>Hiển thị hệ tọa độ đơn giản (tọa độ ô và tọa độ pixel)</li>
+    <li>Cho phép bạn di chuyển bảng màu lên đầu màn hình khi đặt pixel</li>
+    <li>Cho phép bạn sử dụng ống nhỏ giọt màu trên hình ảnh bản mẫu, miễn là màu sắc chính xác</li>
+    <li>...và hơn thế nữa!</li>
+  </ul>
+  Nếu bạn thích userscript này, hãy ⭐ kho lưu trữ! Để biết thêm thông tin và cập nhật, hãy truy cập <a href="https://bluemarble.lol/" target="_blank" rel="noopener noreferrer">trang web Blue Marble</a>. Nếu bạn muốn đóng góp cho Blue Marble, hãy xem tệp <a href="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a> trong <code>docs/</code>.
+
+  <img alt="Hình ảnh giới thiệu bản mẫu Blue Marble" src="./assets/Showcase1.png">
+</p>
+
+<h3 id="script-settings">Cài đặt tập lệnh</h3>
+<p>
+  Có nhiều cài đặt có sẵn cho userscript Blue Marble! Thông qua các cài đặt này, bạn có thể kiểm soát cách tập lệnh hoạt động.
+</p>
+
+<h3 id="template-settings">Cài đặt bản mẫu</h3>
+<p>
+  <h4>Pixel trong suốt</h4>
+  <p>
+    Bản mẫu cho Blue Marble hoạt động hơi khác so với bình thường. Vì có màu "Trong suốt" và các pixel trong suốt trong bản mẫu thường bị bỏ qua, bản mẫu của bạn nên có một màu tùy chỉnh để biểu thị các pixel có màu "Trong suốt".
+    <ul>
+      <li>Nếu bạn muốn một pixel cụ thể có bất kỳ màu nào, nó sẽ trong suốt trong bản mẫu của bạn.</li>
+      <li>Nếu bạn muốn một pixel cụ thể là màu "Trong suốt" trên bảng màu Wplace, nó phải có mã màu hex <code>#deface</code>.</li>
+    </ul>
+  </p>
+  <h4>Tọa độ</h4>
+  <p>
+    <h5>Tọa độ ô</h5>
+    <p>
+      Hệ tọa độ cho wplace.live rất độc đáo. Thay vì tất cả pixel có một số tọa độ toàn cầu (x, y), số tọa độ tương đối với ô. Điều này có nghĩa là bạn cần biết số ô và số tọa độ để làm bất cứ điều gì. Trong Blue Marble, tọa độ ô và tọa độ pixel được hiển thị khi bạn nhấp vào một pixel. Đây là những tọa độ bạn nên sử dụng để căn chỉnh một bản mẫu.
+      <br>
+      <img alt="Nơi tìm tọa độ ô" src="https://github.com/CheemsGalaxy/BlueMarble-Userscripts-Vietsub/blob/main/docs/assets/TemplateCoordinatesDisplay.png">
+    </p>
+    <h5>Tọa độ bản mẫu</h5>
+    <p>
+      Bản mẫu được căn chỉnh từ góc trên cùng bên trái của bản mẫu. Bạn có thể tự động điền vị trí này bằng biểu tượng "pin" (còn gọi là "waypoint") bên cạnh các hộp nhập tọa độ.
+    </p>
+  </p>
+</p>
+
+<h2 id="how-versioning-works">Cách thức hoạt động của phiên bản</h2>
+<p>
+  Hệ thống phiên bản cho userscript này tuân theo <a href="https://semver.org/" target="_blank" rel="noopener noreferrer">Semantic Versioning rules</a>. Do đó, nó được định dạng theo định dạng <code>X.Y.Z</code> trong đó:
+  <ul>
+    <li>X là phiên bản chính. Điều này được tăng lên khi một bản cập nhật không tương thích ngược được đẩy lên. Điều này dành cho các tính năng mới phá vỡ các phiên bản trước của userscript. Ngoài ra, nếu wplace.live phá vỡ userscript, điều này sẽ được tăng lên.</li>
+    <li>Y là phiên bản phụ. Điều này được tăng lên bất cứ khi nào tôi đẩy lên GitHub. Điều này dành cho các bản sửa lỗi ổn định và các tính năng mới (không phá vỡ).</li>
+    <li>Z là phiên bản vá. Điều này được tăng lên bất cứ khi nào tôi khởi chạy phiên bản phát triển của userscript để kiểm tra một bản vá. Điều này dành cho các bản sửa lỗi/tính năng không ổn định.</li>
+  </ul>
+</p>
+
+<h2 id="licenses">Giấy phép</h2>
+<p>
+  (Dưới đây, tất cả đề cập đến "userscript" đề cập đến userscript "Blue Marble" được tạo bởi SwingTheVine) <br>
+  Hầu hết userscript này được cấp phép theo <code>Mozilla Public License Version 2.0</code> (MPL-2.0). Tất cả phần mềm, mã nguồn và thư viện trong kho lưu trữ này được cấp phép theo giấy phép MPL-2.0. Tuy nhiên, hình ảnh "Blue Marble" trong userscript này thuộc sở hữu của NASA và được cấp phép theo giấy phép <code>Creative Commons 0 1.0 Universal</code> (CC0 1.0).
+</p>
+
+<h2 id="faq">Câu hỏi thường gặp</h2>
+
+<h3 id="how-do-i-hide-the-overlay">Làm thế nào để ẩn lớp phủ?</h3>
+<p><b>Trả lời:</b> Tắt userscript và làm mới trang.</p>
+
+<h3 id="how-can-blue-marble-place-pixels-for-me">Blue Marble có thể đặt pixel cho tôi bằng cách nào?</h3>
+<p><b>Trả lời:</b> Rất tiếc, Blue Marble sẽ không hỗ trợ việc tự động đặt pixel mà không có tương tác của người dùng vì điều đó không được Wplace cho phép.</p>
+
+<h3 id="is-blue-marble-malware">Blue Marble có phải là phần mềm độc hại không?</h3>
+<p><b>Trả lời:</b> Blue Marble không chứa mã độc hại. Mã nguồn Blue Marble có thể được tìm thấy trong thư mục <code>src/</code>. Nếu bạn lo lắng Blue Marble là phần mềm độc hại, bạn có thể đọc mã, sau đó tự đóng gói nó bằng các công cụ trong <code>build/</code>.</p>
+
+<h3 id="why-do-game-notifications-appear-on-top-of-the-overlay">Tại sao thông báo trò chơi xuất hiện trên lớp phủ?</h3>
+<p><b>Trả lời:</b> Thông báo trò chơi chỉ xuất hiện khi chúng cần được chú ý ngay lập tức. Do đó, chúng được ưu tiên hơn lớp phủ (thường không cần chú ý).</p>
+
+<hr>
+
+<h2 id="commitment">📝 Cam kết</h2>
+<ul>
+  <li>Bản dịch này chỉ nhằm mục đích <strong>hỗ trợ cộng đồng người Việt</strong>, không thay đổi bất kỳ chức năng hay mã nguồn nào của Blue Marble.</li>
+  <li>Mọi tính năng, quyền sở hữu trí tuệ và tác quyền đều thuộc về tác giả gốc <a href="https://github.com/SwingTheVine">SwingTheVine</a> và <a href="https://github.com/t-wy">T-wy</a>.</li>
+  <li>Tôi cam kết không sử dụng bản dịch này cho bất kỳ mục đích thương mại hay lợi ích cá nhân nào.</li>
+  <li>Bản dịch được thực hiện một cách trung thực, trong khả năng tốt nhất của tôi. Nếu có sai sót, tôi sẵn sàng tiếp thu và chỉnh sửa để hoàn thiện hơn.</li>
+  <li>Mọi đóng góp, phản hồi từ người dùng đều được trân trọng và sẽ được xem xét để cải thiện chất lượng bản dịch.</li>
+</ul>
+
+**Cảm ơn các bạn đã tin tưởng và sử dụng sản phẩm!** ❤️
