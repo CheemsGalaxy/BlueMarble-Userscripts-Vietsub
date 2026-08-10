@@ -1387,7 +1387,7 @@
     }),GM.addStyle("#bm-1j{position:fixed;background-color:#153063cc;color:#fff;padding:10px;border-radius:8px;z-index:9000;transition:all .3s ease,transform 0s;max-width:300px;width:auto;touch-action:pan-x pan-y;will-change:transform;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform-style:preserve-3d;-webkit-transform-style:preserve-3d}#bm-E,#bm-1j hr,#bm-v,#bm-b{transition:opacity .2s ease,height .2s ease}div#bm-1j{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Monaco,DejaVu Sans,sans-serif;letter-spacing:.05em}#bm-1h{margin-bottom:.5em;background:url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"5\" height=\"5\"><circle cx=\"3\" cy=\"3\" r=\"1.5\" fill=\"CornflowerBlue\" /></svg>') repeat;cursor:grab;width:100%;height:1em}#bm-1h.dragging{cursor:grabbing}#bm-1j:has(#bm-1h.dragging){pointer-events:none;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}#bm-1h.dragging{pointer-events:auto}#bm-R{margin-bottom:.5em}#bm-R[style*=\"text-align: center\"]{display:flex;flex-direction:column;align-items:center;justify-content:center}#bm-1j[style*=\"padding: 5px\"]{width:auto!important;max-width:300px;min-width:200px}#bm-1j img{display:inline-block;height:2.5em;margin-right:1ch;vertical-align:middle;transition:opacity .2s ease}#bm-R[style*=\"text-align: center\"] img{display:block;margin:0 auto}#bm-1h{transition:margin-bottom .2s ease}#bm-1j h1{display:inline-block;font-size:x-large;font-weight:700;vertical-align:middle}#bm-v input[type=checkbox]{vertical-align:middle;flex:0 0 auto}#bm-v label>input[type=checkbox]{margin-right:.5ch}#bm-v label{margin-right:.5ch}.bm-1r{border:white 1px solid;height:1.5em;width:1.5em;margin-top:2px;text-align:center;line-height:1em;padding:0!important}#bm--{vertical-align:middle}#bm-- svg{width:50%;margin:0 auto;fill:#111}div:has(>#bm-L){display:flex;gap:.5ch}#bm-button-favorite svg,#bm-button-template svg{height:1em;margin:2px auto 0;text-align:center;line-height:1em;vertical-align:bottom}#bm-S input[type=number]{appearance:auto;-moz-appearance:textfield;width:5.5ch;margin-left:1ch;background-color:#0003;padding:0 .5ch;font-size:small}#bm-S input[type=number]::-webkit-outer-spin-button,#bm-S input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}#bm-6{white-space:nowrap;text-align:center}#bm-8{display:flex;flex-direction:row;flex-wrap:wrap;align-content:center;justify-content:center;align-items:center;gap:1ch}div:has(>#bm-r)>button{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#bm-r,input[type=file][id*=template]{display:none!important;visibility:hidden!important;position:absolute!important;left:-9999px!important;top:-9999px!important;width:0!important;height:0!important;opacity:0!important;z-index:-9999!important;pointer-events:none!important}#bm-Z{font-size:small;background-color:#0003;padding:0 .5ch;height:3.75em;width:100%}#bm-b{display:flex;justify-content:space-between}#bm-1j small{font-size:x-small;color:#d3d3d3}#bm-E,#bm-v,#bm-S,#bm-8,#bm-Z{margin-top:.5em}#bm-15,#bm-16{display:flex;align-items:baseline;gap:.5ch;white-space:nowrap;min-height:1.4em}#bm-15 .bm-F,#bm-16 .bm-B{color:orange;font-weight:700;font-variant-numeric:tabular-nums;font-feature-settings:\"tnum\"}#bm-15 .bm-17,#bm-o .bm-O{color:#d3d3d3;font-size:.8em}#bm-16,#bm-o{color:salmon}#bm-1j button{background-color:#144eb9;border-radius:1em;padding:0 .75ch;font-size:small}#bm-1j span:has(>input[type=file]+button){font-size:small}#bm-1j select{border-width:1px;border-radius:1em;padding:0 .75ch;font-size:small}#bm-1j select option{background-color:#153063cc}#bm-1j button:hover,#bm-1j button:focus-visible{background-color:#1061e5}#bm-1j button:active #bm-1j button:disabled{background-color:#2e97ff}#bm-1j button:disabled{text-decoration:line-through}#bm-1j details>summary{font-size:small}#bm-w label{font-size:small}#bm-s span{word-break:break-word}span.bm-18:hover,a.bm-18:focus{text-decoration:underline}#bm-C label{display:flex!important;align-items:center!important;gap:6px!important;padding:2px 4px!important;margin:0!important;font-size:13px!important;cursor:pointer!important}#bm-C label input[type=checkbox]{width:14px!important;height:14px!important;flex-shrink:0!important;margin:0!important;cursor:pointer!important}#bm-C label .bm-checkbox-text{flex:1!important;white-space:nowrap!important}");
 
     var it = new class {
-    
+
             constructor(e, n) {
                 i(this, t), this.name = e, this.version = n, this.st = null, this.ct = "bm-Z", this.o = null, this.u = null, this.h = []
             }
@@ -2954,7 +2954,7 @@
                 e.onclick = () => {
                     ot.G.forEach(t => {
                         t?.L && Object.values(t.L).forEach(t => t.enabled = !0)
-                    }), syncToggleList(), ot.X(), buildColorFilterList(), t.Pt("Đã bật tất cả các màu"), ot.we() && ot.ye() && I()
+                    }), syncToggleList(), ot.X(), buildColorFilterList(true), t.Pt("Đã bật tất cả các màu"), ot.we() && ot.ye() && I()
                 }
             }).ut().Ot({
                 id: "bm-3",
@@ -2963,7 +2963,7 @@
                 e.onclick = () => {
                     ot.G.forEach(t => {
                         t?.L && Object.values(t.L).forEach(t => t.enabled = !1)
-                    }), syncToggleList(), N("overlay"), buildColorFilterList(), t.Pt("Đã tắt tất cả các màu"), ot.we() && ot.ye() && I()
+                    }), syncToggleList(), N("overlay"), buildColorFilterList(true), t.Pt("Đã tắt tất cả các màu"), ot.we() && ot.ye() && I()
                 }
             }).ut().ut().bt({
                 id: "bm-H",
@@ -3102,7 +3102,8 @@
                         }
                     }), ot.le()
                 } catch (t) {}
-            }, window.buildColorFilterList = function() {
+                buildColorFilterList(true); // Thêm dòng này để cập nhật UI
+            }, window.buildColorFilterList = function(force = false) {
                 const t = DOM.colorFilterContainer || document.getElementById("bm-H"),
                     e = DOM.summary || document.querySelector("#bm-q > summary"),
                     n = ot.se(),
@@ -3112,7 +3113,7 @@
                     q = ot.$e();
                 if (!t) return;
                 const colorFilterStateKey = `${i}|${o}|${p}|${q}|${ot.Ge()}|${ot.G.filter(t => t.enabled).length}|${Object.keys(n).length}|${Object.keys(ot.Kt).length}`;
-                if (lastColorFilterStateKey === colorFilterStateKey && t.childElementCount) return;
+                if (!force && lastColorFilterStateKey === colorFilterStateKey && t.childElementCount) return;
                 lastColorFilterStateKey = colorFilterStateKey;
                 const fragment = document.createDocumentFragment();
                 t.textContent = "";
@@ -3123,15 +3124,13 @@
                     a = Object.fromEntries((ot?.G ?? []).map(t => [t.B, t.enabled])),
                     l = ot.G.filter(t => t.enabled).reduce((t, e) => t + Object.keys(e?.k ?? {}).length, 0),
                     c = [...ot.Kt.values()].reduce((t, e) => t + (e.ke ? 0 : Object.keys(e.Xt).filter(t => a[t]).length), 0);
-                e && (e.textContent = `Màu sắc (Đã tải ${c} / ${l} ô)`), !t || !Object.keys(s).length ? (fragment.appendChild((() => {
-                    const t = document.createElement("small");
-                    return t.textContent = "Không có màu mẫu nào để hiển thị.", t
-                })()), t.appendChild(fragment), void 0) : void 0;
+                e && (e.textContent = `Màu sắc (Đã tải ${c} / ${l} ô)`);
                 if (!t || !Object.keys(s).length) {
                     const emptyState = document.createElement("small");
                     emptyState.textContent = "Không có màu mẫu nào để hiển thị.";
-                    fragment.appendChild(emptyState), t.appendChild(fragment);
-                    return
+                    fragment.appendChild(emptyState);
+                    t.appendChild(fragment);
+                    return;
                 }
                 const m = ot.Ge().split("-"),
                     u = w[m[0]],
