@@ -403,11 +403,12 @@ Thêm thông tin về Fork này **[Tại đây](#regarding-this-fork)**.
 
 <h2 id="commitment">📝 Cam kết</h2>
 <ul>
-  <li>Bản dịch này chỉ nhằm mục đích <strong>hỗ trợ cộng đồng người Việt</strong>, không thay đổi bất kỳ chức năng hay mã nguồn nào của Blue Marble.</li>
-  <li>Mọi tính năng, quyền sở hữu trí tuệ và tác quyền đều thuộc về tác giả gốc <a href="https://github.com/SwingTheVine">SwingTheVine</a> và <a href="https://github.com/t-wy">T-wy</a>.</li>
+  <li>Bản dịch này nhằm mục đích <strong>hỗ trợ cộng đồng người Việt</strong> tiếp cận và sử dụng Blue Marble dễ dàng hơn.</li>
+  <li>Tôi đã <strong>thêm một số tính năng mới</strong> (như ẩn màu Premium/Miễn phí) và <strong>tối ưu hóa cấu trúc code</strong> để cải thiện trải nghiệm người dùng. Mọi thay đổi đều được thực hiện với tinh thần xây dựng và không làm ảnh hưởng đến tính ổn định của script.</li>
+  <li>Mọi tính năng, quyền sở hữu trí tuệ và tác quyền cốt lõi đều thuộc về tác giả gốc <a href="https://github.com/SwingTheVine">SwingTheVine</a> và <a href="https://github.com/t-wy">T-wy</a>.</li>
   <li>Tôi cam kết không sử dụng bản dịch này cho bất kỳ mục đích thương mại hay lợi ích cá nhân nào.</li>
-  <li>Bản dịch được thực hiện một cách trung thực, trong khả năng tốt nhất của tôi. Nếu có sai sót, tôi sẵn sàng tiếp thu và chỉnh sửa để hoàn thiện hơn.</li>
-  <li>Mọi đóng góp, phản hồi từ người dùng đều được trân trọng và sẽ được xem xét để cải thiện chất lượng bản dịch.</li>
+  <li>Bản dịch và các cải tiến được thực hiện một cách trung thực, trong khả năng tốt nhất của tôi. Nếu có sai sót, tôi sẵn sàng tiếp thu và chỉnh sửa để hoàn thiện hơn.</li>
+  <li>Mọi đóng góp, phản hồi từ người dùng đều được trân trọng và sẽ được xem xét để cải thiện chất lượng sản phẩm.</li>
 </ul>
 
 **Cảm ơn các bạn đã tin tưởng và sử dụng sản phẩm!** ❤️
